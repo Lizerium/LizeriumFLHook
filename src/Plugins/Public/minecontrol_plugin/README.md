@@ -12,7 +12,7 @@
 
 > ---
 
-> 1.  [Пример конфигурации](../../../Binaries/bin-conf/flhook_plugins/minecontrol.cfg)
+> 1.  [Пример конфигурации `minecontrol.cfg`](../../../Binaries/bin-conf/flhook_plugins/minecontrol.cfg)
 
 > ---
 
