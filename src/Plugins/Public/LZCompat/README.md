@@ -1,7 +1,5 @@
 ### 🔔 LZ COMPAT 🔔
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: lzcompat **(lzcompat.dll)**
@@ -18,7 +16,7 @@
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -41,7 +39,7 @@ enumeqlist <charname>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
