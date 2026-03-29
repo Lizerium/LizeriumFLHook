@@ -23,8 +23,6 @@
 UserCmd_SnacClassic
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

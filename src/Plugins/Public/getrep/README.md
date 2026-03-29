@@ -23,8 +23,6 @@
 UserCmd_Rep
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

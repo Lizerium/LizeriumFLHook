@@ -21,8 +21,6 @@
 UserCmd_AFK
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -54,8 +52,6 @@ UserCmd_AFK
 UserCmd_Back
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

@@ -20,8 +20,6 @@
 UserCmd_Template
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

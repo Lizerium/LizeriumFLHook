@@ -25,8 +25,6 @@
 UserCmd_FTL
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -59,8 +57,6 @@ UserCmd_FTL
 UserCmd_SFTL
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -91,8 +87,6 @@ UserCmd_SFTL
 UserCmd_JUMP
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -123,8 +117,6 @@ UserCmd_JUMP
 UserCmd_COORDS
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

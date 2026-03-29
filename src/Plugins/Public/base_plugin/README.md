@@ -26,8 +26,6 @@
 BaseHelp
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -58,8 +56,6 @@ BaseHelp
 BaseLogin
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -91,8 +87,6 @@ BaseLogin
 BaseAddPwd
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -128,8 +122,6 @@ BaseAddPwd
 BaseRmPwd
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -160,8 +152,6 @@ BaseRmPwd
 BaseLstPwd
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -192,8 +182,6 @@ BaseLstPwd
 BaseSetMasterPwd
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -225,8 +213,6 @@ BaseRmHostileTag
 BaseAddAllyTag
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -257,8 +243,6 @@ BaseAddAllyTag
 BaseRmAllyTag
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -289,8 +273,6 @@ BaseRmAllyTag
 BaseLstAllyTag
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -319,8 +301,6 @@ BaseRmAllyTag
 BaseAddHostileTag
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -349,8 +329,6 @@ BaseAddHostileTag
 BaseRmHostileTag
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -379,8 +357,6 @@ BaseRmHostileTag
 BaseLstHostileTag
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -409,8 +385,6 @@ BaseLstHostileTag
 BaseRep
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -443,8 +417,6 @@ BaseRep
 BaseDefenseMode
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -482,8 +454,6 @@ Defense Mode 5 - Logic: Blacklist > Whitelist > Neutral
 BaseDeploy
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -511,8 +481,6 @@ BaseDeploy
 Shop
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -544,8 +512,6 @@ Shop
 Shop
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -574,8 +540,6 @@ Shop
 Shop
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -603,8 +567,6 @@ Shop
 Bank
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -632,8 +594,6 @@ Bank
 Bank
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -661,8 +621,6 @@ Bank
 Bank
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -690,8 +648,6 @@ Bank
 BaseInfo
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -719,8 +675,6 @@ BaseInfo
 BaseFacMod
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -748,8 +702,6 @@ BaseFacMod
 BaseDefMod
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -777,8 +729,6 @@ BaseDefMod
 BaseShieldMod
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -806,8 +756,6 @@ BaseShieldMod
 BaseBuildMod
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

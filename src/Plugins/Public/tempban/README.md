@@ -14,8 +14,6 @@
 
 ### ADMIN COMMANDS
 
-> ---
->
 > [!WARNING]
 > Команда:
 

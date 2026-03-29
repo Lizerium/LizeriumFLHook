@@ -23,8 +23,6 @@
 UserCmd_BountyHunt
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -55,8 +53,6 @@ UserCmd_BountyHunt
 UserCmd_BountyHuntId
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

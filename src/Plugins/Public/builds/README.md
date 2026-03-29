@@ -28,8 +28,6 @@ UserCmd_eBuild_2
 UserCmd_eBuildHelp
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -63,8 +61,6 @@ UserCmd_wBuild_2
 UserCmd_wBuildHelp
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -98,8 +94,6 @@ UserCmd_aBuild_2
 UserCmd_aBuildHelp
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -122,8 +116,6 @@ UserCmd_aBuildHelp
 Cоздаст элемент выбранного номера в списке №1, №2(/bammo - выведет справку)
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

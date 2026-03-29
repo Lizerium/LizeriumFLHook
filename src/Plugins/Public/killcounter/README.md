@@ -23,8 +23,6 @@
 UserCmd_Kills
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

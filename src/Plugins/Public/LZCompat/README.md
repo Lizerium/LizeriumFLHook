@@ -14,8 +14,6 @@
 
 ### ADMIN COMMANDS 💿
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -37,8 +35,6 @@ enumeqlist <charname>
 Получает список груза игрока
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

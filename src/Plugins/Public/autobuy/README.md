@@ -25,8 +25,6 @@
 UserCmd_AutoBuy
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

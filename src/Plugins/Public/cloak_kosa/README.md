@@ -23,8 +23,6 @@
 UserCmd_Cloak
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -57,8 +55,6 @@ UserCmd_Cloak
 UserCmd_UnCloak
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

@@ -41,8 +41,6 @@
 Показывает статус целей в системе в формате charname=%s clientid=%u loss=%u lag=%u pingfluct=%u saturation=%u txqueue=%u
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -78,8 +76,6 @@
 UserCmd_Ping
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -110,8 +106,6 @@ UserCmd_Ping
 UserCmd_PingTarget
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

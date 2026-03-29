@@ -23,8 +23,6 @@
 UserCmd_Bank
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -55,8 +53,6 @@ UserCmd_Bank
 UserCmd_wBank
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

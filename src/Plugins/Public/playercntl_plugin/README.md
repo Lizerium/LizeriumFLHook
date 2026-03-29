@@ -146,8 +146,6 @@ rehash
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -173,8 +171,6 @@ smiteall
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -200,8 +196,6 @@ bob <charname>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -227,8 +221,6 @@ playmusic <Musicname>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -254,8 +246,6 @@ playsound <Soundname>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -281,8 +271,6 @@ playnnm <Soundname>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -308,8 +296,6 @@ beam <charname> <basename>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -335,8 +321,6 @@ pull <charname>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -362,8 +346,6 @@ move <x> <y> <z>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -389,8 +371,6 @@ chase <charname>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -416,8 +396,6 @@ lrs
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -443,8 +421,6 @@ makecoord
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -470,8 +446,6 @@ authchar <charname>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -497,8 +471,6 @@ reloadbans
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -524,8 +496,6 @@ setaccmovecode <charname> <code>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -551,8 +521,6 @@ rotatelogs <charname> <code>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -580,8 +548,6 @@ privatemsg <charname> <message>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -607,8 +573,6 @@ showtags
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -634,8 +598,6 @@ addtag <tag> <password> <description>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -661,8 +623,6 @@ droptag <tag>
 
 > [В оглавление](#оглавление)
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -701,8 +661,6 @@ reloadlockedships
 UserCmd_CustomHelp
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -741,8 +699,6 @@ UserCmd_CustomHelp
 UserCmd_CommandList
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -777,8 +733,6 @@ UserCmd_CommandList
 UserCmd_Pos
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -813,8 +767,6 @@ UserCmd_Pos
 UserCmd_Stuck
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -849,8 +801,6 @@ UserCmd_Stuck
 UserCmd_DropRep
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -886,8 +836,6 @@ UserCmd_Dice
 UserCmd_Coin
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -928,8 +876,6 @@ UserCmd_Coin
 UserCmd_PimpShip
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -964,8 +910,6 @@ UserCmd_PimpShip
 UserCmd_ShowSetup
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1000,8 +944,6 @@ UserCmd_ShowSetup
 UserCmd_ShowSetup
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1036,8 +978,6 @@ UserCmd_ShowSetup
 UserCmd_ChangeItem
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1072,8 +1012,6 @@ UserCmd_ChangeItem
 UserCmd_RenameMe
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1108,8 +1046,6 @@ UserCmd_RenameMe
 UserCmd_MoveChar
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1144,8 +1080,6 @@ UserCmd_MoveChar
 UserCmd_SetMoveCharCode
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1180,8 +1114,6 @@ UserCmd_SetMoveCharCode
 UserCmd_Restart
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1216,8 +1148,6 @@ UserCmd_Restart
 UserCmd_ShowRestarts
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1253,8 +1183,6 @@ UserCmd_ShowRestarts
 UserCmd_GiveCash
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1293,8 +1221,6 @@ UserCmd_GiveCash
 UserCmd_GiveCashTarget
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1331,8 +1257,6 @@ UserCmd_GiveCashTarget
 UserCmd_DrawCash
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1369,8 +1293,6 @@ UserCmd_DrawCash
 UserCmd_SetCashCode
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1405,8 +1327,6 @@ UserCmd_SetCashCode
 UserCmd_ShowCash
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1443,8 +1363,6 @@ UserCmd_ShowCash
 UserCmd_GroupMsg
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1481,8 +1399,6 @@ UserCmd_GroupMsg
 UserCmd_LocalMsg
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1519,8 +1435,6 @@ UserCmd_LocalMsg
 UserCmd_SystemMsg
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1557,8 +1471,6 @@ UserCmd_SystemMsg
 UserCmd_Invite
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1595,8 +1507,6 @@ UserCmd_Invite
 UserCmd_FactionMsg
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1633,8 +1543,6 @@ UserCmd_FactionMsg
 UserCmd_Invite
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1670,8 +1578,6 @@ UserCmd_Invite
 UserCmd_ShowMsgs
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1706,8 +1612,6 @@ UserCmd_ShowMsgs
 UserCmd_DRMsg
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1744,8 +1648,6 @@ UserCmd_DRMsg
 UserCmd_SMsg
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1780,8 +1682,6 @@ UserCmd_SMsg
 UserCmd_GMsg
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1816,8 +1716,6 @@ UserCmd_GMsg
 UserCmd_SendToLastTarget
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1852,8 +1750,6 @@ UserCmd_SendToLastTarget
 UserCmd_SendToLastTarget
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1890,8 +1786,6 @@ UserCmd_SendToLastTarget
 UserCmd_ReplyToLastPMSender
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1928,8 +1822,6 @@ UserCmd_ReplyToLastPMSender
 UserCmd_PrivateMsgID
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -1970,8 +1862,6 @@ UserCmd_PrivateMsgID
 UserCmd_FactionMsg
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2008,8 +1898,6 @@ UserCmd_FactionMsg
 UserCmd_SetChatTime
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2044,8 +1932,6 @@ UserCmd_SetChatTime
 UserCmd_SetDeathTime
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2080,8 +1966,6 @@ UserCmd_SetDeathTime
 UserCmd_MailShow
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2116,8 +2000,6 @@ UserCmd_MailShow
 UserCmd_MailDel
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2152,8 +2034,6 @@ UserCmd_MailDel
 UserCmd_ShowInfo
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2195,8 +2075,6 @@ UserCmd_ShowInfo
 UserCmd_SetInfo
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2234,8 +2112,6 @@ UserCmd_SetInfo
 UserCmd_Time
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2272,8 +2148,6 @@ UserCmd_Time
 UserCmd_Lights
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2310,8 +2184,6 @@ UserCmd_Lights
 UserCmd_SelfDestruct
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2348,8 +2220,6 @@ UserCmd_SelfDestruct
 UserCmd_Shields
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2386,8 +2256,6 @@ UserCmd_Shields
 UserCmd_Survey
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2422,8 +2290,6 @@ UserCmd_Survey
 UserCmd_ShowCoords
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2458,8 +2324,6 @@ UserCmd_ShowCoords
 UserCmd_SaveCoords
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2494,8 +2358,6 @@ UserCmd_SaveCoords
 UserCmd_LoadCoords
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2530,8 +2392,6 @@ UserCmd_LoadCoords
 UserCmd_SetCoords
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2566,8 +2426,6 @@ UserCmd_SetCoords
 UserCmd_ActivateJumpDrive
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2604,8 +2462,6 @@ UserCmd_ActivateJumpDrive
 UserCmd_DeployBeacon
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2642,8 +2498,6 @@ UserCmd_DeployBeacon
 UserCmd_JumpBeacon
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2680,8 +2534,6 @@ UserCmd_JumpBeacon
 UserCmd_ChargeJumpDrive
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2718,8 +2570,6 @@ UserCmd_ChargeJumpDrive
 UserCmd_ListJumpableSystems
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2754,8 +2604,6 @@ UserCmd_ListJumpableSystems
 UserCmd_ShowScan
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2796,8 +2644,6 @@ UserCmd_ShowScan
 UserCmd_MakeTag
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2832,8 +2678,6 @@ UserCmd_MakeTag
 UserCmd_DropTag
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2868,8 +2712,6 @@ UserCmd_DropTag
 UserCmd_SetTagPass
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2904,8 +2746,6 @@ UserCmd_SetTagPass
 UserCmd_ChangeShip
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -2943,8 +2783,6 @@ UserCmd_ChangeShip
 UserCmd_DeleteShip
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

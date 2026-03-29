@@ -23,8 +23,6 @@
 UserCmd_Pool
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -55,8 +53,6 @@ UserCmd_Pool
 UserCmd_Value
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

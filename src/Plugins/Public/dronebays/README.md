@@ -23,8 +23,6 @@
 UserCmd_Deploy
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -57,8 +55,6 @@ UserCmd_Deploy
 UserCmd_AttackTarget
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -91,8 +87,6 @@ UserCmd_AttackTarget
 UserCmd_Debug
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -123,8 +117,6 @@ UserCmd_Debug
 UserCmd_DroneStop
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -157,8 +149,6 @@ UserCmd_DroneStop
 UserCmd_DroneStop
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -191,8 +181,6 @@ UserCmd_DroneStop
 UserCmd_RecallDrone
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -225,8 +213,6 @@ UserCmd_RecallDrone
 UserCmd_DroneHelp
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -259,8 +245,6 @@ UserCmd_DroneHelp
 UserCmd_DroneBayAvailability
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -293,8 +277,6 @@ UserCmd_DroneBayAvailability
 UserCmd_DroneCome
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

@@ -23,8 +23,6 @@
 StoreReturnPointForClient
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -55,8 +53,6 @@ StoreReturnPointForClient
 transferFlags
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

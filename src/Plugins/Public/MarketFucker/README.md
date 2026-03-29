@@ -26,8 +26,6 @@
 
 ### ADMIN COMMANDS
 
-> ---
->
 > [!WARNING]
 > Команда:
 

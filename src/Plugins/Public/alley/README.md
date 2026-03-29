@@ -58,8 +58,6 @@
 NoDockCommand
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -92,8 +90,6 @@ NoDockCommand
 PoliceCmd
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -126,8 +122,6 @@ PoliceCmd
 PirateCmd
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -160,8 +154,6 @@ PirateCmd
 RacestartCmd
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -192,8 +184,6 @@ RacestartCmd
 GiftCmd
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -226,8 +216,6 @@ GiftCmd
 AlleyCmd_Help
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -260,8 +248,6 @@ $help*
 AlleyCmd_Chase
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -294,8 +280,6 @@ $chase* <charname>
 UserCmd_MarkObjGroup
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -328,8 +312,6 @@ UserCmd_MarkObjGroup
 UserCmd_JettisonAll
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

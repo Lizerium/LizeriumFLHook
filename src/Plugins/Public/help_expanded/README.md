@@ -23,8 +23,6 @@
 UserCmd_Rules
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -59,8 +57,6 @@ UserCmd_Rules
 UserCmd_GettingStarted
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -93,8 +89,6 @@ UserCmd_GettingStarted
 UserCmd_Rules
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

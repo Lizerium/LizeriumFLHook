@@ -23,8 +23,6 @@
 UserCmd_Help
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -55,8 +53,6 @@ UserCmd_Help
 UserCmd_Store
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -88,8 +84,6 @@ UserCmd_Store
 UserCmd_Ustore
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -121,8 +115,6 @@ UserCmd_Ustore
 UserCmd_Istore
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -153,8 +145,6 @@ UserCmd_Istore
 UserCmd_EnumCargo
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -185,8 +175,6 @@ UserCmd_EnumCargo
 UserCmd_CargoSystems
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -219,8 +207,6 @@ UserCmd_CargoSystems
 UserCmd_CargoSystems
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

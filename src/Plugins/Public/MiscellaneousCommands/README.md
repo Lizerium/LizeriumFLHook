@@ -19,8 +19,6 @@
 UserCmd_RefreshCharacters
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -53,8 +51,6 @@ UserCmd_RefreshCharacters
 UserCmd_FreelancerIFF
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

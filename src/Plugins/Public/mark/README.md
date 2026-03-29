@@ -23,8 +23,6 @@
 UserCmd_MarkObj
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -57,8 +55,6 @@ UserCmd_MarkObj
 UserCmd_UnMarkObj
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -91,8 +87,6 @@ UserCmd_UnMarkObj
 UserCmd_UnMarkAllObj
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -125,8 +119,6 @@ UserCmd_UnMarkAllObj
 UserCmd_MarkObjGroup
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -159,8 +151,6 @@ UserCmd_MarkObjGroup
 UserCmd_UnMarkObjGroup
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -193,8 +183,6 @@ UserCmd_UnMarkObjGroup
 UserCmd_SetIgnoreGroupMark
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -225,8 +213,6 @@ UserCmd_SetIgnoreGroupMark
 UserCmd_AutoMark
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -257,8 +243,6 @@ UserCmd_AutoMark
 UserCmd_Sonar
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 

@@ -23,8 +23,6 @@
 UserCmd_Process
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -55,8 +53,6 @@ UserCmd_Process
 UserCmd_Process
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -87,8 +83,6 @@ UserCmd_Process
 UserCmd_Process
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
@@ -119,8 +113,6 @@ UserCmd_Process
 Dock_Call
 ```
 
-> ---
->
 > [!WARNING]
 > Действие:
 
@@ -151,8 +143,6 @@ Dock_Call
 ExecuteCommandString_Callback
 ```
 
-> ---
->
 > [!WARNING]
 > Команда:
 
