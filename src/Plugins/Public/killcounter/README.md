@@ -27,7 +27,7 @@ UserCmd_Kills
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

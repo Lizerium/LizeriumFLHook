@@ -45,7 +45,7 @@
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -82,7 +82,7 @@ UserCmd_Ping
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -114,7 +114,7 @@ UserCmd_PingTarget
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

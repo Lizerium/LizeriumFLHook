@@ -23,7 +23,7 @@ UserCmd_RefreshCharacters
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -57,7 +57,7 @@ UserCmd_FreelancerIFF
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

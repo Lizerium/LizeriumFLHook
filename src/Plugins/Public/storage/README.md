@@ -27,7 +27,7 @@ UserCmd_Help
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -59,7 +59,7 @@ UserCmd_Store
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -92,7 +92,7 @@ UserCmd_Ustore
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -125,7 +125,7 @@ UserCmd_Istore
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -157,7 +157,7 @@ UserCmd_EnumCargo
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -189,7 +189,7 @@ UserCmd_CargoSystems
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -223,7 +223,7 @@ UserCmd_CargoSystems
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

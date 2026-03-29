@@ -27,7 +27,7 @@ UserCmd_Rep
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

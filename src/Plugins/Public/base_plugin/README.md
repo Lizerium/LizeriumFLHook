@@ -30,7 +30,7 @@ BaseHelp
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -62,7 +62,7 @@ BaseLogin
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -95,7 +95,7 @@ BaseAddPwd
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -132,7 +132,7 @@ BaseRmPwd
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -164,7 +164,7 @@ BaseLstPwd
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -196,7 +196,7 @@ BaseSetMasterPwd
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -229,7 +229,7 @@ BaseAddAllyTag
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -261,7 +261,7 @@ BaseRmAllyTag
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -293,7 +293,7 @@ BaseLstAllyTag
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -323,7 +323,7 @@ BaseAddHostileTag
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -353,7 +353,7 @@ BaseRmHostileTag
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -383,7 +383,7 @@ BaseLstHostileTag
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -413,7 +413,7 @@ BaseRep
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -447,7 +447,7 @@ BaseDefenseMode
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -486,7 +486,7 @@ BaseDeploy
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -515,7 +515,7 @@ Shop
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -548,7 +548,7 @@ Shop
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -578,7 +578,7 @@ Shop
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -607,7 +607,7 @@ Bank
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -636,7 +636,7 @@ Bank
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -665,7 +665,7 @@ Bank
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -694,7 +694,7 @@ BaseInfo
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -723,7 +723,7 @@ BaseFacMod
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -752,7 +752,7 @@ BaseDefMod
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -781,7 +781,7 @@ BaseShieldMod
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -810,7 +810,7 @@ BaseBuildMod
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

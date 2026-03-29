@@ -150,7 +150,7 @@ rehash
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -177,7 +177,7 @@ smiteall
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -204,7 +204,7 @@ bob <charname>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -231,7 +231,7 @@ playmusic <Musicname>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -258,7 +258,7 @@ playsound <Soundname>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -285,7 +285,7 @@ playnnm <Soundname>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -312,7 +312,7 @@ beam <charname> <basename>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -339,7 +339,7 @@ pull <charname>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -366,7 +366,7 @@ move <x> <y> <z>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -393,7 +393,7 @@ chase <charname>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -420,7 +420,7 @@ lrs
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -447,7 +447,7 @@ makecoord
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -474,7 +474,7 @@ authchar <charname>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -501,7 +501,7 @@ reloadbans
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -528,7 +528,7 @@ setaccmovecode <charname> <code>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -555,7 +555,7 @@ rotatelogs <charname> <code>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -584,7 +584,7 @@ privatemsg <charname> <message>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -611,7 +611,7 @@ showtags
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -638,7 +638,7 @@ addtag <tag> <password> <description>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -665,7 +665,7 @@ droptag <tag>
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -705,7 +705,7 @@ UserCmd_CustomHelp
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -745,7 +745,7 @@ UserCmd_CommandList
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -781,7 +781,7 @@ UserCmd_Pos
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -817,7 +817,7 @@ UserCmd_Stuck
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -853,7 +853,7 @@ UserCmd_DropRep
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -890,7 +890,7 @@ UserCmd_Coin
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -932,7 +932,7 @@ UserCmd_PimpShip
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -968,7 +968,7 @@ UserCmd_ShowSetup
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1004,7 +1004,7 @@ UserCmd_ShowSetup
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1040,7 +1040,7 @@ UserCmd_ChangeItem
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1076,7 +1076,7 @@ UserCmd_RenameMe
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1112,7 +1112,7 @@ UserCmd_MoveChar
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1148,7 +1148,7 @@ UserCmd_SetMoveCharCode
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1184,7 +1184,7 @@ UserCmd_Restart
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1220,7 +1220,7 @@ UserCmd_ShowRestarts
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1257,7 +1257,7 @@ UserCmd_GiveCash
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1297,7 +1297,7 @@ UserCmd_GiveCashTarget
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1335,7 +1335,7 @@ UserCmd_DrawCash
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1373,7 +1373,7 @@ UserCmd_SetCashCode
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1409,7 +1409,7 @@ UserCmd_ShowCash
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1447,7 +1447,7 @@ UserCmd_GroupMsg
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1485,7 +1485,7 @@ UserCmd_LocalMsg
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1523,7 +1523,7 @@ UserCmd_SystemMsg
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1561,7 +1561,7 @@ UserCmd_Invite
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1599,7 +1599,7 @@ UserCmd_FactionMsg
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1637,7 +1637,7 @@ UserCmd_Invite
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1674,7 +1674,7 @@ UserCmd_ShowMsgs
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1710,7 +1710,7 @@ UserCmd_DRMsg
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1748,7 +1748,7 @@ UserCmd_SMsg
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1784,7 +1784,7 @@ UserCmd_GMsg
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1820,7 +1820,7 @@ UserCmd_SendToLastTarget
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1856,7 +1856,7 @@ UserCmd_SendToLastTarget
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1894,7 +1894,7 @@ UserCmd_ReplyToLastPMSender
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1932,7 +1932,7 @@ UserCmd_PrivateMsgID
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -1974,7 +1974,7 @@ UserCmd_FactionMsg
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2012,7 +2012,7 @@ UserCmd_SetChatTime
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2048,7 +2048,7 @@ UserCmd_SetDeathTime
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2084,7 +2084,7 @@ UserCmd_MailShow
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2120,7 +2120,7 @@ UserCmd_MailDel
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2156,7 +2156,7 @@ UserCmd_ShowInfo
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2199,7 +2199,7 @@ UserCmd_SetInfo
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2238,7 +2238,7 @@ UserCmd_Time
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2276,7 +2276,7 @@ UserCmd_Lights
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2314,7 +2314,7 @@ UserCmd_SelfDestruct
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2352,7 +2352,7 @@ UserCmd_Shields
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2390,7 +2390,7 @@ UserCmd_Survey
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2426,7 +2426,7 @@ UserCmd_ShowCoords
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2462,7 +2462,7 @@ UserCmd_SaveCoords
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2498,7 +2498,7 @@ UserCmd_LoadCoords
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2534,7 +2534,7 @@ UserCmd_SetCoords
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2570,7 +2570,7 @@ UserCmd_ActivateJumpDrive
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2608,7 +2608,7 @@ UserCmd_DeployBeacon
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2646,7 +2646,7 @@ UserCmd_JumpBeacon
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2684,7 +2684,7 @@ UserCmd_ChargeJumpDrive
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2722,7 +2722,7 @@ UserCmd_ListJumpableSystems
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2758,7 +2758,7 @@ UserCmd_ShowScan
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2800,7 +2800,7 @@ UserCmd_MakeTag
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2836,7 +2836,7 @@ UserCmd_DropTag
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2872,7 +2872,7 @@ UserCmd_SetTagPass
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2908,7 +2908,7 @@ UserCmd_ChangeShip
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -2947,7 +2947,7 @@ UserCmd_DeleteShip
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

@@ -25,7 +25,7 @@ UserCmd_SnacClassic
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

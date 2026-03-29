@@ -62,7 +62,7 @@ NoDockCommand
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -96,7 +96,7 @@ PoliceCmd
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh
@@ -130,7 +130,7 @@ PirateCmd
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh
@@ -164,7 +164,7 @@ RacestartCmd
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh
@@ -196,7 +196,7 @@ GiftCmd
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh
@@ -230,7 +230,7 @@ AlleyCmd_Help
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh
@@ -264,7 +264,7 @@ AlleyCmd_Chase
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh
@@ -298,7 +298,7 @@ UserCmd_MarkObjGroup
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh
@@ -332,7 +332,7 @@ UserCmd_JettisonAll
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh

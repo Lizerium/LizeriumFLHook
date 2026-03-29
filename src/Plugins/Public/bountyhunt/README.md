@@ -27,7 +27,7 @@ UserCmd_BountyHunt
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -59,7 +59,7 @@ UserCmd_BountyHuntId
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

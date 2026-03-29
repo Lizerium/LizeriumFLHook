@@ -27,7 +27,7 @@ UserCmd_Rules
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -63,7 +63,7 @@ UserCmd_GettingStarted
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -97,7 +97,7 @@ UserCmd_Rules
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

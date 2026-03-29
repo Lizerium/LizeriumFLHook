@@ -29,7 +29,7 @@ UserCmd_FTL
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -63,7 +63,7 @@ UserCmd_SFTL
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -95,7 +95,7 @@ UserCmd_JUMP
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -127,7 +127,7 @@ UserCmd_COORDS
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

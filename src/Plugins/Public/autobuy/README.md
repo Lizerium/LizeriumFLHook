@@ -27,7 +27,7 @@ UserCmd_AutoBuy
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

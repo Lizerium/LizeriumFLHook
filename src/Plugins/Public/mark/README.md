@@ -27,7 +27,7 @@ UserCmd_MarkObj
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -61,7 +61,7 @@ UserCmd_UnMarkObj
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -95,7 +95,7 @@ UserCmd_UnMarkAllObj
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -129,7 +129,7 @@ UserCmd_MarkObjGroup
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -163,7 +163,7 @@ UserCmd_UnMarkObjGroup
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -197,7 +197,7 @@ UserCmd_SetIgnoreGroupMark
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -229,7 +229,7 @@ UserCmd_AutoMark
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -261,7 +261,7 @@ UserCmd_Sonar
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

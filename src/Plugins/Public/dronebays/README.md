@@ -27,7 +27,7 @@ UserCmd_Deploy
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -61,7 +61,7 @@ UserCmd_AttackTarget
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -95,7 +95,7 @@ UserCmd_Debug
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -127,7 +127,7 @@ UserCmd_DroneStop
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -161,7 +161,7 @@ UserCmd_DroneStop
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -195,7 +195,7 @@ UserCmd_RecallDrone
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -229,7 +229,7 @@ UserCmd_DroneHelp
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -263,7 +263,7 @@ UserCmd_DroneBayAvailability
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -297,7 +297,7 @@ UserCmd_DroneCome
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

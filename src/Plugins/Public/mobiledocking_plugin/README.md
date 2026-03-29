@@ -27,7 +27,7 @@ UserCmd_Process
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -59,7 +59,7 @@ UserCmd_Process
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -91,7 +91,7 @@ UserCmd_Process
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -123,7 +123,7 @@ Dock_Call
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Действие:
 
 ```bash
@@ -155,7 +155,7 @@ ExecuteCommandString_Callback
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

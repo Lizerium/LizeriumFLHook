@@ -24,7 +24,7 @@ UserCmd_Template
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

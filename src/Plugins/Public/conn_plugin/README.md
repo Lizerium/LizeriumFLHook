@@ -27,7 +27,7 @@ StoreReturnPointForClient
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -59,7 +59,7 @@ transferFlags
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

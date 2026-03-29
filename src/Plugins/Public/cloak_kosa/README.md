@@ -27,7 +27,7 @@ UserCmd_Cloak
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -61,7 +61,7 @@ UserCmd_UnCloak
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

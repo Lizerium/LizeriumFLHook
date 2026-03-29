@@ -27,7 +27,7 @@ UserCmd_Pool
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -59,7 +59,7 @@ UserCmd_Value
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

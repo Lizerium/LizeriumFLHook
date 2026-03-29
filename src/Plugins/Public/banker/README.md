@@ -25,7 +25,7 @@ UserCmd_Bank
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -57,7 +57,7 @@ UserCmd_wBank
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash

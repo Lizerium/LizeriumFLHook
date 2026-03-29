@@ -23,7 +23,7 @@ UserCmd_AFK
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```bash
@@ -56,7 +56,7 @@ UserCmd_Back
 
 > ---
 >
-> [!TIP]
+> [!WARNING]
 > Команда:
 
 ```sh
