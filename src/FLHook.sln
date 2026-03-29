@@ -127,6 +127,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{36D591C7-6
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{7559F182-D0ED-4189-9C1B-FE5ED7D44590}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\PLUGIN_DOCS\Available Hooks — Хуки FLHook.md = ..\docs\PLUGIN_DOCS\Available Hooks — Хуки FLHook.md
+		..\docs\PLUGIN_DOCS\Plugin How-To для FLHook.md = ..\docs\PLUGIN_DOCS\Plugin How-To для FLHook.md
+		..\docs\PLUGIN_DOCS\SDK Files & Inter-Plugin Communication для FLHook.md = ..\docs\PLUGIN_DOCS\SDK Files & Inter-Plugin Communication для FLHook.md
+		..\docs\PLUGIN_DOCS\Troubleshooting для FLHook Plugins.md = ..\docs\PLUGIN_DOCS\Troubleshooting для FLHook Plugins.md
+		..\docs\PLUGIN_DOCS\Разработка плагинов для FLHook.md = ..\docs\PLUGIN_DOCS\Разработка плагинов для FLHook.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -672,6 +681,7 @@ Global
 		{7ED53DA2-3E6A-4AFF-89E3-8B73F32E84B1} = {F77D3998-A163-4D75-95E3-88C3C6B2DCFA}
 		{4D8ECBAC-A36A-4483-BBCA-41689B4D4C2A} = {F77D3998-A163-4D75-95E3-88C3C6B2DCFA}
 		{7832C6EF-7310-4BBD-B5D1-18F80DF009BC} = {F77D3998-A163-4D75-95E3-88C3C6B2DCFA}
+		{7559F182-D0ED-4189-9C1B-FE5ED7D44590} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {393C1DF6-B2DC-4FF2-8100-36DD1F304E10}

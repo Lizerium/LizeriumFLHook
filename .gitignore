@@ -7,6 +7,8 @@ src/Binaries/bin-vc14/flhook_plugins
 scripts/tmp
 scripts/*.json
 scripts/*.txt
+src/Binaries/bin-vc14/FLHook.dll
+src/Binaries/bin-vc14/FLHook.pdb
 
 # The following command works for downloading when using Git for Windows:
 # curl -LOf http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
