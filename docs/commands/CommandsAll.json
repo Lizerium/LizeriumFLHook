@@ -1,0 +1,1038 @@
+{
+	"count": 19,
+	"categories": [
+		{
+			"name": "HOOK",
+			"title": [{ "ru": "Общие" }, { "en": "General" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "9.0.0"
+		},
+		{
+			"name": "ALLEY",
+			"title": [{ "ru": "Организационные" }, { "en": "Organizational" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "2.0.0"
+		},
+		{
+			"name": "AFK",
+			"title": [
+				{ "ru": "Режим не беспокоить" },
+				{ "en": "Do not disturb mode" }
+			],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "AUTOBUY",
+			"title": [{ "ru": "Автопокупка" }, { "en": "Auto purchase" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "BANKER",
+			"title": [{ "ru": "Управление банком" }, { "en": "Bank management" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "BEAM-ME-UP",
+			"title": [
+				{ "ru": "Телепорт через базу" },
+				{ "en": "Teleport through the base" }
+			],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "BOUNTY-HUNT",
+			"title": [{ "ru": "Охота за головами" }, { "en": "Bounty hunt" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "BUILDS",
+			"title": [{ "ru": "Сборка предметов" }, { "en": "Assembling Items" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "CLOAK",
+			"title": [{ "ru": "Невидимость" }, { "en": "Invisibility" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "DRON-BAYS",
+			"title": [{ "ru": "Управление дронами" }, { "en": "Drone Control" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "FTL",
+			"title": [{ "ru": "Прыжковый двигатель" }, { "en": "Jump engine" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "HELP",
+			"title": [
+				{ "ru": "Справочная информация" },
+				{ "en": "Background information" }
+			],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "GET-REP",
+			"title": [
+				{ "ru": "Проверка отношений" },
+				{ "en": "Checking relationships" }
+			],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "JSON-BUDDY",
+			"title": [
+				{ "ru": "Статистика подключения" },
+				{ "en": "Connection statistics" }
+			],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "KILL-COUNTER",
+			"title": [{ "ru": "Счётчик убийств" }, { "en": "Kill counter" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "MARK",
+			"title": [{ "ru": "Маркировка объектов" }, { "en": "Marking objects" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "PVE-CONTROLLER",
+			"title": [{ "ru": "Хранилище наград" }, { "en": "Reward Storage" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "STORAGE",
+			"title": [
+				{ "ru": "Управление складами" },
+				{ "en": "Warehouse management" }
+			],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		},
+		{
+			"name": "PLAYER-CONTROLLER",
+			"title": [{ "ru": "Разные" }, { "en": "Different" }],
+			"url_repo": "https://github.com/Lizerium",
+			"version": "1.0.0"
+		}
+	],
+	"data": [
+		{
+			"name": "HOOK",
+			"commands": [
+				{
+					"name": "/set diemsg [visibility]",
+					"desc": "Устанавливает видимость сообщений о смерти. Параметры: all, system, self, none.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/set diemsgsize [size]",
+					"desc": "Устанавливает размер текста сообщений о смерти. Параметры: small, default.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/set chatfont [size] [style]",
+					"desc": "Установка шрифта сообщений в чате. Варианты small, default или big для [size] и default, bold, italic или underline для [style]",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/ignore [charname] [flags]",
+					"desc": "Игнорирует все сообщения от данного персонажа [charname] Возможные флаги: p - Влияет только на приватный чат i - [charname] может совпадать частично.",
+					"ex": "/ignore SomeDude - игнорирует все сообщения в чате от SomeDude",
+					"status": 1
+				},
+				{
+					"name": "/ignoreid [client-id] [flags]",
+					"desc": "Игнорирует все сообщения от персонажа с ассоциированным идентификатором клиента (см. /id). Используйте флаг p, чтобы повлиять только на приватный чат.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/ignorelist",
+					"desc": "Отображает все игнорируемые в данный момент символы.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/delignore [id] [id2] [id3] ...",
+					"desc": "Удаляет символы с соответствующим идентификатором игнорирования (см. /ignorelist) из списка игнорирования. Все /deletes all.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/ids",
+					"desc": "Список всех персонажей с соответствующими идентификаторами клиента.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/id",
+					"desc": "Предоставляет ваш собственный идентификатор клиента.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/help [command]",
+					"desc": "Отображение экрана справки. Указание a [command] дает подробную информацию для этой команды.",
+					"ex": "",
+					"status": 2
+				}
+			]
+		},
+		{
+			"name": "ALLEY",
+			"commands": [
+				{
+					"name": "/nodock, /nodock*",
+					"desc": "Игрок с соответствующим удостоверением может удалить разрешения на стыковку у другого игрока выделив его как цель в космосе",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/police",
+					"desc": "Игрок с удостоверением полиции может командой включить/выключить полицейскую систему оповещения сиреной.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/pirate",
+					"desc": "Присваивает вас к фракции пираты.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "$help",
+					"desc": "Выводит справку по команде /alley",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/marktarget",
+					"desc": "Установка маркера на цель для группы.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/jettisonall",
+					"desc": "Выбрасывает все ваши предметы в космос.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "AFK",
+			"commands": [
+				{
+					"name": "/afk",
+					"desc": "Устанавливает пользователю метку AFK. Если сообщения других игроков ему отправлены, им будет сказано, что вы временно недоступны.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/back",
+					"desc": "Отключает метку AFK для пользователя.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "AUTOBUY",
+			"commands": [
+				{
+					"name": "/autobuy info",
+					"desc": "Показать информацию об автокупке.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy missiles [on/off]",
+					"desc": "Включить/выключить автокупку ракет.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy torps [on/off]",
+					"desc": "Включить/выключить автокупку торпед.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy mines [on/off]",
+					"desc": "Включить/выключить автокупку мин.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy cd [on/off]",
+					"desc": "Включить/выключить автокупку блокираторов.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy cm [on/off]",
+					"desc": "Включить/выключить автокупку обманок.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy bb [on/off]",
+					"desc": "Включить/выключить автокупку нанороботов и батарей щита.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy munition [on/off]",
+					"desc": "Включить/выключить автокупку амуниции.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy cloak [on/off]",
+					"desc": "Включить/выключить автокупку батарей невидимости.",
+					"ex": "",
+					"status": 3
+				},
+				{
+					"name": "/autobuy all [on/off]",
+					"desc": "Включить/выключить автокупку всех расходников.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/autobuy repair [on/off]",
+					"desc": "Включить/выключить авторемонт.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "BANKER",
+			"commands": [
+				{
+					"name": "/bank [amount]",
+					"desc": "Переводит деньги в количестве [amount] в банк из баланса пользователя.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/bankw [amount]",
+					"desc": "Переводит деньги в количестве [amount] из банка в баланс пользователя.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "BEAM-ME-UP",
+			"commands": [
+				{
+					"name": "/beammeup",
+					"desc": "Телепорт в другую точку галактики, при условии нахождения пользователя на станции(базе) телепортации.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/return",
+					"desc": "Возвращает игрока на станцию телепортации.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "BOUNTY-HUNT",
+			"commands": [
+				{
+					"name": "/bountyhunt [charname] [credits] [minutes]",
+					"desc": "Предлагает награду в [credits] кредитов за убийство [charname] в течение следующих [minutes] минут.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/bountyhuntid [id] [credits] [minutes]",
+					"desc": "Предлагает награду в [credits] кредитов за убийство [id] в течение следующих [minutes] минут.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "BUILDS",
+			"commands": [
+				{
+					"name": "/bequip-[id]",
+					"desc": "Cоздаст элемент оборудования выбранного номера в списке №1, №2...",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/bequip",
+					"desc": "Выведет справку",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/bwep-[id]",
+					"desc": "Cоздаст элемент оружия выбранного номера в списке №1, №2...",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/bwep",
+					"desc": "Выведет справку",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/bammo-[id]",
+					"desc": "Cоздаст элемент амуниции выбранного номера в списке №1, №2...",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/bammo",
+					"desc": "Выведет справку",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/blic-[id]",
+					"desc": "Cоздаст элемент лицензии выбранного номера в списке №1, №2...",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/blic",
+					"desc": "Выведет справку.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "CLOAK",
+			"commands": [
+				{
+					"name": "/cloak, /c",
+					"desc": "Погружает корабль в невидимость.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/uncloak, /uc",
+					"desc": "Выключает маскировку.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "DRON-BAYS",
+			"commands": [
+				{
+					"name": "/deploydrone, /dd",
+					"desc": "Запускает дрон, совместимый с вашим дронбаем.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/dronetarget, /dta",
+					"desc": "Направляет ваш дрон атаковать выбранную цель.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/dronedebug",
+					"desc": "Перечисляет содержимое карты дронов пользователя.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/dronestop, /ds",
+					"desc": "Это заставляет дрон останавливаться, что бы он ни делал, и сидеть на месте.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/dronerecall, /dr",
+					"desc": "Отзывает ваш дрон и стыкует его с носителем.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/dronehelp, /dh",
+					"desc": "Выводит справку по управлению дронами.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/dronetypes, /dt",
+					"desc": "Список всех доступных типов дронов для вашего типа отсека.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/dronecome, /dc",
+					"desc": "Отключает дрон от его текущей цели и направляет его к вашей позиции.",
+					"ex": "",
+					"status": 2
+				}
+			]
+		},
+		{
+			"name": "FTL",
+			"commands": [
+				{
+					"name": "/ftl, /ftl [x] [y] [z]",
+					"desc": "Телепорт со смещением на указанные координаты к выделенному объекту.",
+					"ex": "/ftl 100 -100 -100; телепорт на 100 вправо, 100 вниз, 100 назад от выделенного объекта.",
+					"status": 1
+				},
+				{
+					"name": "/sftl, /sftl [x] [y] [z]",
+					"desc": "Телепорт на указанные координаты",
+					"ex": "/sftl 100 -100 -100; телепорт на 100 вправо, 100 вниз, 100 назад от выделенного объекта.",
+					"status": 1
+				},
+				{
+					"name": "/coords",
+					"desc": "Предоставляет координаты вашей цели для использования командами /ftl или /sftl",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/j",
+					"desc": "Выделите мышью объект, и вы перейдете к этому объекту",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "HELP",
+			"commands": [
+				{
+					"name": "/helpmenu, /helpmenu*, /helpmenu [page], /helpmenu* [page]",
+					"desc": "Выводит список меню помощи или открывает страницу помощи с номером [page]",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/start, /start*",
+					"desc": "Выводит стартовую ознакомительную страницу.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/rules, /rules*",
+					"desc": "Выводит страницу правил.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "GET-REP",
+			"commands": [
+				{
+					"name": "/rep [page], /rep* [page]",
+					"desc": "Выводит список отношений к игроку всех фракций. Используйте страницу 1 и 2.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "JSON-BUDDY",
+			"commands": [
+				{
+					"name": "/ping",
+					"desc": "Показывает ваш пинг.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/pingtarget",
+					"desc": "Показывает пинг цели.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "KILL-COUNTER",
+			"commands": [
+				{
+					"name": "/kills [charname]",
+					"desc": "Список убийств игрока.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "MARK",
+			"commands": [
+				{
+					"name": "/mark, /m",
+					"desc": "Заставляет выбранный объект отображаться в важном разделе левого нижнего меню и быть полноценно выделенным.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/unmark, /um",
+					"desc": "Снимает выделение с выбранного объекта.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/unmarkall, /uma",
+					"desc": "Снимает выделение со всех выделенных объектов.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/groupmark, /gm",
+					"desc": "Выделяет объект для всей группы.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/groupunmark, /gum",
+					"desc": "Снимает выбранный объект из выделения для всей группы.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/ignoregroupmarks",
+					"desc": "Игнорирует отметки других участников вашей группы.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/automark [on|off] [radius_in_KM]",
+					"desc": "Автоматически маркирует игроков вокруг в определённом радиусе.",
+					"ex": "/automark on 10000",
+					"status": 1
+				},
+				{
+					"name": "/sonar [on|off]",
+					"desc": "Сонар автоматически подсвечивает все контейнеры в радиусе заданном на сервере каждые 45 секунд.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "PVE-CONTROLLER",
+			"commands": [
+				{
+					"name": "/pool",
+					"desc": "Баунти-пул статус выплат.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/value",
+					"desc": "Суммарная стоимость персонажа. Команда на случай если на месте стоимости персонажа вы не видите числа в его профиле.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "STORAGE",
+			"commands": [
+				{
+					"name": "/shelp",
+					"desc": "Показывает полный список команд связанных со складами.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/store all",
+					"desc": "Отправляет весь груз на склад.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/store [n] [ammount]",
+					"desc": "Отправляет груз [n] на склад в количестве [amount]. Номер груза корабля. (узнать - /enumcargo)",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/unstore [n] [ammount]",
+					"desc": "Отправляет груз [n] со склада в количестве [amount] в корабль. Номер груза корабля. (узнать - /sinfo)",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/unstore all",
+					"desc": "Отправляет весь груз со склада в корабль.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/sinfo, /sinfo [n]",
+					"desc": "Показывает количество предметов лежащих на складе текущей системы, поддерживает постраничный вывод информации, например /sinfo 1 и тд.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/enumcargo",
+					"desc": "Показывает количество предметов лежащих в трюме вашего корабля.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/cargosystems, /carsys",
+					"desc": "Выводит список систем в которых есть груз в складах с указанием количества этого груза.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/searchgood [searchstring], /sh [searchstring]",
+					"desc": "Ищет товар в ваших складах по всей галактике. (можно писать часть названия - он выведет похожие)",
+					"ex": "",
+					"status": 1
+				}
+			]
+		},
+		{
+			"name": "PLAYER-CONTROLLER",
+			"commands": [
+				{
+					"name": "/help, /h, /?",
+					"desc": "Печать пользовательской справки с переопределением встроенной справки.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/commandlist, /commandlist [name]",
+					"desc": "Печать пользовательской справки о командах. Вводите предложенную команду из списка.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/changeship [id], /cs [id], /cs",
+					"desc": "Полный список кораблей получаем командой /cs без параметров. Сохраняет корабль в импровизированный ангар игрока на котором вы находитесь в текущий момент. Позволяет изменить корабль на другой, работает смена только в космосе. На сервере существует ограничение в количество кораблей которые вы можете сохранять в свой ангар, будьте внимательны! Вы можете удалить корабль из ангара введя команду /ds (или /delship)",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/delship [id], /ds [id]",
+					"desc": "Удаляет сохранённый корабль из списка тех, что появлялись по мере покупки. (относится к импровизированному ангару игрока)",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/pos",
+					"desc": "Печать текущей позиции.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/stuck",
+					"desc": "Немного переместите корабль, если он застрял в базе.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/droprep",
+					"desc": "Команда, помогающая удалить любую принадлежность к фракции, которая может у вас есть.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/dice [1d20 | 1d20+3 | etc.], /roll [1d20 | 1d20+3 | etc.], /coin [1d20 | 1d20+3 | etc.]",
+					"desc": "Бросание костей и разыгрывание рандомных комбинаций для жеребьёвок.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/pimpship",
+					"desc": "Команда(ы) для настройки освещения корабля. (на станции у диллера на эту тему)",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/showsetup",
+					"desc": "Показать настройку корабля. (У диллера освещения)",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/showitems",
+					"desc": "Отображение элементов, которые могут быть изменены. (У диллера освещения)",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/setitem",
+					"desc": "Измените элемент (маяк освещения) в идентификаторе слота на указанный элемент. (У диллера освещения)",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/renameme [charname] [password]",
+					"desc": "Изменяет имя на персонаже, на любой базе и за деньги, пароль нужен за смену имени на специальный тег в нём, чтобы стать частью фракции игроков.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/movechar [charname] [code]",
+					"desc": "Переместите персонажа из удаленной учетной записи в эту.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/set movecharcode [code]",
+					"desc": "Если [code] равен none то код удаляется и перемещение возможно без кода, в ином случае ставится код перемещения персонажа.",
+					"ex": "",
+					"status": 2
+				},
+				{
+					"name": "/restart [faction]",
+					"desc": "Перезапускает игру за другую фракцию.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/showrestarts, /showrestarts [private_code]",
+					"desc": "Показывает список доступных рестартов персонажа.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/sendcash [charname] [cash] [anon] [comment], /givecash [charname] [cash] [anon] [comment], /gc [charname] [cash] [anon] [comment]",
+					"desc": "Дарит персонажу ваши деньги в количестве [cash], можно анонимно используя флаг [anon]",
+					"ex": "/givecash Admin 1000000000 anon Подарок",
+					"status": 1
+				},
+				{
+					"name": "/givecasht [cash] [anon] [comment], /gct [cash] [anon] [comment]",
+					"desc": "Дарит выбранному мышкой персонажу ваши деньги в количестве [cash], можно анонимно используя флаг [anon]",
+					"ex": "/givecasht 1000000000 anon Подарок",
+					"status": 1
+				},
+				{
+					"name": "/drawcash [charname] [code] [cash], /drc [charname] [code] [cash]",
+					"desc": "Дарит персонажу ваши деньги в количестве [cash]",
+					"ex": "/givecasht Admin 322 222234",
+					"status": 1
+				},
+				{
+					"name": "/set cashcode [code]",
+					"desc": "Устанавливает код для вашего кошелька, то есть игрок используя ваш код может смотреть ваш баланс командой /showcash [charname] [code]",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/showcash [charname] [code], /shc [charname] [code]",
+					"desc": "Игрок смотрит ваш баланс командой /showcash используя код который вы ему предоставили и установили на кошелёк.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/group [message], /g [message]",
+					"desc": "Отправьте сообщение в групповой чат.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/local [message], /l [message]",
+					"desc": "Отправьте сообщение в локальный системный чат.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/system [message], /s [message]",
+					"desc": "Отправьте сообщение в системный чат.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/invite [charname], /i [charname]",
+					"desc": "Приглашает пользователя в группу.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/factioninvite [tag], /fm [tag]",
+					"desc": "Отправьте сообщение с приглашением фракции всем игрокам с определенным префиксом.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/setmsg [n] [msg_text]",
+					"desc": "Установка предустановленного сообщения, вместо [n] устанавливается его порядковый номер вместо [msg_text] текст сообщения.",
+					"ex": "/setmsg 1 Всем привет и приятного дня!",
+					"status": 1
+				},
+				{
+					"name": "/showmsgs",
+					"desc": "Показать предустановленные сообщения.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/1-9, /l1-9",
+					"desc": "Отправьте предустановленное сообщение в локальный системный чат от 1 до 9 включительно.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/s1-9",
+					"desc": "Отправка предустановленного сообщения в системный чат от 1 до 9 включительно.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/g1-9",
+					"desc": "Отправка предустановленного сообщения в групповой чат от 1 до 9 включительно.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/t1-9",
+					"desc": "Отправка сообщения последнему/текущему целевому объекту.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/target [message], /t [message]",
+					"desc": "Отправка сообщения последнему/текущему целевому объекту.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/reply [message], /r [message]",
+					"desc": "Отправить сообщение последнему человеку, который отправил сообщение вам.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/privatemsg [charname] [message], /pm [charname] [message], /privatemsg$ [clientid] [message], /pm$ [clientid] [message]",
+					"desc": "Отправить личное сообщение на указанный [clientid] или [charname].",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/factionmsg [tag] [message], /fm [charname] [message]",
+					"desc": "Отправьте сообщение всем игрокам с определенным префиксом.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/set chattime [on|off]",
+					"desc": "Добавить вывод времени сообщения отправленного в чате и позволяет это выключить у себя каждому игроку.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/set dietime [on|off]",
+					"desc": "Добавить вывод времени сообщения о смерти и позволяет это выключить у себя каждому игроку.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/mail [msgnum]",
+					"desc": "Показать почту.",
+					"ex": "/mail 1",
+					"status": 1
+				},
+				{
+					"name": "/maildel [msgnum]",
+					"desc": "Удалить почту.",
+					"ex": "/maildel 1",
+					"status": 1
+				},
+				{
+					"name": "/time, /time*",
+					"desc": "Напечатать время.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/lights, /lights*",
+					"desc": "Включить маяки корабля.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/selfdestruct, /selfdestruct*",
+					"desc": "Самоуничтожение корабля.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/shields, /shields*",
+					"desc": "Включение выключение щита корабля.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/showcoords [n]",
+					"desc": "Показать предустановленные координаты (1-9)",
+					"ex": "/showcoords 1",
+					"status": 1
+				},
+				{
+					"name": "/savecoords [n] [text]",
+					"desc": "Установка предустановленной координаты (1-9)",
+					"ex": "/savecoords 1 100 -100 100",
+					"status": 1
+				},
+				{
+					"name": "/c1-9",
+					"desc": "Загрузка предустановленной координаты от 1 до 9 включительно.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/maketag [tag] [master_password] [description]",
+					"desc": "Создание тега фракции со своим паролем и описанием.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/droptag [tag] [master_password]",
+					"desc": "Удаление тега фракции.",
+					"ex": "",
+					"status": 1
+				},
+				{
+					"name": "/settagpass [tag] [master_password] [rename_password]",
+					"desc": "Смена пароля тега фракции.",
+					"ex": "",
+					"status": 1
+				}
+			]
+		}
+	]
+}
