@@ -1,7 +1,5 @@
 ### 🎆 KILL COUNTER 🎆
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: killcounter **(killcounter.dll)**

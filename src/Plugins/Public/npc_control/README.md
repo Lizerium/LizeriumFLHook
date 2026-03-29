@@ -1,7 +1,5 @@
 ### 📷 NPC CONTROL 📷
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: npc **(npc.dll)**

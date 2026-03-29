@@ -1,7 +1,5 @@
 ### ⏳ REG ARMOUR ⏳
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: regarmour **(regarmour.dll)**

@@ -1,7 +1,5 @@
 ### 🌍 CLOAK VERSION 1 🌍
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: cloakkosa **(cloakkosa.dll)**

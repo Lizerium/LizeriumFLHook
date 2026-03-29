@@ -1,7 +1,5 @@
 ### 🌲 BOUNTY HUNT 🌲
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: bountyhunt **(bountyhunt.dll)**

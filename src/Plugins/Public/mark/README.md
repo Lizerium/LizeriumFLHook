@@ -1,7 +1,5 @@
 ### ⌚ MARK ⌚
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: mark **(mark.dll)**

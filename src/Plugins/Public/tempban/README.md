@@ -1,7 +1,5 @@
 ### 🔍 TEMP BAN 🔍
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: tempban **(tempban.dll)**

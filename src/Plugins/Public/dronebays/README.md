@@ -1,7 +1,5 @@
 ### 🎄 DRON BAYS 🎄
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: dronebay **(dronebay.dll)**

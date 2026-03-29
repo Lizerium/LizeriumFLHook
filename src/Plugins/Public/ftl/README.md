@@ -1,7 +1,5 @@
 ### FTL
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: ftl **(ftl.dll)**

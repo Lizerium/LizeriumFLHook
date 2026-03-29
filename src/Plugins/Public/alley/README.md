@@ -1,7 +1,5 @@
 ### 🌲 Alley 🌲
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: alley **(alley.dll)**

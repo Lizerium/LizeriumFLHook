@@ -1,7 +1,5 @@
 ### 🔉 MINE CONTROLE VERSION 1 🔉
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: minecontrol **(minecontrol.dll)**

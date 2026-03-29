@@ -1,7 +1,5 @@
 ### 🎇 FAST START 🎇
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: faststart **(faststart.dll)**

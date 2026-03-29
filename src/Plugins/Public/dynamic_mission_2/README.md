@@ -1,7 +1,5 @@
 ### 🎊 DYNAMIC MISSION 2 🎊
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: dynmissions **(dynamycmission.dll)**

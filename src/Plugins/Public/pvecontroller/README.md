@@ -1,7 +1,5 @@
 ### 🔨 PVE CONTROLLER 🔨
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: pvecontroller **(pvecontroller.dll)**

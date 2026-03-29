@@ -1,7 +1,5 @@
 ### 🔑 STORAGE 🔑
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: store **(store.dll)**

@@ -1,7 +1,5 @@
 ### 🎄 JSON BUDDY 🎄
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: jsonbuddy **(JSONBuddy.dll)**

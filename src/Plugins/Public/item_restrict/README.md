@@ -1,7 +1,5 @@
 ### 🎅 ITEM RESTRICTIONS 🎅
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: ItemRestriction **(itemrestrictions.dll)**

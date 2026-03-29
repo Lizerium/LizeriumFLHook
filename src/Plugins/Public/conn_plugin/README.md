@@ -1,7 +1,5 @@
 ### 🌐 CONN 🌐
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: conn **(conn.dll)**

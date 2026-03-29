@@ -1,7 +1,5 @@
 ### 🌋 DOCK RESTRICT 🌋
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: Dock_Restrict **(DockRestrict.dll)**

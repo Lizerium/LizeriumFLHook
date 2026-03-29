@@ -1,7 +1,5 @@
 ### 📫 TEMPLATE 📫
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: template **(template.dll)**

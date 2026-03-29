@@ -1,7 +1,5 @@
 ### 🌍 CLOAK VERSION 2 🌍
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: cloak **(cloak.dll)**

@@ -1,7 +1,5 @@
 ### 🌲 BEAM ME UP 🌲
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: beammeup **(beammeup.dll)**

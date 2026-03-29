@@ -1,7 +1,5 @@
 ### 🔐 MISCELLANEOUS COMMANDS 🔐
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: misc **(MiscellaneousCommands.dll)**

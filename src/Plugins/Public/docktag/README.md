@@ -1,7 +1,5 @@
 ### 🌛 DOCK TAG 🌛
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: docktag **(docktag.dll)**

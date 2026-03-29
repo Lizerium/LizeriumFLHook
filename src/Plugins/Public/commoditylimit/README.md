@@ -1,7 +1,5 @@
 ### 🌍 COMMODITY LIMIT 🌍
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: commoditylimit **(commoditylimit.dll)**

@@ -1,7 +1,5 @@
 ### 💵 MARKET FUCKER 💵
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: marketfucker **(MarketFucker.dll)**

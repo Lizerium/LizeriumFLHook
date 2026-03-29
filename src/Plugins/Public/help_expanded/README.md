@@ -1,7 +1,5 @@
 ### 👻 HELP 👻
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: exhelp **(exhelp.dll)**

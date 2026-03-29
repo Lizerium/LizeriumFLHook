@@ -89,8 +89,6 @@
       - [🌀 `changeship`](#-changeship)
       - [🌀 `delship`](#-delship)
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: playercntl **(playercntl.dll)**

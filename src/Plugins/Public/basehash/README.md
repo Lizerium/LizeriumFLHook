@@ -1,7 +1,5 @@
 ### BASE HASH
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: flhash **(flhash.dll)**

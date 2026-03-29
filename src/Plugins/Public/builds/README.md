@@ -1,7 +1,5 @@
 ### 🌳 BUILDS 🌳
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: build **(build.dll)**

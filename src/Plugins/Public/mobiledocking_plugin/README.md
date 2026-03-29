@@ -1,7 +1,5 @@
 ### MOBILE DOCKING
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: dock **(mobiledock.dll)**

@@ -1,7 +1,5 @@
 ### 🎓 GET REP 🎓
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: getrep **(getrep.dll)**

@@ -1,7 +1,5 @@
 ### 🎃 EVENT 🎃
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: events **(event.dll)**

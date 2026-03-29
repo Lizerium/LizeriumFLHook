@@ -1,7 +1,5 @@
 ### 🌲 BASE 🌲
 
-> ---
->
 > [!IMPORTANT]
 >
 > - Plugin loaded: base **(base.dll)**
