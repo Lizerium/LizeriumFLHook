@@ -1,3 +1,11 @@
+п»ї/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 РјР°СЂС‚Р° 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 #include "main.h"
 
 /// Send a command to the client at destination ID 0x9999
@@ -21,7 +29,7 @@ void SendResetMarketOverride(uint client)
 	SendCommand(client, L" ResetMarketOverride");
 }
 
-// Отправьте обновление цен всем клиентам в базе игроков на один товар.
+// РћС‚РїСЂР°РІСЊС‚Рµ РѕР±РЅРѕРІР»РµРЅРёРµ С†РµРЅ РІСЃРµРј РєР»РёРµРЅС‚Р°Рј РІ Р±Р°Р·Рµ РёРіСЂРѕРєРѕРІ РЅР° РѕРґРёРЅ С‚РѕРІР°СЂ.
 void SendMarketGoodUpdated(PlayerBase *base, uint good, MARKET_ITEM &item)
 {
 	struct PlayerData *pd = 0;

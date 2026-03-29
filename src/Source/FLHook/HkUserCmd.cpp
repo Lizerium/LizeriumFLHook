@@ -1,4 +1,12 @@
-﻿#include "hook.h"
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
+#include "hook.h"
 
 #define PRINT_ERROR() { for(uint i = 0; (i < sizeof(wscError)/sizeof(wstring)); i++) PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1261"), wscError[i].c_str()); return; }
 #define PRINT_OK() PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1262"));

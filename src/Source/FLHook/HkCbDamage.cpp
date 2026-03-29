@@ -1,3 +1,11 @@
+п»ї/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 РјР°СЂС‚Р° 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 #include "hook.h"
 
 EXPORT uint iDmgTo = 0;
@@ -87,15 +95,15 @@ void __stdcall HkCb_AddDmgEntry(DamageList *dmgList, unsigned short p1, float p2
 {
 	CALL_PLUGINS_V(PLUGIN_HkCb_AddDmgEntry, __stdcall, (DamageList *, unsigned short, float, DamageEntry::SubObjFate), (dmgList, p1, p2, p3));
 
-	//Проверьте, не получили ли мы урон от CD с измененным поведением
+	//РџСЂРѕРІРµСЂСЊС‚Рµ, РЅРµ РїРѕР»СѓС‡РёР»Рё Р»Рё РјС‹ СѓСЂРѕРЅ РѕС‚ CD СЃ РёР·РјРµРЅРµРЅРЅС‹Рј РїРѕРІРµРґРµРЅРёРµРј
 	if (dmgList->get_cause() == 0xC0)
 	{
-		//Проверьте, нужно ли защищать игрока (f.e. в сцене стыковки)
+		//РџСЂРѕРІРµСЂСЊС‚Рµ, РЅСѓР¶РЅРѕ Р»Рё Р·Р°С‰РёС‰Р°С‚СЊ РёРіСЂРѕРєР° (f.e. РІ СЃС†РµРЅРµ СЃС‚С‹РєРѕРІРєРё)
 		bool bUnk1 = false;
 		bool bUnk2 = false;
 		float fUnk;
 		pub::SpaceObj::GetInvincible(ClientInfo[iDmgTo].iShip, bUnk1, bUnk2, fUnk);
-		//Если это так, прижмите DMG
+		//Р•СЃР»Рё СЌС‚Рѕ С‚Р°Рє, РїСЂРёР¶РјРёС‚Рµ DMG
 
 		if (bUnk1 && bUnk2)
 			return;

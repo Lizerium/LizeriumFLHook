@@ -1,4 +1,12 @@
-﻿// Template for FLHookPlugin
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
+// Template for FLHookPlugin
 // February 2016 by BestDiscoveryHookDevs2016
 //
 // This is a template with the bare minimum to have a functional plugin.

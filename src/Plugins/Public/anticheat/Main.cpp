@@ -1,3 +1,11 @@
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 #include <windows.h>
 #include <stdio.h>
 #include <string>
@@ -141,7 +149,7 @@ namespace HkIServerImpl
 		//			wscBufErase.erase(0, 6);
 		//			ConPrint(L"timetest %s %u\n", wscCharname.c_str(), test);
 		//			HkAddChatLogSpeed(iClientID, wscBufErase);
-		//			HkMsgAndKick(iClientID, L"Свяжитесь с администратором", set_iKickMsgPeriod);
+		//			HkMsgAndKick(iClientID, L"РЎРІСЏР¶РёС‚РµСЃСЊ СЃ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂРѕРј", set_iKickMsgPeriod);
 		//		}
 		//	}
 
@@ -181,7 +189,7 @@ namespace HkIServerImpl
 		//		{
 		//			ConPrint(L"Process cheat detected %s %s\n", wscCharname.c_str(), wscBufErase.c_str());
 		//			HkAddChatLogProc(iClientID, wscBufErase); //will only log when keywords are found and display in the console
-		//			HkMsgAndKick(iClientID, L"Вас выгнали, поищите на форуме информацию о запрещенных приложениях.", set_iKickMsgPeriod);
+		//			HkMsgAndKick(iClientID, L"Р’Р°СЃ РІС‹РіРЅР°Р»Рё, РїРѕРёС‰РёС‚Рµ РЅР° С„РѕСЂСѓРјРµ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РїСЂРёР»РѕР¶РµРЅРёСЏС….", set_iKickMsgPeriod);
 		//		}
 		//		if (FullLog)
 		//		{
@@ -261,7 +269,7 @@ void HkTimerAntiCheat()
 			ConPrint(L"%s No AntiCheat Found\n", wscCharname.c_str());
 			HkAddKickLog(iClientID, L"No Anti Cheat Found");
 			Antiecheat[iClientID].AntiCheatT = timeInMS() + 50000;
-			HkMsgAndKick(iClientID, L"Свяжитесь с админом! Вероятно client.dll в папке EXE(игры) отсутствует или заблокирован, пожалуйста добавьте его в исключения антивируса.", set_iKickMsgPeriod);
+			HkMsgAndKick(iClientID, L"РЎРІСЏР¶РёС‚РµСЃСЊ СЃ Р°РґРјРёРЅРѕРј! Р’РµСЂРѕСЏС‚РЅРѕ client.dll РІ РїР°РїРєРµ EXE(РёРіСЂС‹) РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РёР»Рё Р·Р°Р±Р»РѕРєРёСЂРѕРІР°РЅ, РїРѕР¶Р°Р»СѓР№СЃС‚Р° РґРѕР±Р°РІСЊС‚Рµ РµРіРѕ РІ РёСЃРєР»СЋС‡РµРЅРёСЏ Р°РЅС‚РёРІРёСЂСѓСЃР°.", set_iKickMsgPeriod);
 		}
 	}*/
 }
@@ -295,8 +303,8 @@ void HkTimerCrC()
 }
 
 /// <summary>
-/// Проверяет правильность характеристик корабля у пользователя на сервере
-/// Сравнивает его корабль с его параметрами с установленными на сервере
+/// РџСЂРѕРІРµСЂСЏРµС‚ РїСЂР°РІРёР»СЊРЅРѕСЃС‚СЊ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє РєРѕСЂР°Р±Р»СЏ Сѓ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ РЅР° СЃРµСЂРІРµСЂРµ
+/// РЎСЂР°РІРЅРёРІР°РµС‚ РµРіРѕ РєРѕСЂР°Р±Р»СЊ СЃ РµРіРѕ РїР°СЂР°РјРµС‚СЂР°РјРё СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹РјРё РЅР° СЃРµСЂРІРµСЂРµ
 /// </summary>
 void HkTimerCheckShip()
 {
@@ -306,11 +314,11 @@ void HkTimerCheckShip()
 	//	uint iClientID = HkGetClientIdFromPD(pPD);
 
 	//	uint srvProcPlayerShip = 0;
-	//	//получаем корабль из файлов сервера
+	//	//РїРѕР»СѓС‡Р°РµРј РєРѕСЂР°Р±Р»СЊ РёР· С„Р°Р№Р»РѕРІ СЃРµСЂРІРµСЂР°
 	//	pub::Player::GetShipID(iClientID, srvProcPlayerShip);
 	//	PrintUserCmdTextColorKV(iClientID, GetLocalized(iClientID, "MSG_1287"), to_wstring(srvProcPlayerShip));
 	//	
-	//	//сравниваем его характиристики максимальные с тем что установлено у игрока
+	//	//СЃСЂР°РІРЅРёРІР°РµРј РµРіРѕ С…Р°СЂР°РєС‚РёСЂРёСЃС‚РёРєРё РјР°РєСЃРёРјР°Р»СЊРЅС‹Рµ СЃ С‚РµРј С‡С‚Рѕ СѓСЃС‚Р°РЅРѕРІР»РµРЅРѕ Сѓ РёРіСЂРѕРєР°
 
 
 
@@ -337,8 +345,8 @@ bool HkAddChatLogSpeed(uint iClientID, wstring wscMessage)
 }
 
 /**
-Эта функция вызывается FLHook, когда пользователь вводит строку чата. 
-Если это так, мы пытаемся это обработать.
+Р­С‚Р° С„СѓРЅРєС†РёСЏ РІС‹Р·С‹РІР°РµС‚СЃСЏ FLHook, РєРѕРіРґР° РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РІРІРѕРґРёС‚ СЃС‚СЂРѕРєСѓ С‡Р°С‚Р°. 
+Р•СЃР»Рё СЌС‚Рѕ С‚Р°Рє, РјС‹ РїС‹С‚Р°РµРјСЃСЏ СЌС‚Рѕ РѕР±СЂР°Р±РѕС‚Р°С‚СЊ.
 */
 bool UserCmd_Process(uint iClientID, const wstring& wscCmd)
 {
@@ -472,9 +480,9 @@ EXPORT void CmdHelp_Callback(CCmds* classptr)
 {
 	returncode = DEFAULT_RETURNCODE;
 
-	//classptr->Print(L"prlog <on><off> <--- устанавливает журнал процессов для тестирования\n");
-	//classptr->Print(L"actest <--- проверка процессов игроков\n");
-	//classptr->Print(L"attest <--- регистрирует все DLL, прикрепленные к фрилансеру\n");
+	//classptr->Print(L"prlog <on><off> <--- СѓСЃС‚Р°РЅР°РІР»РёРІР°РµС‚ Р¶СѓСЂРЅР°Р» РїСЂРѕС†РµСЃСЃРѕРІ РґР»СЏ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ\n");
+	//classptr->Print(L"actest <--- РїСЂРѕРІРµСЂРєР° РїСЂРѕС†РµСЃСЃРѕРІ РёРіСЂРѕРєРѕРІ\n");
+	//classptr->Print(L"attest <--- СЂРµРіРёСЃС‚СЂРёСЂСѓРµС‚ РІСЃРµ DLL, РїСЂРёРєСЂРµРїР»РµРЅРЅС‹Рµ Рє С„СЂРёР»Р°РЅСЃРµСЂСѓ\n");
 }
 
 EXPORT PLUGIN_INFO* Get_PluginInfo()

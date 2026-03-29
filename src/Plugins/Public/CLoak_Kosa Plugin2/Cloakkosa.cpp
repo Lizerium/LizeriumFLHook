@@ -1,4 +1,12 @@
-﻿#include <FLHook.h>
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
+#include <FLHook.h>
 
 #define ADDR_FLCONFIG 0x25410
 wstring HkGetWStringFromIDS(uint iIDS);

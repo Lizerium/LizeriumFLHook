@@ -1,4 +1,12 @@
-﻿#include "wildcards.hh"
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
+#include "wildcards.hh"
 #include "hook.h"
 #include "CInGame.h"
 

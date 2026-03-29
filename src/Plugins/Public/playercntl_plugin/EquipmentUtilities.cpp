@@ -1,3 +1,11 @@
+п»ї/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 РјР°СЂС‚Р° 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 // Player Control plugin for FLHookPlugin
 // Feb 2010 by Cannon
 //
@@ -10,10 +18,10 @@
 #include <plugin.h>
 #include <PluginUtilities.h>
 
-/// Карта хеш-кода и связанных с ним никнеймов.
+/// РљР°СЂС‚Р° С…РµС€-РєРѕРґР° Рё СЃРІСЏР·Р°РЅРЅС‹С… СЃ РЅРёРј РЅРёРєРЅРµР№РјРѕРІ.
 static std::map<uint, std::string> mapHashToNickname;
 
-/// Чтение ini-файла на наличие никнеймов и сохранение связанного с ним хеш-кода
+/// Р§С‚РµРЅРёРµ ini-С„Р°Р№Р»Р° РЅР° РЅР°Р»РёС‡РёРµ РЅРёРєРЅРµР№РјРѕРІ Рё СЃРѕС…СЂР°РЅРµРЅРёРµ СЃРІСЏР·Р°РЅРЅРѕРіРѕ СЃ РЅРёРј С…РµС€-РєРѕРґР°
 static void ReadIniNicknameFile(const string &filePath)
 {
 	INI_Reader ini;
@@ -42,7 +50,7 @@ const char *EquipmentUtilities::FindNickname(uint hash)
 	return i->second.c_str();
 }
 
-/** Чтение данных фрилансера для определения настроек мода. */
+/** Р§С‚РµРЅРёРµ РґР°РЅРЅС‹С… С„СЂРёР»Р°РЅСЃРµСЂР° РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ РЅР°СЃС‚СЂРѕРµРє РјРѕРґР°. */
 void EquipmentUtilities::ReadIniNicknames()
 {
 	string dataDirPath = "..\\data";

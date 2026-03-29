@@ -1,3 +1,11 @@
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 /// DSAce for Freelancer by Cannon 19/Sept/10
 ///
 /// Thanks to Adoxa, Wodka, Motah for helping me out with this.

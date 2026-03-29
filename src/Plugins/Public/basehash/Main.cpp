@@ -1,3 +1,11 @@
+п»ї/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 РјР°СЂС‚Р° 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 #include <windows.h>
 #include <stdio.h>
 #include <string>
@@ -300,11 +308,11 @@ EXPORT void BaseDestroyed(uint iObject, uint iClientIDBy)
 // Admin commands
 bool ExecuteCommandString_Callback(CCmds* cmds, const wstring& wscCmd)
 {
-	returncode = NOFUNCTIONCALL;  // flhook должен позаботиться о нашем коде возврата
+	returncode = NOFUNCTIONCALL;  // flhook РґРѕР»Р¶РµРЅ РїРѕР·Р°Р±РѕС‚РёС‚СЊСЃСЏ Рѕ РЅР°С€РµРј РєРѕРґРµ РІРѕР·РІСЂР°С‚Р°
 
 	if (IS_CMD("rehashtest"))
 	{
-		returncode = SKIPPLUGINS_NOFUNCTIONCALL; // не позволяйте другим плагинам включаться, поскольку теперь мы обрабатываем команду
+		returncode = SKIPPLUGINS_NOFUNCTIONCALL; // РЅРµ РїРѕР·РІРѕР»СЏР№С‚Рµ РґСЂСѓРіРёРј РїР»Р°РіРёРЅР°Рј РІРєР»СЋС‡Р°С‚СЊСЃСЏ, РїРѕСЃРєРѕР»СЊРєСѓ С‚РµРїРµСЂСЊ РјС‹ РѕР±СЂР°Р±Р°С‚С‹РІР°РµРј РєРѕРјР°РЅРґСѓ
 		DoHashList(cmds);
 		return true;
 	}

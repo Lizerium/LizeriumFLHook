@@ -1,3 +1,11 @@
+ï»¿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 Ð¼Ð°Ñ€Ñ‚Ð° 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 // NPCs for FLHookPlugin
 // December 2015 by BestDiscoveryHookDevs2015
 //
@@ -601,7 +609,7 @@ void AdminCmd_AIKill(CCmds* cmds)
 	return;
 }
 
-/* Çàñòàâüòå ÈÈ ïðèéòè íà âàøó ïîçèöèþ */
+/* Ð—Ð°ÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð˜Ð˜ Ð¿Ñ€Ð¸Ð¹Ñ‚Ð¸ Ð½Ð° Ð²Ð°ÑˆÑƒ Ð¿Ð¾Ð·Ð¸Ñ†Ð¸ÑŽ */
 void AdminCmd_AICome(CCmds* cmds)
 {
 	if (cmds->rights != RIGHT_SUPERADMIN)
@@ -637,7 +645,7 @@ void AdminCmd_AICome(CCmds* cmds)
 	return;
 }
 
-/* Çàñòàâüòå ÈÈ ñëåäîâàòü çà âàìè äî ñàìîé ñìåðòè */
+/* Ð—Ð°ÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð˜Ð˜ ÑÐ»ÐµÐ´Ð¾Ð²Ð°Ñ‚ÑŒ Ð·Ð° Ð²Ð°Ð¼Ð¸ Ð´Ð¾ ÑÐ°Ð¼Ð¾Ð¹ ÑÐ¼ÐµÑ€Ñ‚Ð¸ */
 void AdminCmd_AIFollow(CCmds* cmds, wstring &wscCharname)
 {
 	if (cmds->rights != RIGHT_SUPERADMIN)
@@ -646,13 +654,13 @@ void AdminCmd_AIFollow(CCmds* cmds, wstring &wscCharname)
 		return;
 	}
 
-	// Åñëè èãðîê íå óêàçàí, ñëåäóéòå èíñòðóêöèÿì àäìèíèñòðàòîðà
+	// Ð•ÑÐ»Ð¸ Ð¸Ð³Ñ€Ð¾Ðº Ð½Ðµ ÑƒÐºÐ°Ð·Ð°Ð½, ÑÐ»ÐµÐ´ÑƒÐ¹Ñ‚Ðµ Ð¸Ð½ÑÑ‚Ñ€ÑƒÐºÑ†Ð¸ÑÐ¼ Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€Ð°
 	uint iClientId;
 	if (wscCharname == L"") {
 		iClientId = HkGetClientIdFromCharname(cmds->GetAdminName());
 		wscCharname = cmds->GetAdminName();
 	}
-	// Ñëåäîâàòü çà óêàçàííûì èãðîêîì
+	// Ð¡Ð»ÐµÐ´Ð¾Ð²Ð°Ñ‚ÑŒ Ð·Ð° ÑƒÐºÐ°Ð·Ð°Ð½Ð½Ñ‹Ð¼ Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð¼
 	else {
 		iClientId = HkGetClientIdFromCharname(wscCharname);
 	}
@@ -682,7 +690,7 @@ void AdminCmd_AIFollow(CCmds* cmds, wstring &wscCharname)
 	return;
 }
 
-/* Îòìåíèòü òåêóùóþ îïåðàöèþ */
+/* ÐžÑ‚Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ñ‚ÐµÐºÑƒÑ‰ÑƒÑŽ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸ÑŽ */
 void AdminCmd_AICancel(CCmds* cmds)
 {
 	if (cmds->rights != RIGHT_SUPERADMIN)
@@ -726,7 +734,7 @@ void AdminCmd_ListNPCFleets(CCmds* cmds)
 }
 
 
-/* Ñîçäàòü ôëîò */
+/* Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ Ñ„Ð»Ð¾Ñ‚ */
 void AdminCmd_AIFleet(CCmds* cmds, wstring FleetName)
 {
 	if (cmds->rights != RIGHT_SUPERADMIN)

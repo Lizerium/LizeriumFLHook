@@ -1,3 +1,11 @@
+п»ї/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 РјР°СЂС‚Р° 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 #include "Language.h"
 
 #include "FLHook.h"
@@ -49,11 +57,11 @@ namespace raincious
 								{
 									if (languages.find(key.c_str()) != languages.end())
 									{
-										Print::Info("Языковая строка \"" + key + "\" уже определена. Она будет перезаписана.", "");
+										Print::Info("РЇР·С‹РєРѕРІР°СЏ СЃС‚СЂРѕРєР° \"" + key + "\" СѓР¶Рµ РѕРїСЂРµРґРµР»РµРЅР°. РћРЅР° Р±СѓРґРµС‚ РїРµСЂРµР·Р°РїРёСЃР°РЅР°.", "");
 									}
 									else
 									{
-										Print::Debug("Добавление языковой строки \"" + key + "\" ...", "");
+										Print::Debug("Р”РѕР±Р°РІР»РµРЅРёРµ СЏР·С‹РєРѕРІРѕР№ СЃС‚СЂРѕРєРё \"" + key + "\" ...", "");
 									}
 
 									languages[key.c_str()] = val;
@@ -72,7 +80,7 @@ namespace raincious
 				{
 					languages[key] = defaultStr;
 
-					Print::Debug(string("Языковая строка \"").append(key).append("\" не была определена, вместо этого используется default."), "");
+					Print::Debug(string("РЇР·С‹РєРѕРІР°СЏ СЃС‚СЂРѕРєР° \"").append(key).append("\" РЅРµ Р±С‹Р»Р° РѕРїСЂРµРґРµР»РµРЅР°, РІРјРµСЃС‚Рѕ СЌС‚РѕРіРѕ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ default."), "");
 				}
 
 				return languages[key];

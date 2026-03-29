@@ -1,3 +1,11 @@
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
 #include <windows.h>
 #include <stdio.h>
 #include <string>
@@ -1643,7 +1651,7 @@ void PrintListBuilds(std::list<INISECTIONVALUE>::iterator& builds,
 		}
 
 		if (needCount > 0)
-			countLootString = countLootString + "(нужно ещё " + to_string(needCount) + ")";
+			countLootString = countLootString + "(РЅСѓР¶РЅРѕ РµС‰С‘ " + to_string(needCount) + ")";
 
 		string msg = "<TRA data=\"" + defaulteKeyColor + "\" mask=\"-1\"/><TEXT> "
 			+ nameLoot + "</TEXT><TRA data=\""

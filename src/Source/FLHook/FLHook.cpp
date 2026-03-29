@@ -1,4 +1,12 @@
-﻿#include "global.h"
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
+#include "global.h"
 #include <Psapi.h>
 #include "hook.h"
 #include "CConsole.h"

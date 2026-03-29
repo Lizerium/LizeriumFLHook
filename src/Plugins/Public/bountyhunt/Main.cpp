@@ -1,4 +1,12 @@
-﻿#pragma warning(disable: 4146 4996)
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
+#pragma warning(disable: 4146 4996)
 #include <windows.h>
 #include <stdio.h>
 #include <string>

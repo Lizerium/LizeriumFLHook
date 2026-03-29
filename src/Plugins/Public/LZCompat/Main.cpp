@@ -1,4 +1,12 @@
-﻿/**
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
+/**
  Leipzig Compatiability Me Plugin for FLHook - v0.1 by Cannon
  This plugin is based on the based on tempban FHHook plugin by w0dk4.
 

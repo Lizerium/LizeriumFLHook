@@ -1,4 +1,12 @@
-﻿// Autobuy for FLHookPlugin
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 29 марта 2026 16:56:36
+ * Version: 1.0.2
+ */
+
+// Autobuy for FLHookPlugin
 // December 2015 by BestDiscoveryHookDevs2015
 //
 // This is based on the original autobuy available in FLHook. However this one was hardly extensible and lacking features.
