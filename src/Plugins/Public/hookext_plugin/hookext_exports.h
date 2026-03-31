@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 30 марта 2026 12:21:08
- * Version: 1.0.11
+ * Last Updated: 31 марта 2026 10:53:40
+ * Version: 1.0.12
  */
 
 namespace HookExt
