@@ -7,7 +7,7 @@
 
 > **26.11.2020 23:26 - по настоящее время**
 
-# ⏬Русское описание⏬ [English desc.](README.en..md)
+# ⏬Русское описание⏬ [English desc.](docs/README.en..md)
 
 FLHook(**_8.0.0_**)
 
