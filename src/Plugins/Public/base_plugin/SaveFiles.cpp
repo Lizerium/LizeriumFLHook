@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 04 апреля 2026 13:00:07
- * Version: 1.0.19
+ * Last Updated: 05 апреля 2026 15:05:09
+ * Version: 1.0.20
  */
 
 #include "Main.h"
