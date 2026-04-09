@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 08 апреля 2026 14:28:37
- * Version: 1.0.23
+ * Last Updated: 09 апреля 2026 10:59:03
+ * Version: 1.0.24
  */
 
 #include "ShipData.h"
