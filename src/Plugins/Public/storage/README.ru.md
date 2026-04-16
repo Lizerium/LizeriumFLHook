@@ -1,0 +1,249 @@
+### 🔑 STORAGE 🔑
+
+- [Назад](../../../../README.ru.md)
+
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Язык: </strong>
+  
+  <span style="color: #F5F752; margin: 0 10px;">
+    ✅ 🇷🇺 Русский (текущий)
+  </span>
+  | 
+  <a href="./README.md" style="color: #0891b2; margin: 0 10px;">
+    🇺🇸 English
+  </a>
+</div>
+
+---
+
+> [!IMPORTANT]
+>
+> - Plugin loaded: store **(store.dll)**
+>
+>   Описание
+
+```ini
+Управляет хранением предметов в складах систем
+```
+
+> ---
+
+> 1.  [Пример конфигурации `ErrorStore.ini`](../../../Binaries/bin-conf/flhook_plugins/ErrorStore.ini)
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_Help
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/shelp
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/shelp
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Показывает полный список команд связанных со складами
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_Store
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/store
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/store [n] [ammount]
+/store all
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Отправляет груз на склад <n> номер груза корабля (узнать - /enumcargo)
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_Ustore
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/unstore
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/unstore [n] [ammount]
+/unstore all
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Отправит весь груз со склада в корабль
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_Istore
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/sinfo
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/sinfo
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Показывает количество предметов лежащих на складе текущей системы
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_EnumCargo
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/enumcargo
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/enumcargo
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Показывает количество предметов лежащих в трюме вашего корабля
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_CargoSystems
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/cargosystems
+/carsys
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/cargosystems
+/carsys
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Выводит список систем в которых есть груз в складах с указанием количества этого груза
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_CargoSystems
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/searchgood
+/sh
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/searchgood [searchstring]
+/sh [searchstring]
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Ищет товар в ваших складах по всей галактике (можно писать часть названия - он выведет похожие)
+```
+
+> ---

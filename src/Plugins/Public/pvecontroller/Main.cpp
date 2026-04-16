@@ -1,0 +1,829 @@
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 16 апреля 2026 11:45:02
+ * Version: 1.0.35
+ */
+
+// PvE Controller for Discovery FLHook
+// April 2020 by Kazinsal etc.
+//
+// This is free software; you can redistribute it and/or modify it as
+// you wish without restriction. If you do then I would appreciate
+// being notified and/or mentioned somewhere.
+
+
+#include <windows.h>
+#include <stdio.h>
+#include <string>
+#include <time.h>
+#include <math.h>
+#include <list>
+#include <map>
+#include <algorithm>
+#include <random>
+
+#include <FLHook.h>
+#include <plugin.h>
+#include <PluginUtilities.h>
+
+using namespace std;
+
+PLUGIN_RETURNCODE returncode;
+
+#define PLUGIN_DEBUG_NONE 0
+#define PLUGIN_DEBUG_CONSOLE 1
+#define PLUGIN_DEBUG_VERBOSE 2
+#define PLUGIN_DEBUG_VERYVERBOSE 3
+
+struct CLIENT_DATA {
+	int bounty_count;
+	int bounty_pool;
+};
+
+struct stBountyBasePayout {
+	int iBasePayout;
+};
+
+struct stDropInfo {
+	uint uGoodID;
+	string strGood;
+	uint uFactionID;
+	float fChance;
+};
+
+struct stWarzone {
+	uint uFaction1;
+	uint uFaction2;
+	float fMultiplier;
+};
+
+CLIENT_DATA aClientData[250];
+map<uint, stBountyBasePayout> mapBountyPayouts;
+map<uint, stBountyBasePayout> mapBountyShipPayouts;
+map<uint, float> mapBountyGroupScale;
+map<uint, float> mapBountyArmorScales;
+map<uint, float> mapBountySystemScales;
+multimap<uint, stWarzone> mmapBountyWarzoneScales;
+list<uint> lstRecordedBountyObjs;
+
+multimap<uint, stDropInfo> mmapDropInfo;
+map<uint, uint> mapShipClassTypes;
+map<int, float> mapClassDiffMultipliers;
+
+int set_iPluginDebug = 0;
+float set_fMaximumRewardRep = 0.0f;
+uint set_uLootCrateID = 0;
+
+bool set_bBountiesEnabled = true;
+int set_iPoolPayoutTimer = 0;
+int iLoadedNPCBountyClasses = 0;
+int iLoadedNPCShipBountyOverrides = 0;
+int iLoadedNPCBountyGroupScale = 0;
+int iLoadedNPCBountyArmorScales = 0;
+int iLoadedNPCBountySystemScales = 0;
+int iLoadedClassTypes = 0;
+int iLoadedClassDiffMultipliers = 0;
+int iLoadedNPCBountyWarzoneScales = 0;
+void LoadSettingsNPCBounties(void);
+
+
+bool set_bDropsEnabled = true;
+int iLoadedNPCDropClasses = 0;
+void LoadSettingsNPCDrops(void);
+
+/// Clear client info when a client connects.
+void ClearClientInfo(uint iClientID)
+{
+	aClientData[iClientID] = { 0 };
+}
+
+/// Load settings.
+void LoadSettings()
+{
+	returncode = DEFAULT_RETURNCODE;
+
+	// The path to the configuration file.
+	char szCurDir[MAX_PATH];
+	GetCurrentDirectory(sizeof(szCurDir), szCurDir);
+	string scPluginCfgFile = string(szCurDir) + "\\flhook_plugins\\pvecontroller.cfg";
+
+	// Load generic settings
+	set_iPluginDebug = IniGetI(scPluginCfgFile, "General", "debug", 0);
+	set_fMaximumRewardRep = IniGetF(scPluginCfgFile, "General", "maximum_reward_rep", 0.0f);
+	set_uLootCrateID = CreateID(IniGetS(scPluginCfgFile, "NPCDrops", "drop_crate", "lootcrate_ast_loot_metal").c_str());
+
+	// Load settings blocks
+	LoadSettingsNPCBounties();
+	LoadSettingsNPCDrops();
+}
+
+void LoadSettingsNPCBounties()
+{
+	// Путь к файлу конфигурации.
+	char szCurDir[MAX_PATH];
+	GetCurrentDirectory(sizeof(szCurDir), szCurDir);
+	string scPluginCfgFile = string(szCurDir) + "\\flhook_plugins\\pvecontroller.cfg";
+
+	// Очистить таблицы наград
+	mapBountyPayouts.clear();
+	iLoadedNPCBountyClasses = 0;
+	mapBountyShipPayouts.clear();
+	iLoadedNPCShipBountyOverrides = 0;
+	mapBountyGroupScale.clear();
+	iLoadedNPCBountyGroupScale = 0;
+	mapBountyArmorScales.clear();
+	iLoadedNPCBountyArmorScales = 0;
+	mapBountySystemScales.clear();
+	iLoadedNPCBountySystemScales = 0;
+	mapShipClassTypes.clear();
+	iLoadedClassTypes = 0;
+	mapClassDiffMultipliers.clear();
+	iLoadedClassDiffMultipliers = 0;
+	mmapBountyWarzoneScales.clear();
+	iLoadedNPCBountyWarzoneScales = 0;
+
+	// Загрузить настройки рейтинговой награды
+	set_iPoolPayoutTimer = IniGetI(scPluginCfgFile, "NPCBounties", "pool_payout_timer", 0);
+
+	// Загрузите большие вещи
+	INI_Reader ini;
+	if (ini.open(scPluginCfgFile.c_str(), false))
+	{
+		while (ini.read_header())
+		{
+			if (ini.is_header("NPCBounties"))
+			{
+				while (ini.read_value())
+				{
+					if (!strcmp(ini.get_name_ptr(), "enabled"))
+					{
+						if (ini.get_value_int(0) == 0)
+							set_bBountiesEnabled = false;
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "group_scale"))
+					{
+						mapBountyGroupScale[ini.get_value_int(0)] = ini.get_value_float(1);
+						++iLoadedNPCBountyGroupScale;
+						if (set_iPluginDebug)
+							ConPrint(L"PVECONTROLLER: Loaded group scale multiplier %u, %f.\n", ini.get_value_int(0), ini.get_value_float(1));
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "class"))
+					{
+						int iClass = ini.get_value_int(0);
+						mapBountyPayouts[iClass].iBasePayout = ini.get_value_int(1);
+						++iLoadedNPCBountyClasses;
+						if (set_iPluginDebug)
+							ConPrint(L"PVECONTROLLER: Loaded class base value %u, $%d.\n", iClass, mapBountyPayouts[iClass].iBasePayout);
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "ship"))
+					{
+						uint uShiparchHash = CreateID(ini.get_value_string(0));
+						mapBountyShipPayouts[uShiparchHash].iBasePayout = ini.get_value_int(1);
+						++iLoadedNPCShipBountyOverrides;
+						if (set_iPluginDebug)
+							ConPrint(L"PVECONTROLLER: Loaded override for \"%s\" == %u, $%d.\n", stows(ini.get_value_string(0)).c_str(), uShiparchHash, mapBountyShipPayouts[uShiparchHash].iBasePayout);
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "armor_multiplier"))
+					{
+						uint uArmorHash = CreateID(ini.get_value_string(0));
+						mapBountyArmorScales[uArmorHash] = ini.get_value_float(1);
+						++iLoadedNPCBountyArmorScales;
+						if (set_iPluginDebug)
+							ConPrint(L"PVECONTROLLER: Loaded fighter armor multiplier for \"%s\" == %u, %f.\n", stows(ini.get_value_string(0)).c_str(), uArmorHash, ini.get_value_float(1));
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "system_multiplier"))
+					{
+						uint uSystemHash = CreateID(ini.get_value_string(0));
+						mapBountySystemScales[uSystemHash] = ini.get_value_float(1);
+						++iLoadedNPCBountySystemScales;
+						if (set_iPluginDebug)
+							ConPrint(L"PVECONTROLLER: Loaded system scale multiplier for \"%s\" == %u, %f.\n", stows(ini.get_value_string(0)).c_str(), uSystemHash, ini.get_value_float(1));
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "class_type"))
+					{
+						for (uint i = 1; i <= ini.get_num_parameters() - 1; i++) {
+							mapShipClassTypes[ini.get_value_int(i)] = ini.get_value_int(0);
+							++iLoadedClassTypes;
+							if (set_iPluginDebug)
+								ConPrint(L"PVECONTROLLER: Loaded ship class (%u) as type (%u) \n", ini.get_value_int(i), ini.get_value_int(0));
+						}
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "class_diff"))
+					{
+						mapClassDiffMultipliers[ini.get_value_int(0)] = ini.get_value_float(1);
+						++iLoadedClassDiffMultipliers;
+						if (set_iPluginDebug)
+							ConPrint(L"PVECONTROLLER: Loaded class difference multiplier for %i == %f.\n", ini.get_value_int(0), ini.get_value_float(1));
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "warzone_multiplier"))
+					{
+						stWarzone wz;
+						uint uSystemHash = CreateID(ini.get_value_string(0));
+						uint uFactionHash1 = 0;
+						uint uFactionHash2 = 0;
+						pub::Reputation::GetReputationGroup(uFactionHash1, ini.get_value_string(1));
+						pub::Reputation::GetReputationGroup(uFactionHash2, ini.get_value_string(2));
+						wz.uFaction1 = uFactionHash1;
+						wz.uFaction2 = uFactionHash2;
+						wz.fMultiplier = ini.get_value_float(3);
+						mmapBountyWarzoneScales.insert(make_pair(uSystemHash, wz));
+						++iLoadedNPCBountyWarzoneScales;
+						if (set_iPluginDebug)
+							ConPrint(L"PVECONTROLLER: Loaded warzone scale multiplier for \"%s\" == %u, %f.\n", stows(ini.get_value_string(0)).c_str(), uSystemHash, ini.get_value_float(1));
+					}
+				}
+			}
+
+		}
+		ini.close();
+	}
+
+	ConPrint(L"PVECONTROLLER: NPC bounties are %s.\n", set_bBountiesEnabled ? L"enabled" : L"disabled");
+	ConPrint(L"PVECONTROLLER: Loaded %u NPC bounty group scale values.\n", iLoadedNPCBountyGroupScale);
+	ConPrint(L"PVECONTROLLER: Loaded %u NPC bounty classes.\n", iLoadedNPCBountyClasses);
+	ConPrint(L"PVECONTROLLER: Loaded %u NPC bounty ship overrides.\n", iLoadedNPCShipBountyOverrides);
+	ConPrint(L"PVECONTROLLER: Loaded %u NPC bounty fighter armor multipliers.\n", iLoadedNPCBountyArmorScales);
+	ConPrint(L"PVECONTROLLER: Loaded %u NPC bounty system scale multipliers.\n", iLoadedNPCBountySystemScales);
+	ConPrint(L"PVECONTROLLER: Loaded %u ship class types.\n", iLoadedClassTypes);
+	ConPrint(L"PVECONTROLLER: Loaded %u NPC bounty class difference multipliers.\n", iLoadedClassDiffMultipliers);
+	ConPrint(L"PVECONTROLLER: Loaded %u NPC bounty warzone scale multipliers.\n", iLoadedNPCBountyWarzoneScales);
+}
+
+void LoadSettingsNPCDrops()
+{
+	// The path to the configuration file.
+	char szCurDir[MAX_PATH];
+	GetCurrentDirectory(sizeof(szCurDir), szCurDir);
+	string scPluginCfgFile = string(szCurDir) + "\\flhook_plugins\\pvecontroller.cfg";
+
+	// Clear the drop tables.
+	mmapDropInfo.clear();
+	iLoadedNPCDropClasses = 0;
+
+	// Load the big stuff
+	INI_Reader ini;
+	if (ini.open(scPluginCfgFile.c_str(), false))
+	{
+		while (ini.read_header())
+		{
+			if (ini.is_header("NPCDrops"))
+			{
+				while (ini.read_value())
+				{
+					if (!strcmp(ini.get_name_ptr(), "enabled"))
+					{
+						if (ini.get_value_int(0) == 0)
+							set_bDropsEnabled = false;
+					}
+
+					if (!strcmp(ini.get_name_ptr(), "class"))
+					{
+						stDropInfo drop;
+						int iClass = ini.get_value_int(0);
+						string szGood = ini.get_value_string(1);
+						drop.uGoodID = CreateID(szGood.c_str());
+						drop.strGood = szGood.c_str();
+						drop.fChance = ini.get_value_float(2);
+						uint uFactionHash1 = 0;
+						pub::Reputation::GetReputationGroup(uFactionHash1, ini.get_value_string(3));
+						drop.uFactionID = uFactionHash1;
+						mmapDropInfo.insert(make_pair(iClass, drop));
+						++iLoadedNPCDropClasses;
+						if (set_iPluginDebug)
+							ConPrint(L"PVECONTROLLER: Loaded class %u faction %u drop %s (0x%08X), %f chance.\n", iClass, drop.uFactionID, stows(szGood).c_str(), CreateID(szGood.c_str()), drop.fChance);
+					}
+				}
+			}
+
+		}
+		ini.close();
+	}
+
+	ConPrint(L"PVECONTROLLER: NPC drops are %s.\n", set_bDropsEnabled ? L"enabled" : L"disabled");
+	ConPrint(L"PVECONTROLLER: Loaded %u NPC drops by class.\n", iLoadedNPCDropClasses);
+}
+
+
+BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
+{
+	srand(static_cast<uint>(time(nullptr)));
+	// If we're being loaded from the command line while FLHook is running then
+	// set_scCfgFile will not be empty so load the settings as FLHook only
+	// calls load settings on FLHook startup and .rehash.
+	if (fdwReason == DLL_PROCESS_ATTACH)
+	{
+		if (set_scCfgFile.length() > 0)
+			LoadSettings();
+	}
+	else if (fdwReason == DLL_PROCESS_DETACH)
+	{
+	}
+	return true;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Functions
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void NPCBountyAddToPool(uint iClientID, int iBounty, bool bNotify) {
+	if (!iClientID)
+		return;
+
+	aClientData[iClientID].bounty_count++;
+	aClientData[iClientID].bounty_pool += iBounty;
+	if (bNotify)
+		PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1209"), ToMoneyStr(iBounty).c_str());
+}
+
+void NPCBountyPayout(uint iClientID) {
+	if (!iClientID)
+		return;
+
+	CAccount* acc = Players.FindAccountFromClientID(iClientID);
+	wstring wscDir;
+	HkGetAccountDirName(acc, wscDir);
+	string scUserStore = scAcctPath + wstos(wscDir) + "\\flhookuser.ini";
+	long long samout = IniGetLL(scUserStore, "Bank", "money", 0);
+
+	float fValue;
+	pub::Player::GetAssetValue(iClientID, fValue);
+
+	int iCurrMoney;
+	pub::Player::InspectCash(iClientID, iCurrMoney);
+
+	//long long lNewMoney = iCurrMoney;
+	//lNewMoney += aClientData[iClientID].bounty_pool;
+
+	//if (fValue + aClientData[iClientID].bounty_pool > 2000000000 || lNewMoney > 2000000000)
+	//{
+	//	PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1210"), ToMoneyStr(aClientData[iClientID].bounty_pool).c_str());
+	//	PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1211"));
+	//	return;
+	//}
+
+	//HkAddCash((const wchar_t*)Players.GetActiveCharacterName(iClientID), aClientData[iClientID].bounty_pool);
+
+	IniDelSection(scUserStore, "Bank");
+	IniWrite(scUserStore, "Bank", "money", lltos(samout + static_cast<long long>(aClientData[iClientID].bounty_pool)));
+	PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1212"), 
+		ToMoneyStr(aClientData[iClientID].bounty_pool).c_str(), aClientData[iClientID].bounty_count, (aClientData[iClientID].bounty_count == 1 ? GetLocalized(iClientID, "MSG_1395") : GetLocalized(iClientID, "MSG_1396")));
+
+	aClientData[iClientID].bounty_count = 0;
+	aClientData[iClientID].bounty_pool = 0;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Command Functions
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+bool UserCmd_Pool(uint iClientID, const wstring &wscCmd, const wstring &wscParam, const wchar_t *usage)
+{
+	if (set_iPoolPayoutTimer == 0) {
+		PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1213"));
+		return true;
+	}
+
+	uint next_tick = set_iPoolPayoutTimer - ((uint)time(0) % set_iPoolPayoutTimer);
+	if (aClientData[iClientID].bounty_pool == 0)
+		PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1214"));
+	else
+		PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1215"), ToMoneyStr(aClientData[iClientID].bounty_pool).c_str(), aClientData[iClientID].bounty_count, (aClientData[iClientID].bounty_count == 1 ? GetLocalized(iClientID, "MSG_1397") : L"s"), next_tick / 60, next_tick % 60);
+
+	return true;
+}
+
+bool UserCmd_Value(uint iClientID, const wstring &wscCmd, const wstring &wscParam, const wchar_t *usage)
+{
+	float fShipValue = 0;
+	HKGetShipValue((const wchar_t*)Players.GetActiveCharacterName(iClientID), fShipValue);
+	PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1216"), ToMoneyStr((int)fShipValue).c_str());
+
+	return true;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Client command processing
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+typedef bool(*_UserCmdProc)(uint, const wstring &, const wstring &, const wchar_t*);
+
+struct USERCMD
+{
+	wchar_t *wszCmd;
+	_UserCmdProc proc;
+	wchar_t *usage;
+};
+
+USERCMD UserCmds[] =
+{
+	{ L"/pool", UserCmd_Pool, L"" },
+	{ L"/value", UserCmd_Value, L"" },
+};
+
+/**
+This function is called by FLHook when a user types a chat string. We look at the
+string they've typed and see if it starts with one of the above commands. If it
+does we try to process it.
+*/
+bool UserCmd_Process(uint iClientID, const wstring &wscCmd)
+{
+	returncode = DEFAULT_RETURNCODE;
+
+	wstring wscCmdLineLower = ToLower(wscCmd);
+
+	// If the chat string does not match the USER_CMD then we do not handle the
+	// command, so let other plugins or FLHook kick in. We require an exact match
+	for (uint i = 0; (i < sizeof(UserCmds) / sizeof(USERCMD)); i++)
+	{
+
+		if (wscCmdLineLower.find(UserCmds[i].wszCmd) == 0)
+		{
+			// Extract the parameters string from the chat string. It should
+			// be immediately after the command and a space.
+			wstring wscParam = L"";
+			if (wscCmd.length() > wcslen(UserCmds[i].wszCmd))
+			{
+				if (wscCmd[wcslen(UserCmds[i].wszCmd)] != ' ')
+					continue;
+				wscParam = wscCmd.substr(wcslen(UserCmds[i].wszCmd) + 1);
+			}
+
+			// Dispatch the command to the appropriate processing function.
+			if (UserCmds[i].proc(iClientID, wscCmd, wscParam, UserCmds[i].usage))
+			{
+				returncode = SKIPPLUGINS_NOFUNCTIONCALL;
+				return true;
+			}
+		}
+	}
+	return false;
+}
+
+bool ExecuteCommandString_Callback(CCmds* cmds, const wstring &wscCmd)
+{
+	returncode = DEFAULT_RETURNCODE;
+
+	if (wscCmd.compare(L"pvecontroller"))
+		return false;
+
+	if (!cmds->ArgStrToEnd(1).compare(L"status"))
+	{
+		cmds->Print(L"PVECONTROLLER: PvE Controller (Phase 1) is active.\n");
+		if (set_iPoolPayoutTimer)
+		{
+			uint next_tick = set_iPoolPayoutTimer - ((uint)time(0) % set_iPoolPayoutTimer);
+			uint pools = 0, poolkills = 0;
+			uint64_t poolvalue = 0;
+			for (int i = 0; i < 250; i++) {
+				if (aClientData[i].bounty_pool) {
+					pools++;
+					poolvalue += aClientData[i].bounty_pool;
+					poolkills += aClientData[i].bounty_count;
+				}
+			}
+			cmds->Print(L"  There are %d outstanding bounty pools worth $%lld credits for %d kill%s to be paid out in %dm%ds.\n", pools, poolvalue, poolkills, (poolkills != 1 ? L"s" : L""), next_tick / 60, next_tick % 60);
+		}
+		returncode = SKIPPLUGINS_NOFUNCTIONCALL;
+		return true;
+	}
+	else if (!cmds->ArgStrToEnd(1).compare(L"payout"))
+	{
+		if (set_iPoolPayoutTimer)
+		{
+			uint pools = 0, poolkills = 0;
+			uint64_t poolvalue = 0;
+			for (int i = 0; i < 250; i++) {
+				if (aClientData[i].bounty_pool) {
+					pools++;
+					poolvalue += aClientData[i].bounty_pool;
+					poolkills += aClientData[i].bounty_count;
+					NPCBountyPayout(i);
+				}
+			}
+			cmds->Print(L"PVECONTROLLER: Paid out %d outstanding bounty pools worth $%lld credits for %d kill%s.\n", pools, poolvalue, poolkills, (poolkills != 1 ? L"s" : L""));
+		}
+		returncode = SKIPPLUGINS_NOFUNCTIONCALL;
+		return true;
+	}
+	else if (!cmds->ArgStrToEnd(1).compare(L"reloadall"))
+	{
+		cmds->Print(L"PVECONTROLLER: COMPLETE LIVE RELOAD requested by %s.\n", cmds->GetAdminName());
+		LoadSettings();
+		returncode = SKIPPLUGINS_NOFUNCTIONCALL;
+		cmds->Print(L"PVECONTROLLER: Live reload completed.\n");
+		return true;
+	}
+	else if (!cmds->ArgStrToEnd(1).compare(L"reloadnpcbounties"))
+	{
+		cmds->Print(L"PVECONTROLLER: Live NPC bounties reload requested by %s.\n", cmds->GetAdminName());
+		LoadSettingsNPCBounties();
+		returncode = SKIPPLUGINS_NOFUNCTIONCALL;
+		cmds->Print(L"PVECONTROLLER: Live NPC bounties reload completed.\n");
+		return true;
+	}
+	else if (!cmds->ArgStrToEnd(1).compare(L"reloadnpcdrops"))
+	{
+		cmds->Print(L"PVECONTROLLER: Live NPC drops reload requested by %s.\n", cmds->GetAdminName());
+		LoadSettingsNPCDrops();
+		returncode = SKIPPLUGINS_NOFUNCTIONCALL;
+		cmds->Print(L"PVECONTROLLER: Live NPC drops reload completed.\n");
+		return true;
+	}
+	else
+	{
+		cmds->Print(L"Usage:\n");
+		cmds->Print(L"  .pvecontroller status    -- Displays PvE controller status information.\n");
+		cmds->Print(L"  .pvecontroller payout    -- Pays out all outstanding NPC bounties.\n");
+		cmds->Print(L"  .pvecontroller reloadall -- Reloads ALL settings on the fly.\n");
+		cmds->Print(L"  .pvecontroller reloadnpcbounties -- Reloads NPC bounty settings on the fly.\n");
+		cmds->Print(L"  .pvecontroller reloadnpcdrops -- Reloads NPC drop settings on the fly.\n");
+		returncode = SKIPPLUGINS_NOFUNCTIONCALL;
+		return true;
+	}
+	return false;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Functions to hook
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void __stdcall HkCb_AddDmgEntry(DamageList *dmg, unsigned short p1, float damage, enum DamageEntry::SubObjFate fate)
+{
+	returncode = DEFAULT_RETURNCODE;
+	uint iClientID = HkGetClientIDByShip(dmg->get_inflictor_id());
+	if (iDmgToSpaceID && iClientID) {
+		if (HkGetClientIDByShip(iDmgToSpaceID))
+			return;
+
+		if (p1 != 1)
+			return;
+
+		uint iTargetType;
+		pub::SpaceObj::GetType(iDmgToSpaceID, iTargetType);
+
+		// If it's not a ship, then we don't care.
+		if (iTargetType != OBJ_FIGHTER && iTargetType != OBJ_FREIGHTER && iTargetType != OBJ_TRANSPORT && iTargetType != OBJ_CAPITAL && iTargetType != OBJ_CRUISER && iTargetType != OBJ_GUNBOAT)
+			return;
+
+		if (damage == 0.0f) {
+			// Prevent paying out the same kill twice
+			if (find(lstRecordedBountyObjs.begin(), lstRecordedBountyObjs.end(), iDmgToSpaceID) != lstRecordedBountyObjs.end())
+				return;
+
+			lstRecordedBountyObjs.push_back(iDmgToSpaceID);
+
+			unsigned int uArchID = 0;
+			pub::SpaceObj::GetSolarArchetypeID(iDmgToSpaceID, uArchID);
+			Archetype::Ship* victimShiparch = Archetype::GetShip(uArchID);
+			if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+				PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1217"),uArchID);
+
+			// Получите некоторую информацию, ну, которая понадобится позже.
+			uint uKillerSystem = 0;
+			unsigned int uKillerAffiliation = 0;
+			pub::Player::GetSystem(iClientID, uKillerSystem);
+
+			// Блокируйте контракты и трофеи за убийства целей, превышающих максимальный порог репутации в награде.
+			int iTargetRep, iPlayerRep;
+			uint uTargetAffiliation;
+			float fAttitude = 0.0f;
+			pub::SpaceObj::GetRep(iDmgToSpaceID, iTargetRep);
+			Reputation::Vibe::GetAffiliation(iTargetRep, uTargetAffiliation,false);
+			pub::SpaceObj::GetRep(dmg->get_inflictor_id(), iPlayerRep);
+			Reputation::Vibe::Verify(iPlayerRep);
+			Reputation::Vibe::GetAffiliation(iPlayerRep, uKillerAffiliation,false);
+			pub::Reputation::GetGroupFeelingsTowards(iPlayerRep, uTargetAffiliation, fAttitude);
+			if (fAttitude > set_fMaximumRewardRep) {
+				if (set_bBountiesEnabled)
+					PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1218"), set_fMaximumRewardRep);
+			}
+			else
+			{
+				// Обрабатывайте баунти, если включено.
+				if (set_bBountiesEnabled) {
+					int iBountyPayout = 0;
+
+					// Определить размер вознаграждения.
+					map<uint, stBountyBasePayout>::iterator iter = mapBountyShipPayouts.find(uArchID);
+					if (iter != mapBountyShipPayouts.end()) {
+						if (set_iPluginDebug >= PLUGIN_DEBUG_VERBOSE)
+							PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1219"), uArchID, iter->second.iBasePayout);
+						iBountyPayout = iter->second.iBasePayout;
+					}
+					else {
+						map<uint, stBountyBasePayout>::iterator iter = mapBountyPayouts.find(victimShiparch->iShipClass);
+						if (iter != mapBountyPayouts.end()) {
+							iBountyPayout = iter->second.iBasePayout;
+							if (victimShiparch->iShipClass < 5) {
+								unsigned int iDunno = 0;
+								IObjInspectImpl* obj = NULL;
+								if (GetShipInspect(iDmgToSpaceID, obj, iDunno))
+								{
+									if (obj)
+									{
+										CShip* cship = (CShip*)HkGetEqObjFromObjRW((IObjRW*)obj);
+										CEquipManager* eqmanager = (CEquipManager*)((char*)cship + 0xE4);
+										CEArmor* cearmor = (CEArmor*)eqmanager->FindFirst(0x1000000);
+
+										// Если у NPC есть броня, посмотрите, есть ли у нас множитель шкалы брони, который можно использовать на нем.
+										if (cearmor) {
+											map<uint, float>::iterator iter = mapBountyArmorScales.find(cearmor->archetype->iArchID);
+											if (iter != mapBountyArmorScales.end())
+												iBountyPayout = (int)((float)iBountyPayout * iter->second);
+										}
+									}
+								}
+							}
+						}
+					}
+
+					if (iLoadedNPCBountyWarzoneScales) {
+						for (auto it = mmapBountyWarzoneScales.begin(); it != mmapBountyWarzoneScales.end(); it++) {
+							if (it->first == uKillerSystem) {
+								if ((it->second.uFaction1 == uKillerAffiliation && it->second.uFaction2 == uTargetAffiliation) || (it->second.uFaction2 == uKillerAffiliation && it->second.uFaction1 == uTargetAffiliation)) {
+									if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+										PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1220"), uKillerAffiliation, uTargetAffiliation, it->second.fMultiplier);
+									iBountyPayout *= (int)it->second.fMultiplier;
+								}
+							}
+						}
+					}
+
+					// Умножьте на системный множитель, если применимо.
+					if (iLoadedNPCBountySystemScales) {
+						map<uint, float>::iterator itSystemScale = mapBountySystemScales.find(uKillerSystem);
+						if (itSystemScale != mapBountySystemScales.end())
+							iBountyPayout *= (int)itSystemScale->second;
+					}
+
+					// Умножьте на множитель разницы классов, если применимо.
+					if (iLoadedClassDiffMultipliers) {
+						uint iDmgFromShipClass = Archetype::GetShip(Players[iClientID].iShipArchetype)->iShipClass;
+
+						int classDiff = 0;
+						map<uint, uint>::iterator itVictimType = mapShipClassTypes.find(victimShiparch->iShipClass);
+						map<uint, uint>::iterator itKillerType = mapShipClassTypes.find(iDmgFromShipClass);
+						if (itVictimType != mapShipClassTypes.end() && itKillerType != mapShipClassTypes.end())
+							classDiff = itVictimType->second - itKillerType->second;
+
+						map<int, float>::iterator itDiffMultiplier = mapClassDiffMultipliers.lower_bound(classDiff);
+						if (itDiffMultiplier != mapClassDiffMultipliers.end())
+							iBountyPayout *= (int)itDiffMultiplier->second;
+						if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+							PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1221"), iBountyPayout, itDiffMultiplier->second, itKillerType->second, itVictimType->second);
+					}
+
+					// Если мы отключили вознаграждение, не платите его.
+					if (set_bBountiesEnabled == false)
+						iBountyPayout = 0;
+
+					if (iBountyPayout) {
+						list<GROUP_MEMBER> lstMembers;
+						HkGetGroupMembers((const wchar_t*)Players.GetActiveCharacterName(iClientID), lstMembers);
+
+						if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+							PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1222"), lstMembers.size());
+
+						foreach(lstMembers, GROUP_MEMBER, gm) {
+							uint uGroupMemberSystem = 0;
+							pub::Player::GetSystem(gm->iClientID, uGroupMemberSystem);
+							if (uKillerSystem != uGroupMemberSystem)
+								lstMembers.erase(gm);
+						}
+
+						if (mapBountyGroupScale[lstMembers.size()])
+							iBountyPayout = (int)((float)iBountyPayout * mapBountyGroupScale[lstMembers.size()]);
+						else
+							iBountyPayout = (int)((float)iBountyPayout / lstMembers.size());
+
+						if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+							PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1223"), iBountyPayout, lstMembers.size());
+
+						foreach(lstMembers, GROUP_MEMBER, gm) {
+							NPCBountyAddToPool(gm->iClientID, iBountyPayout, set_iPoolPayoutTimer);
+							if (!set_iPoolPayoutTimer)
+								NPCBountyPayout(gm->iClientID);
+						}
+
+					}
+				}
+			}
+
+		
+			// Процесс прекращается, если он включен.
+			if (set_bDropsEnabled) {
+				for (auto it = mmapDropInfo.begin(); it != mmapDropInfo.end(); it++) {
+					if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+					{
+						PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1224"), it->first, it->second.uFactionID, it->second.fChance, it->second.uGoodID);
+						PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1225"), uTargetAffiliation, it->second.uFactionID);
+					}
+					//PrintUserCmdTextColorKV(iClientID, L"" + to_wstring(it->first), L"->" + to_wstring(victimShiparch->iShipClass));
+					//if (it->second.uFactionID == uTargetAffiliation)
+					//{
+					//	PrintUserCmdTextColorKV(iClientID, L"" + to_wstring(it->second.uFactionID), L"->" + to_wstring(uTargetAffiliation));
+					//	PrintUserCmdTextColorKV(iClientID, L"" + to_wstring(it->first), L"->" + to_wstring(victimShiparch->iShipClass));
+					//}
+
+					// если класс побеждённой цели и её фракция соответствует то производим рассчёт награды которая выпадает с неё
+					if (it->first == victimShiparch->iShipClass && it->second.uFactionID == uTargetAffiliation) {
+						if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+							PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1226"), it->first, it->second.fChance, it->second.uGoodID);
+						float roll = static_cast<float>(rand()) / static_cast<float>(RAND_MAX);
+
+						//PrintUserCmdTextColorKV(iClientID, L"" + to_wstring(it->first), L"->" + to_wstring(it->second.uFactionID) + L"->" + to_wstring(roll));
+						if (roll < it->second.fChance) {
+							if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+								PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1227"), roll);
+							Vector vLoc = { 0.0f, 0.0f, 0.0f };
+							Matrix mRot = { 0.0f, 0.0f, 0.0f };
+							pub::SpaceObj::GetLocation(iDmgToSpaceID, vLoc, mRot);
+							vLoc.x += 30.0;
+							PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1228"));
+							Server.MineAsteroid(uKillerSystem, vLoc, set_uLootCrateID, it->second.uGoodID, 1, iClientID);
+						}
+						else
+							if (set_iPluginDebug >= PLUGIN_DEBUG_VERYVERBOSE)
+								PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_1229"), roll);
+					}
+				}
+			}
+		}
+	}
+}
+
+void HkTimerCheckKick()
+{
+	returncode = DEFAULT_RETURNCODE;
+	uint curr_time = (uint)time(0);
+
+	// Pay bounty pools as required.
+	if (set_iPoolPayoutTimer) {
+		if (curr_time % set_iPoolPayoutTimer == 0) {
+			for (int i = 0; i < 250; i++) {
+				if (aClientData[i].bounty_pool)
+					NPCBountyPayout(i);
+			}
+		}
+	}
+
+	// Clear our list of recorded bounty objects every minute.
+	if (curr_time % 60 == 0) {
+		lstRecordedBountyObjs.clear();
+	}
+}
+
+void __stdcall BaseEnter(uint iBaseID, uint iClientID)
+{
+	returncode = DEFAULT_RETURNCODE;
+
+	// Pay bounty pool when a client docks so we don't have to screw around with client disconnections and other garbage like that.
+	if (aClientData[iClientID].bounty_pool)
+		NPCBountyPayout(iClientID);
+}
+
+void __stdcall DisConnect(uint iClientID, enum EFLConnection p2)
+{
+	returncode = DEFAULT_RETURNCODE;
+
+	//ConPrint(L"PVE: DisConnect for id=%d char=%s\n", iClientID, Players.GetActiveCharacterName(iClientID));
+
+	/*if (ClientInfo[iClientID].bCharSelected)
+		NPCBountyPayout(iClientID);*/
+
+	ClearClientInfo(iClientID);
+}
+
+EXPORT PLUGIN_INFO* Get_PluginInfo()
+{
+	PLUGIN_INFO* p_PI = new PLUGIN_INFO();
+	p_PI->sName = "PvE Controller by Kazinsal et al.";
+	p_PI->sShortName = "pvecontroller";
+	p_PI->bMayPause = true;
+	p_PI->bMayUnload = true;
+	p_PI->ePluginReturnCode = &returncode;
+	
+	p_PI->lstHooks.push_back(PLUGIN_HOOKINFO((FARPROC*)&LoadSettings, PLUGIN_LoadSettings, 0));
+	p_PI->lstHooks.push_back(PLUGIN_HOOKINFO((FARPROC*)&ClearClientInfo, PLUGIN_ClearClientInfo, 0));
+	p_PI->lstHooks.push_back(PLUGIN_HOOKINFO((FARPROC*)&UserCmd_Process, PLUGIN_UserCmd_Process, 0));
+	p_PI->lstHooks.push_back(PLUGIN_HOOKINFO((FARPROC*)&ExecuteCommandString_Callback, PLUGIN_ExecuteCommandString_Callback, 0));
+	p_PI->lstHooks.push_back(PLUGIN_HOOKINFO((FARPROC*)&HkCb_AddDmgEntry, PLUGIN_HkCb_AddDmgEntry, 0));
+	p_PI->lstHooks.push_back(PLUGIN_HOOKINFO((FARPROC*)&HkTimerCheckKick, PLUGIN_HkTimerCheckKick, 0));
+	p_PI->lstHooks.push_back(PLUGIN_HOOKINFO((FARPROC*)&BaseEnter, PLUGIN_HkIServerImpl_BaseEnter, 0));
+	p_PI->lstHooks.push_back(PLUGIN_HOOKINFO((FARPROC*)&DisConnect, PLUGIN_HkIServerImpl_DisConnect, 0));
+
+	return p_PI;
+}

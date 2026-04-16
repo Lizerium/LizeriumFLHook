@@ -1,0 +1,6510 @@
+{
+	"MSG_0001": {
+		"ru": "ОШИБКА: Вы не в космосе.",
+		"en": "ERROR: You're not in space."
+	},
+	"MSG_0002": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0003": {
+		"ru": "Используйте команду /back, чтобы остановить отправку автоматических ответов на личные сообщения.",
+		"en": "Use the /back command to stop sending automatic responses to private messages."
+	},
+	"MSG_0004": {
+		"ru": "Вы отмечены меткой AFK. Чтобы отметить себя, используйте команду /afk",
+		"en": "You're marked AFK. To mark yourself, use the /afk command"
+	},
+	"MSG_0005": {
+		"ru": "Этот пользователь временно недоступен.",
+		"en": "This user is temporarily unavailable."
+	},
+	"MSG_0006": {
+		"ru": "/afk ",
+		"en": "/afk "
+	},
+	"MSG_0007": {
+		"ru": "Устанавливает пользователю метку AFK. Если сообщения других игроков ему отправлены, им будет сказано, что вы временно недоступны.",
+		"en": "Sets the user an AFK label. If other players are sent messages, they will be told that you are temporarily unavailable."
+	},
+	"MSG_0008": {
+		"ru": "/back ",
+		"en": "/back "
+	},
+	"MSG_0009": {
+		"ru": "Отключает метку AFK для пользователя.",
+		"en": "Disables the AFK tag for the user."
+	},
+	"MSG_0010": {
+		"ru": " Изменить систему на %u",
+		"en": " Change the system to %u"
+	},
+	"MSG_0011": {
+		"ru": "Идентификатор базы: %08x",
+		"en": "Base ID: %08x"
+	},
+	"MSG_0012": {
+		"ru": "Вы находитесь в тюремной системе за нарушение правил сервера.",
+		"en": "You are in prison for violating server rules."
+	},
+	"MSG_0013": {
+		"ru": "Для получения дополнительной информации перейдите в раздел уведомлений о санкциях на форумах.",
+		"en": "For more information, go to the Sanctions Notifications section of the forums."
+	},
+	"MSG_0014": {
+		"ru": "Если в отношении этого судна нет никаких санкций, свяжитесь с администрацией на форума.",
+		"en": "If there are no sanctions regarding this vessel, please contact the administration at the forum."
+	},
+	"MSG_0015": {
+		"ru": "Чаты с поддержкой тут: https://vk.com/lizerium_game",
+		"en": "Chats with support here: https://vk.com/lizerium_game"
+	},
+	"MSG_0016": {
+		"ru": "Вы — администратор платинового уровня. Используйте $help для получения списка доступных команд.",
+		"en": "You are a platinum level Admin. Use $help for a list of available commands."
+	},
+	"MSG_0017": {
+		"ru": "Ты не Ангел. Теперь у тебя будет постоянная подписка о невыезде.",
+		"en": "You're not an Angel. Now you will have a permanent subscription not to leave."
+	},
+	"MSG_0018": {
+		"ru": "Вы — ангел платинового уровня. Используйте $help для получения списка доступных команд.",
+		"en": "You are a platinum level Angel. Use $help for a list of available commands."
+	},
+	"MSG_0019": {
+		"ru": "Ангелам платинового уровня доступны следующие команды:",
+		"en": "The following commands are available to platinum level angels:"
+	},
+	"MSG_0020": {
+		"ru": "Команда: $chase <charname> - Телепортирует вас через Боба к нужному игроку",
+		"en": "Team: $chase <charname> Teleports you through Bob to the right player"
+	},
+	"MSG_0021": {
+		"ru": "Вы — администратор платинового уровня. Используйте $help для получения списка доступных команд.",
+		"en": "You are a platinum level Admin. Use $help for a list of available commands."
+	},
+	"MSG_0022": {
+		"ru": "Ты не Ангел. Теперь у тебя будет постоянная подписка о невыезде.",
+		"en": "You're not an Angel. Now you will have a permanent subscription not to leave."
+	},
+	"MSG_0023": {
+		"ru": "ОШИБКА: недопустимые параметры",
+		"en": "ERROR: Unacceptable parameters"
+	},
+	"MSG_0024": {
+		"ru": "ОШИБКА: Вы не в космосе\\n",
+		"en": "ERROR: You are not in space\\n"
+	},
+	"MSG_0025": {
+		"ru": "ОШИБКА: игрок не найден в космосе\\n",
+		"en": "ERROR: Player not found in space\\n"
+	},
+	"MSG_0026": {
+		"ru": "Прыжок к системе=%s в x=%0.0f y=%0.0f z=%0.0f\\n",
+		"en": "Jump to the system=%s in x=%0.0f y=%0.0f z=%0.0f\\n"
+	},
+	"MSG_0027": {
+		"ru": "Вы — Ангел платинового уровня.",
+		"en": "You are a platinum level Angel."
+	},
+	"MSG_0028": {
+		"ru": "ОШИБКА: Вы не в космосе",
+		"en": "ERROR: You're not in space"
+	},
+	"MSG_0029": {
+		"ru": "Отправка аудиозаписи старта гонки и целей миссии всем, кто находится в пределах 5 тыс.",
+		"en": "Send audio recordings of the start of the race and mission goals to anyone within 5,000."
+	},
+	"MSG_0030": {
+		"ru": "Вам не разрешается этим пользоваться.",
+		"en": "You're not allowed to use it."
+	},
+	"MSG_0031": {
+		"ru": "ОТЛАДКА: Кот = да",
+		"en": "DEBUG: Cat = yes"
+	},
+	"MSG_0032": {
+		"ru": "ОТЛАДКА: Кот = нет",
+		"en": "DEBUG: Cat = no"
+	},
+	"MSG_0033": {
+		"ru": "ОТЛАДКА: У нас есть %d кеглей",
+		"en": "DEBUG: We have %d skittles"
+	},
+	"MSG_0034": {
+		"ru": "Вам не разрешается этим пользоваться.",
+		"en": "You're not allowed to use it."
+	},
+	"MSG_0035": {
+		"ru": "Вам разрешено использовать это.",
+		"en": "You're allowed to use this."
+	},
+	"MSG_0036": {
+		"ru": "ОШИБКА: Вы пристыкованы",
+		"en": "ERROR: You docked"
+	},
+	"MSG_0037": {
+		"ru": "ОШИБКА: Нет цели",
+		"en": "ERROR: No goal"
+	},
+	"MSG_0038": {
+		"ru": "ОШИБКА: Цель - не игрок",
+		"en": "ERROR: Goal is not a player"
+	},
+	"MSG_0039": {
+		"ru": "ХОРОШО: удаление прав на стыковку сброшено на %d секунд",
+		"en": "OK: removal of docking rights reset by %d seconds"
+	},
+	"MSG_0040": {
+		"ru": "Удаление прав на стыковку сбрасывается до %d секунд",
+		"en": "Removal of docking rights resets to %d seconds"
+	},
+	"MSG_0041": {
+		"ru": "Вам не разрешается причаливать ни к какой базе.",
+		"en": "You are not allowed to land on any base."
+	},
+	"MSG_0042": {
+		"ru": "На вас не распространяется действие дока. 1-й",
+		"en": "You are under nodock effect. 1st"
+	},
+	"MSG_0043": {
+		"ru": "Он хороший, нам не нужно продолжать.",
+		"en": "He's nice, we don't have to carry on"
+	},
+	"MSG_0044": {
+		"ru": "В настоящее время вам не разрешено пришвартовываться к этой базе.",
+		"en": "You are currently not allowed to moor at this base."
+	},
+	"MSG_0045": {
+		"ru": "Удаление прав на стыковку сбрасывается до %d секунд",
+		"en": "Removal of docking rights resets to %d seconds"
+	},
+	"MSG_0046": {
+		"ru": "ОШИБКА: Вы закреплены",
+		"en": "ERROR: You're fixed"
+	},
+	"MSG_0047": {
+		"ru": "Вам не разрешается этим пользоваться.",
+		"en": "You're not allowed to use it."
+	},
+	"MSG_0048": {
+		"ru": "Полицейская система отключена.",
+		"en": "The police system is down."
+	},
+	"MSG_0049": {
+		"ru": "Полицейская система активирована.",
+		"en": "Police system activated."
+	},
+	"MSG_0050": {
+		"ru": "ОШИБКА: Вы не пристыкованы к базе",
+		"en": "ERROR: You're not docked to the base"
+	},
+	"MSG_0051": {
+		"ru": "Делай, что хочешь, потому что пират свободен, ты и есть пират!",
+		"en": "Do what you want, because the pirate is free, you are the pirate!"
+	},
+	"MSG_0052": {
+		"ru": "ОШИБКА: не верные параметры",
+		"en": "ERROR: Wrong parameters"
+	},
+	"MSG_0053": {
+		"ru": "ОШИБКА: Вы не на базе",
+		"en": "ERROR: You're not on base"
+	},
+	"MSG_0054": {
+		"ru": "ОШИБКА: не верные параметры",
+		"en": "ERROR: Wrong parameters"
+	},
+	"MSG_0055": {
+		"ru": "ОШИБКА: ",
+		"en": "MISTAKE: "
+	},
+	"MSG_0056": {
+		"ru": "ОШИБКА: Недостаточно кредитов",
+		"en": "ERROR: Not enough loans"
+	},
+	"MSG_0057": {
+		"ru": "Вам придется подождать, прежде чем вы сможете отметить другую цель.",
+		"en": "You will have to wait before you can mark another goal."
+	},
+	"MSG_0058": {
+		"ru": "ОШИБКА: у вас должно быть что-то выделено, чтобы отметить это.",
+		"en": "ERROR: You should have something highlighted to mark it."
+	},
+	"MSG_0059": {
+		"ru": "ОШИБКА: Это не корабль игрока.",
+		"en": "ERROR: It's not a player's ship."
+	},
+	"MSG_0060": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0061": {
+		"ru": "Невозможно выбросить за борт, пока он пришвартован.",
+		"en": "You can't throw it overboard while it's moored."
+	},
+	"MSG_0062": {
+		"ru": "ХОРОШО: сброшено %u предметов",
+		"en": "OK: dropped %u items"
+	},
+	"MSG_0063": {
+		"ru": "Секретный код: %d",
+		"en": "Secret code: %d"
+	},
+	"MSG_0064": {
+		"ru": "Прогнозируемый ущерб: %f",
+		"en": "Projected damage: %f"
+	},
+	"MSG_0065": {
+		"ru": "Слот-матч",
+		"en": "Slot match"
+	},
+	"MSG_0066": {
+		"ru": "ОШИБКА: Вы не можете выбросить %s за борт.",
+		"en": "ERROR: You can't throw %s overboard."
+	},
+	"MSG_0067": {
+		"ru": "ОШИБКА: Вы не можете обменять %s. Игрок не получит его.",
+		"en": "ERROR: You cannot exchange %. The player won't get it."
+	},
+	"MSG_0068": {
+		"ru": "Срабатывает при добавлении груза",
+		"en": "Triggered on add cargo"
+	},
+	"MSG_0069": {
+		"ru": "Срабатывает при добавлении снаряжения",
+		"en": "Triggered on add equip"
+	},
+	"MSG_0070": {
+		"ru": "Срабатывает при демонтаже оборудования",
+		"en": "Triggered on equipment unmount"
+	},
+	"MSG_0071": {
+		"ru": "Срабатывает при креплении оборудования",
+		"en": "Triggered on equipment mount"
+	},
+	"MSG_0072": {
+		"ru": "меньшие какашки",
+		"en": "smaller poop"
+	},
+	"MSG_0073": {
+		"ru": "Сработало при продаже груза",
+		"en": "Triggered on cargo sale"
+	},
+	"MSG_0074": {
+		"ru": "Мне нравится %d",
+		"en": "I like %d"
+	},
+	"MSG_0075": {
+		"ru": "Срабатывает при продаже оборудования",
+		"en": "Triggered on equip sale"
+	},
+	"MSG_0076": {
+		"ru": "ОТЛАДКА: Этот класс кораблей известен как %s",
+		"en": "DEBUG: This ship class is known as %s"
+	},
+	"MSG_0077": {
+		"ru": "ОТЛАДКА: Этот класс корабля подходит для предмета %s.",
+		"en": "DEBUG: This ship class is OK for item %s."
+	},
+	"MSG_0078": {
+		"ru": "ОТЛАДКА: Помечено как «имя владельца»",
+		"en": "DEBUG: Tagged for ownage"
+	},
+	"MSG_0079": {
+		"ru": "ОТЛАДКА: Обнаружен не складываемый элемент %s.",
+		"en": "DEBUG: Found non-stackable item %s."
+	},
+	"MSG_0080": {
+		"ru": "ОТЛАДКА: Для ownage ничего не найдено.",
+		"en": "DEBUG: Not found for ownage."
+	},
+	"MSG_0081": {
+		"ru": "ОТЛАДКА: Принято. Отправляю обратно на базу.",
+		"en": "Debug: Owned. Sending you back to base."
+	},
+	"MSG_0082": {
+		"ru": "ОТЛАДКА: zonerzonerzonerzoner",
+		"en": "DEBUG: zonerzonerzonerzoner"
+	},
+	"MSG_0083": {
+		"ru": "ОТЛАДКА: Кот = нет",
+		"en": "DEBUG: Cat = no"
+	},
+	"MSG_0084": {
+		"ru": "ОТЛАДКА: Нашел тебя",
+		"en": "DEBUG: Found you"
+	},
+	"MSG_0085": {
+		"ru": "ОТЛАДКА: Мы находимся в системе, которая нам небезразлична",
+		"en": "DEBUG: We are in a system we care about"
+	},
+	"MSG_0086": {
+		"ru": "Объем грузового отсека превышает разрешенную вместимость. В стыковке отказано.",
+		"en": "The volume of the cargo compartment exceeds the permitted capacity. Docking denied."
+	},
+	"MSG_0087": {
+		"ru": "Кораблям этого класса запрещено заходить в док в этой системе. Стыковка запрещена.",
+		"en": "Ships of this class are not allowed to dock in this system. Docking is prohibited."
+	},
+	"MSG_0088": {
+		"ru": "ОТЛАДКА: Мы не в системе, которая нам интересна",
+		"en": "DEBUG: We are not in a system we care about"
+	},
+	"MSG_0089": {
+		"ru": "Запустил античит!",
+		"en": "Started antecheat!"
+	},
+	"MSG_0090": {
+		"ru": "HkGetConnectionStats  != HKE_OK",
+		"en": "HkGetConnectionStats  != HKE_OK"
+	},
+	"MSG_0091": {
+		"ru": "<Параметры>:",
+		"en": "<Parameters>:"
+	},
+	"MSG_0092": {
+		"ru": "Примеры:",
+		"en": "Examples:"
+	},
+	"MSG_0093": {
+		"ru": "Автопокупка отключена.",
+		"en": "Car purchase is offline."
+	},
+	"MSG_0094": {
+		"ru": "Для ракет: %s",
+		"en": "For missiles: %s"
+	},
+	"MSG_0095": {
+		"ru": "Для мин: %s",
+		"en": "For mines: %s"
+	},
+	"MSG_0096": {
+		"ru": "Для торпед: %s",
+		"en": "For torpedoes: %s"
+	},
+	"MSG_0097": {
+		"ru": "Для блокираторов: %s",
+		"en": "For blockers: %s"
+	},
+	"MSG_0098": {
+		"ru": "Для обманок: %s",
+		"en": "For deception: %s"
+	},
+	"MSG_0099": {
+		"ru": "Для амуниции: %s",
+		"en": "For ammunition: %s"
+	},
+	"MSG_0100": {
+		"ru": "Для батарей невидимости: %s",
+		"en": "For invisibility batteries: %s"
+	},
+	"MSG_0101": {
+		"ru": "Для нанороботов и батарей щита: %s",
+		"en": "For nanorobots and shield batteries: %s"
+	},
+	"MSG_0102": {
+		"ru": "Для восстановления прочности: %s",
+		"en": "To restore strength: %s"
+	},
+	"MSG_0103": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0104": {
+		"ru": "Вы потеряли боеприпасы, потому что у вас их было больше, чем следовало.",
+		"en": "You lost ammunition because you had more than you should have."
+	},
+	"MSG_0105": {
+		"ru": "Автопокупка(Ремонт): ОШИБКА! Недостаточно кредитов.",
+		"en": "Auto purchase (Repair): Mistake! Not enough loans."
+	},
+	"MSG_0106": {
+		"ru": "Автопокупка(Ремонт): Стоимость %s$",
+		"en": "Auto purchase (Repair): Cost of %s$"
+	},
+	"MSG_0107": {
+		"ru": "Автопокупка(%s): НЕУДАЧНО! Недостаточно места в багажнике.",
+		"en": "Auto-Buy(%s): Failed! Insufficient cargo space"
+	},
+	"MSG_0108": {
+		"ru": "Автопокупка(%s): ОШИБКА! Недостаточно кредитов.",
+		"en": "Purchase (%s): Mistake! Not enough loans."
+	},
+	"MSG_0109": {
+		"ru": "Автопокупка(%s): Куплено %d едениц(s), стоимость: %s$",
+		"en": "Auto purchase(%s): Purchased %d units(s), value: %s$"
+	},
+	"MSG_0110": {
+		"ru": "ОШИКБКА: невозможно включить машину времени, пока вы отстыкованы",
+		"en": "ERROR: You can't turn on the time machine while you're undocked"
+	},
+	"MSG_0111": {
+		"ru": "Машина времени съела %i современные SNAC и вернули старые ржавые из ушедшей эпохи.",
+		"en": "The time machine ate the %i of modern SNACs and brought back the old rusty ones from a bygone era."
+	},
+	"MSG_0112": {
+		"ru": "Машина времени была разочарована, обнаружив, что у вас нет демонтированных SNAC, которые можно было бы передать ей.",
+		"en": "The time machine was disappointed to find that you didn't have dismantled SNACs to hand over to it."
+	},
+	"MSG_0113": {
+		"ru": "Машина времени была разочарована, обнаружив, что у вас нет демонтированных SNAC, которые можно было бы передать ей.",
+		"en": "The time machine was disappointed to find that you didn't have dismantled SNACs to hand over to it."
+	},
+	"MSG_0114": {
+		"ru": "База %s уничтожена",
+		"en": "Base %s destroyed"
+	},
+	"MSG_0115": {
+		"ru": " Изменить систему %u",
+		"en": " ChangeSystem %u"
+	},
+	"MSG_0116": {
+		"ru": "Проверка наличия судна/тега в черном списке...",
+		"en": "Checking if ship/tag exists in blacklist..."
+	},
+	"MSG_0117": {
+		"ru": "Продолжаем...",
+		"en": "Proceeding..."
+	},
+	"MSG_0118": {
+		"ru": "Проверка наличия судна/тега в белом списке..",
+		"en": "Checking if ship/tag exists in whitelist..."
+	},
+	"MSG_0119": {
+		"ru": "Продолжаем...",
+		"en": "Proceeding..."
+	},
+	"MSG_0120": {
+		"ru": "ОТЛАДКА: найден приемлемый идентификатор.",
+		"en": "DEBUG: Found acceptable ID."
+	},
+	"MSG_0121": {
+		"ru": "ОШИБКА: Невозможно состыковаться с этим идентификатором.",
+		"en": "ERROR: Unable to dock with this ID."
+	},
+	"MSG_0122": {
+		"ru": "ОТЛАДКА: Найден приемлемый класс корабля.",
+		"en": "DEBUG: Found acceptable shipclass."
+	},
+	"MSG_0123": {
+		"ru": "ОШИБКА: Невозможно состыковаться с судном этого типа.",
+		"en": "ERROR: Unable to dock with a vessel of this type."
+	},
+	"MSG_0124": {
+		"ru": "Перейти к системе=%s x=%0.0f y=%0.0f z=%0.0f\\n",
+		"en": "Jump to system=%s x=%0.0f y=%0.0f z=%0.0f\\n"
+	},
+	"MSG_0125": {
+		"ru": "Стыковка не удалась из-за активности базового щита.",
+		"en": "Dock failed because base shield is active"
+	},
+	"MSG_0126": {
+		"ru": "Стыковка на этой базе ограничена.",
+		"en": "Docking at this base is restricted"
+	},
+	"MSG_0127": {
+		"ru": "Стыковка не удалась из-за активности базового щита.",
+		"en": "Dock failed because base shield is active"
+	},
+	"MSG_0128": {
+		"ru": "Стыковка на этой базе ограничена.",
+		"en": "Docking at this base is restricted"
+	},
+	"MSG_0129": {
+		"ru": "ОШИБКА: База не принимает товары",
+		"en": "ERROR: Base will not accept goods"
+	},
+	"MSG_0130": {
+		"ru": "ТРЕВОГА: КОТЁНОК. Обнаружена незаконная продажа.",
+		"en": "Kitty Allert. Illegal sale detected."
+	},
+	"MSG_0131": {
+		"ru": "ТРЕВОГА: КОТЁНОК. Обнаружена незаконная продажа.",
+		"en": "Kitty Allert. Illegal sale detected."
+	},
+	"MSG_0132": {
+		"ru": "ОШИБКА: База не может принять товар, недостаточно денег",
+		"en": "ERROR: Base cannot accept goods, insufficient cash"
+	},
+	"MSG_0133": {
+		"ru": "ОШИБКА: База не может принять товары, достигнут лимит запасов",
+		"en": "ERROR: Base cannot accept goods, stock limit reached"
+	},
+	"MSG_0134": {
+		"ru": "ОШИБКА: Персонаж слишком ценен.",
+		"en": "ERROR: Character too valuable."
+	},
+	"MSG_0135": {
+		"ru": "ОШИБКА: База не принимает товары",
+		"en": "ERROR: Base will not accept goods"
+	},
+	"MSG_0136": {
+		"ru": "Обработка депозита события, пожалуйста, подождите 15 секунд...",
+		"en": "Processing event deposit, please wait up to 15 seconds..."
+	},
+	"MSG_0137": {
+		"ru": "ОШИБКА: База не будет продавать товары",
+		"en": "ERROR: Base will not sell goods"
+	},
+	"MSG_0138": {
+		"ru": "ОШИБКА: Недостаточно кредитов",
+		"en": "ERROR: Not enough credits"
+	},
+	"MSG_0139": {
+		"ru": "Разрешена продажа базовых товаров, принадлежащих игроку, с нарушением минимальной стоимости запасов магазина из-за входа администратора базы.",
+		"en": "Permitted player-owned base good sale in violation of shops' minimum stock value due to base admin login."
+	},
+	"MSG_0140": {
+		"ru": "Купленный корабль",
+		"en": "Purchased ship"
+	},
+	"MSG_0141": {
+		"ru": "Купленный корпус",
+		"en": "Purchased hull"
+	},
+	"MSG_0142": {
+		"ru": "Вас выгонят с должности, чтобы обновить ваш корабль.",
+		"en": "You will be kicked to update your ship."
+	},
+	"MSG_0143": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0144": {
+		"ru": "ОШИБКА: Ошибка развертывания, повторите, пожалуйста.",
+		"en": "ERROR: Deployment error, please reiterate."
+	},
+	"MSG_0145": {
+		"ru": "ХОРОШО: Осадная пушка развернута",
+		"en": "OK: Siege Cannon deployed"
+	},
+	"MSG_0146": {
+		"ru": "Пароль администратора по умолчанию: %s",
+		"en": "Default administration password is %s"
+	},
+	"MSG_0147": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0148": {
+		"ru": "ОШИБКА: Корабль движется",
+		"en": "ERROR: Ship is moving"
+	},
+	"MSG_0149": {
+		"ru": "ОШИБКА: Нет архетипа",
+		"en": "ERROR: No archtype"
+	},
+	"MSG_0150": {
+		"ru": "Использование: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>",
+		"en": "Usage: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>"
+	},
+	"MSG_0151": {
+		"ru": "ОШИБКА: Нет загрузки",
+		"en": "ERROR: No loadout"
+	},
+	"MSG_0152": {
+		"ru": "Использование: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>",
+		"en": "Usage: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>"
+	},
+	"MSG_0153": {
+		"ru": "ОШИБКА: Нет типа",
+		"en": "ERROR: No type"
+	},
+	"MSG_0154": {
+		"ru": "Использование: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>",
+		"en": "Usage: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>"
+	},
+	"MSG_0155": {
+		"ru": "ОШИБКА: Нет целевой системы",
+		"en": "ERROR: No destination system"
+	},
+	"MSG_0156": {
+		"ru": "Использование: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>",
+		"en": "Usage: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>"
+	},
+	"MSG_0157": {
+		"ru": "ОШИБКА: Нет принадлежности",
+		"en": "ERROR: No affiliation"
+	},
+	"MSG_0158": {
+		"ru": "Использование: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>",
+		"en": "Usage: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>"
+	},
+	"MSG_0159": {
+		"ru": "ОШИБКА: Имя не введено",
+		"en": "ERROR: No name entered"
+	},
+	"MSG_0160": {
+		"ru": "Использование: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>",
+		"en": "Usage: .jumpcreate <archtype> <loadout> <type> <dest system> <x> <y> <z> <affiliation> <name>"
+	},
+	"MSG_0161": {
+		"ru": "ОШИБКА: Базовое имя уже существует",
+		"en": "ERROR: Base name already exists"
+	},
+	"MSG_0162": {
+		"ru": "ХОРОШО: Солнечная развернута",
+		"en": "OK: Solar deployed"
+	},
+	"MSG_0163": {
+		"ru": "Пароль администратора по умолчанию: %s",
+		"en": "Default administration password is %s"
+	},
+	"MSG_0164": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0165": {
+		"ru": "ОШИБКА: Корабль движется",
+		"en": "ERROR: Ship is moving"
+	},
+	"MSG_0166": {
+		"ru": "ОШИБКА: Нет пароля",
+		"en": "ERROR: No password"
+	},
+	"MSG_0167": {
+		"ru": "Использование: .basecreate <password> <archtype> <loadout> <type> <name>",
+		"en": "Usage: .basecreate <password> <archtype> <loadout> <type> <name>"
+	},
+	"MSG_0168": {
+		"ru": "ОШИБКА: Нет архетипа",
+		"en": "ERROR: No archtype"
+	},
+	"MSG_0169": {
+		"ru": "Использование: .basecreate <password> <archtype> <loadout> <type> <name>",
+		"en": "Usage: .basecreate <password> <archtype> <loadout> <type> <name>"
+	},
+	"MSG_0170": {
+		"ru": "ОШИБКА: Нет загрузки",
+		"en": "ERROR: No loadout"
+	},
+	"MSG_0171": {
+		"ru": "Использование: .basecreate <password> <archtype> <loadout> <type> <name>",
+		"en": "Usage: .basecreate <password> <archtype> <loadout> <type> <name>"
+	},
+	"MSG_0172": {
+		"ru": "ОШИБКА: Нет типа",
+		"en": "ERROR: No type"
+	},
+	"MSG_0173": {
+		"ru": "Использование: .basecreate <password> <archtype> <loadout> <type> <name>",
+		"en": "Usage: .basecreate <password> <archtype> <loadout> <type> <name>"
+	},
+	"MSG_0174": {
+		"ru": "ОШИБКА: Нет имени",
+		"en": "ERROR: No name"
+	},
+	"MSG_0175": {
+		"ru": "Использование: .basecreate <password> <archtype> <loadout> <type> <name>",
+		"en": "Usage: .basecreate <password> <archtype> <loadout> <type> <name>"
+	},
+	"MSG_0176": {
+		"ru": "ОШИБКА: Базовое имя уже существует",
+		"en": "ERROR: Base name already exists"
+	},
+	"MSG_0177": {
+		"ru": "ХОРОШО: База развернута",
+		"en": "OK: Base deployed"
+	},
+	"MSG_0178": {
+		"ru": "Пароль администратора по умолчанию: %s",
+		"en": "Default administration password is %s"
+	},
+	"MSG_0179": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0180": {
+		"ru": "ОШИБКА: Вы пытаетесь войти слишком часто. %d неудачных попыток. Подождите %d секунд, прежде чем повторить попытку.",
+		"en": "You are attempting to log in too often. %d unsuccesful attempts. Wait %d seconds before repeating attempt."
+	},
+	"MSG_0181": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0182": {
+		"ru": "ОШИБКА: Нет пароля",
+		"en": "ERROR: No password"
+	},
+	"MSG_0183": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0184": {
+		"ru": "ХОРОШО: Access granted",
+		"en": "OK: Access granted"
+	},
+	"MSG_0185": {
+		"ru": "Welcome administrator, all base command and control functions are available.",
+		"en": "Welcome administrator, all base command and control functions are available."
+	},
+	"MSG_0186": {
+		"ru": "ХОРОШО: Access granted",
+		"en": "OK: Access granted"
+	},
+	"MSG_0187": {
+		"ru": "Welcome shop viewer.",
+		"en": "Welcome shop viewer."
+	},
+	"MSG_0188": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0189": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0190": {
+		"ru": "ОШИБКА: Нет пароля",
+		"en": "ERROR: No password"
+	},
+	"MSG_0191": {
+		"ru": "ОШИБКА: Пароль уже существует",
+		"en": "ERROR: Password already exists"
+	},
+	"MSG_0192": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0193": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0194": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0195": {
+		"ru": "ОШИБКА: Нет пароля",
+		"en": "ERROR: No password"
+	},
+	"MSG_0196": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0197": {
+		"ru": "ОШИБКА: Password does not exist",
+		"en": "ERROR: Password does not exist"
+	},
+	"MSG_0198": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0199": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0200": {
+		"ru": "ОШИБКА: Нет старого пароля",
+		"en": "ERROR: No old password"
+	},
+	"MSG_0201": {
+		"ru": "/base setmasterpwd <old_password> <new_password>",
+		"en": "/base setmasterpwd <old_password> <new_password>"
+	},
+	"MSG_0202": {
+		"ru": "ОШИБКА: Нет нового пароля",
+		"en": "ERROR: No new password"
+	},
+	"MSG_0203": {
+		"ru": "/base setmasterpwd <old_password> <new_password>",
+		"en": "/base setmasterpwd <old_password> <new_password>"
+	},
+	"MSG_0204": {
+		"ru": "ОШИБКА: Пароль уже существует",
+		"en": "ERROR: Password already exists"
+	},
+	"MSG_0205": {
+		"ru": "ОШИБКА: Неверный главный пароль",
+		"en": "ERROR: Incorrect master password"
+	},
+	"MSG_0206": {
+		"ru": "/base setmasterpwd <old_password> <new_password>",
+		"en": "/base setmasterpwd <old_password> <new_password>"
+	},
+	"MSG_0207": {
+		"ru": "ХОРОШО: New master password %s",
+		"en": "OK: new master password %s"
+	},
+	"MSG_0208": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0209": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0210": {
+		"ru": "%s - администратор",
+		"en": "%s - admin"
+	},
+	"MSG_0211": {
+		"ru": "%s - посмотреть магазин",
+		"en": "%s - viewshop"
+	},
+	"MSG_0212": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0213": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0214": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0215": {
+		"ru": "ОШИБКА: Нет тега",
+		"en": "ERROR: No tag"
+	},
+	"MSG_0216": {
+		"ru": "ОШИБКА: Тег уже существует",
+		"en": "ERROR: Tag already exists"
+	},
+	"MSG_0217": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0218": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0219": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0220": {
+		"ru": "ОШИБКА: Нет тега",
+		"en": "ERROR: No tag"
+	},
+	"MSG_0221": {
+		"ru": "ОШИБКА: Тег не существует",
+		"en": "ERROR: Tag does not exist"
+	},
+	"MSG_0222": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0223": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0224": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0225": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0226": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0227": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0228": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0229": {
+		"ru": "ХОРОШ: очищена базовая репутация",
+		"en": "OK: cleared base reputation"
+	},
+	"MSG_0230": {
+		"ru": "ОШИБКА: Невозможно очистить принадлежность, пожалуйста, свяжитесь с администрацией",
+		"en": "Cannot clear affiliation, please contact administration team"
+	},
+	"MSG_0231": {
+		"ru": "ХОРОШО: Игрок не имеет принадлежности",
+		"en": "OK: Player has no affiliation"
+	},
+	"MSG_0232": {
+		"ru": "ХОРОШО: Принадлежность установлена ​​на %s",
+		"en": "OK: Affiliation set to %s"
+	},
+	"MSG_0233": {
+		"ru": "ОШИБКА: Невозможно установить принадлежность после ее установки. Обратитесь в администрацию.",
+		"en": "Cannot set affiliation once it's been set, please contact administration team"
+	},
+	"MSG_0234": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0235": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0236": {
+		"ru": "ОШИБКА: Нет тега",
+		"en": "ERROR: No tag"
+	},
+	"MSG_0237": {
+		"ru": "ОШИБКА: Тег уже существует",
+		"en": "ERROR: Tag already exists"
+	},
+	"MSG_0238": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0239": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0240": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0241": {
+		"ru": "ОШИБКА: Нет тега",
+		"en": "ERROR: No tag"
+	},
+	"MSG_0242": {
+		"ru": "ОШИБКА: Тег не существует",
+		"en": "ERROR: Tag does not exist"
+	},
+	"MSG_0243": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0244": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0245": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0246": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0247": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0248": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0249": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0250": {
+		"ru": "ОШИБКА: Слишком много символов. Лимит: %d.",
+		"en": "ERROR: Too many characters. Limit is %d"
+	},
+	"MSG_0251": {
+		"ru": "ХОРОШО: Использовано %d/%d символов",
+		"en": "OK: %d/%d characters used"
+	},
+	"MSG_0252": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0253": {
+		"ru": "ОШИБКА: Неверные параметры",
+		"en": "ERROR: Invalid parameters"
+	},
+	"MSG_0254": {
+		"ru": "/base info <paragraph> <command> <text>",
+		"en": "/base info <paragraph> <command> <text>"
+	},
+	"MSG_0255": {
+		"ru": "|  <paragraph> Номер абзаца в диапазоне 1-%d",
+		"en": "|  <paragraph> The paragraph number in the range 1-%d"
+	},
+	"MSG_0256": {
+		"ru": "|  <command> Команда, которую нужно выполнить для абзаца: «a» — добавить, «d» — удалить.",
+		"en": "| <command> The command to perform on the paragraph, 'a' for append, 'd' for delete"
+	},
+	"MSG_0257": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0258": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0259": {
+		"ru": "/base defensemode <mode>",
+		"en": "/base defensemode <mode>"
+	},
+	"MSG_0260": {
+		"ru": "|  <mode> = 1 - Логика: Черный список > Белый список > Положение IFF. | Права на стыковку: Только для судов из белого списка.",
+		"en": "|  <mode> = 1 - Logic: Blacklist > Whitelist > IFF Standing. | Docking Rights: Whitelisted ships only."
+	},
+	"MSG_0261": {
+		"ru": "|  <mode> = 2 - Логика: Черный список > Белый список > Репутация IFF. | Права на стыковку: Любой с хорошей репутацией.",
+		"en": "| <mode> = 2 - Logic: Blacklist > Whitelist > IFF Standing. | Docking Rights: Anyone with good standing."
+	},
+	"MSG_0262": {
+		"ru": "|  <mode> = 3 - Логика: Черный список > Белый список > Враждебный | Права стыковки: Только для кораблей из белого списка.",
+		"en": "| <mode> = 3 - Logic: Blacklist > Whitelist > Hostile | Docking Rights: Whitelisted ships only."
+	},
+	"MSG_0263": {
+		"ru": "|  <mode> = 4 - Логика: Черный список > Белый список > Нейтральный | Права на стыковку: Любой с хорошей репутацией.",
+		"en": "| <mode> = 4 - Logic: Blacklist > Whitelist > Neutral | Docking Rights: Anyone with good standing."
+	},
+	"MSG_0264": {
+		"ru": "|  <mode> = 5 - Логика: Черный список > Белый список > Нейтральный | Права стыковки: Только для судов из белого списка.",
+		"en": "| <mode> = 5 - Logic: Blacklist > Whitelist > Neutral | Docking Rights: Whitelisted ships only."
+	},
+	"MSG_0265": {
+		"ru": "режим защиты = %u",
+		"en": "defensemode = %u"
+	},
+	"MSG_0266": {
+		"ru": "ХОРОШО: режим защиты = %u",
+		"en": "OK: defensemode = %u"
+	},
+	"MSG_0267": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0268": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0269": {
+		"ru": "Модули:",
+		"en": "Modules:"
+	},
+	"MSG_0270": {
+		"ru": "%u: %s",
+		"en": "%u: %s"
+	},
+	"MSG_0271": {
+		"ru": "%u: Пусто - доступно для нового модуля",
+		"en": "%u: Empty - available for new module"
+	},
+	"MSG_0272": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0273": {
+		"ru": "ОШИБКА: Модуль не найден",
+		"en": "ERROR: Module not found"
+	},
+	"MSG_0274": {
+		"ru": "ОШИБКА: Необходимо %d свободного места для уничтожения модуля хранения.",
+		"en": "Need %d free space to destroy a storage module"
+	},
+	"MSG_0275": {
+		"ru": "ХОРОШО: Модуль уничтожен",
+		"en": "OK: Module destroyed"
+	},
+	"MSG_0276": {
+		"ru": "ОШИБКА: Индекс модуля недействителен.",
+		"en": "ERROR: Module index not valid"
+	},
+	"MSG_0277": {
+		"ru": "ОШИБКА: Тип модуля недоступен",
+		"en": "ERROR: Module type not available"
+	},
+	"MSG_0278": {
+		"ru": "ОШИБКА: Обновление недоступно",
+		"en": "ERROR: Upgrade not available"
+	},
+	"MSG_0279": {
+		"ru": "ОШИБКА: Недостаточный базовый уровень",
+		"en": "ERROR: Insufficient Core Level"
+	},
+	"MSG_0280": {
+		"ru": "ХОРОШО: Начало строительства модуля",
+		"en": "OK: Module Construction started"
+	},
+	"MSG_0281": {
+		"ru": "ОШИБКА: Неверные параметры",
+		"en": "ERROR: Invalid parameters"
+	},
+	"MSG_0282": {
+		"ru": "/base buildmod [list|construct|destroy]",
+		"en": "/base buildmod [list|construct|destroy]"
+	},
+	"MSG_0283": {
+		"ru": "|  list - показать модули и статус сборки",
+		"en": "| list - show modules and build status"
+	},
+	"MSG_0284": {
+		"ru": "|  destroy <index> - уничтожить модуль в <index>",
+		"en": "| destroy <index> - destroy module at <index>"
+	},
+	"MSG_0285": {
+		"ru": "|  construct <index> <type> - начать сборку модуля <type> в <index>",
+		"en": "| construct <index> <type> - start building module <type> at <index>"
+	},
+	"MSG_0286": {
+		"ru": "|     <type> = 1 - обновление ядра",
+		"en": "|     <type> = 1 - core upgrade"
+	},
+	"MSG_0287": {
+		"ru": "|     <type> = 2 - генератор щита",
+		"en": "|     <type> = 2 - shield generator"
+	},
+	"MSG_0288": {
+		"ru": "|     <type> = 3 - хранение грузов",
+		"en": "|     <type> = 3 - cargo storage"
+	},
+	"MSG_0289": {
+		"ru": "|     <type> = 4 - массив оборонной платформы типа 1",
+		"en": "|     <type> = 4 - defense platform array type 1"
+	},
+	"MSG_0290": {
+		"ru": "|     <type> = 5 - завод стыковочных модулей",
+		"en": "|     <type> = 5 - docking module factory"
+	},
+	"MSG_0291": {
+		"ru": "|     <type> = 6 - завод по производству прыжковых приводов",
+		"en": "|     <type> = 6 - jumpdrive manufacturing factory"
+	},
+	"MSG_0292": {
+		"ru": "|     <type> = 7 - завод по производству гиперпространственной съемки",
+		"en": "|     <type> = 7 - hyperspace survey manufacturing factory"
+	},
+	"MSG_0293": {
+		"ru": "|     <type> = 8 - завод по производству маскировочных устройств",
+		"en": "|     <type> = 8 - cloaking device manufacturing factory"
+	},
+	"MSG_0294": {
+		"ru": "|     <type> = 9 - массив оборонной платформы типа 2",
+		"en": "|     <type> = 9 - defense platform array type 2"
+	},
+	"MSG_0295": {
+		"ru": "|     <type> = 10 - массив оборонной платформы типа 3",
+		"en": "|     <type> = 10 - defense platform array type 3"
+	},
+	"MSG_0296": {
+		"ru": "|     <type> = 11 - Фабрика разрушителей плащей",
+		"en": "|     <type> = 11 - Cloak Disruptor Factory"
+	},
+	"MSG_0297": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0298": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0299": {
+		"ru": "Заводские модули:",
+		"en": "Factory Modules:"
+	},
+	"MSG_0300": {
+		"ru": "%u: %s",
+		"en": "%u: %s"
+	},
+	"MSG_0301": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0302": {
+		"ru": "ОШИБКА: Индекс модуля недействителен.",
+		"en": "ERROR: Module index not valid"
+	},
+	"MSG_0303": {
+		"ru": "ОШИБКА: Не заводской модуль",
+		"en": "ERROR: Not factory module"
+	},
+	"MSG_0304": {
+		"ru": "ХОРОШО: Очередь сборки очищена",
+		"en": "OK: Build queue cleared"
+	},
+	"MSG_0305": {
+		"ru": "ОШИБКА: Не удалось очистить очередь сборки",
+		"en": "ERROR: Build queue clear failed"
+	},
+	"MSG_0306": {
+		"ru": "ОШИБКА: Индекс модуля недействителен.",
+		"en": "ERROR: Module index not valid"
+	},
+	"MSG_0307": {
+		"ru": "ОШИБКА: Не заводской модуль",
+		"en": "ERROR: Not factory module"
+	},
+	"MSG_0308": {
+		"ru": "ХОРОШО: Активный рецепт отменен",
+		"en": "OK: Active recipe is cancelled"
+	},
+	"MSG_0309": {
+		"ru": "ОШИБКА: Индекс модуля недействителен.",
+		"en": "ERROR: Module index not valid"
+	},
+	"MSG_0310": {
+		"ru": "ОШИБКА: Не заводской модуль",
+		"en": "ERROR: Not factory module"
+	},
+	"MSG_0311": {
+		"ru": "ХОРОШО: Элемент добавлен в очередь сборки",
+		"en": "OK: Item added to build queue"
+	},
+	"MSG_0312": {
+		"ru": "ОШИБКА: Не удалось добавить элемент в очередь сборки.",
+		"en": "ERROR: Item add to build queue failed"
+	},
+	"MSG_0313": {
+		"ru": "ОШИБКА: Неверные параметры",
+		"en": "ERROR: Invalid parameters"
+	},
+	"MSG_0314": {
+		"ru": "/base facmod [list|clear|cancel|add]",
+		"en": "/base facmod [list|clear|cancel|add]"
+	},
+	"MSG_0315": {
+		"ru": "|  list - показать заводские модули и статус сборки",
+		"en": "|  list - show factory modules and build status"
+	},
+	"MSG_0316": {
+		"ru": "|  clear <index> - очистка очереди, которая начинается со второго элемента в очереди строительства для модуля фабрики по адресу <index>",
+		"en": "|  clear <index> - clear queue, which starts from the second item in the building queue for the factory module at <index>"
+	},
+	"MSG_0317": {
+		"ru": "|  cancel <index> - очистить только активный рецепт, который является первым элементом в очереди строительства для модуля завода в <index>",
+		"en": "|  cancel <index> - clear only active recipe, which is the first item in the building queue for the factory module at <index>"
+	},
+	"MSG_0318": {
+		"ru": "|  add <index> <type> - добавить элемент <type> в очередь сборки для модуля фабрики в <index>",
+		"en": "|  add <index> <type> - add item <type> to build queue for factory module at <index>"
+	},
+	"MSG_0319": {
+		"ru": "|     Для завода стыковочных модулей:",
+		"en": "|     For Docking Module Factory:"
+	},
+	"MSG_0320": {
+		"ru": "|     <type> = 1 - стыковочный модуль типа 1",
+		"en": "|     <type> = 1 - docking module type 1"
+	},
+	"MSG_0321": {
+		"ru": "|     Для завода гиперпространственных прыжковых двигателей",
+		"en": "|     For Hyperspace Jumpdrive Factory"
+	},
+	"MSG_0322": {
+		"ru": "|     <type> = 2 - Прыжковый привод, серия II",
+		"en": "|     <type> = 2 - Jump Drive Series II"
+	},
+	"MSG_0323": {
+		"ru": "|     <type> = 3 - Прыжковый привод, серия III",
+		"en": "|     <type> = 3 - Jump Drive Series III"
+	},
+	"MSG_0324": {
+		"ru": "|     <type> = 4 - Прыжковый привод, серия IV",
+		"en": "|     <type> = 4 - Jump Drive Series IV"
+	},
+	"MSG_0325": {
+		"ru": "|     Для Hyperspace Survey Factory",
+		"en": "|     For Hyperspace Survey Factory"
+	},
+	"MSG_0326": {
+		"ru": "|     <type> = 5 - Модуль гиперпространственной съемки Mk1",
+		"en": "|     <type> = 5 - Hyperspace Survey Module Mk1"
+	},
+	"MSG_0327": {
+		"ru": "|     <type> = 6 - Модуль гиперпространственной съемки Mk2",
+		"en": "|     <type> = 6 - Hyperspace Survey Module Mk2"
+	},
+	"MSG_0328": {
+		"ru": "|     <type> = 7 - Модуль гиперпространственной съемки Mk3",
+		"en": "|     <type> = 7 - Hyperspace Survey Module Mk3"
+	},
+	"MSG_0329": {
+		"ru": "|     <type> = 15 - Гиперпространственная матрица Mk1",
+		"en": "|     <type> = 15 - Hyperspace Matrix Mk1"
+	},
+	"MSG_0330": {
+		"ru": "|     Для завода по производству маскировочных устройств",
+		"en": "|     For Cloaking Device Factory"
+	},
+	"MSG_0331": {
+		"ru": "|     <type> = 8 - Маскировочное устройство МК1 (малое)",
+		"en": "|     <type> = 8 - Cloaking Device MK1 (small)"
+	},
+	"MSG_0332": {
+		"ru": "|     <type> = 9 - Маскирующее устройство MK2 (среднее)",
+		"en": "|     <type> = 9 - Cloaking Device MK2 (medium)"
+	},
+	"MSG_0333": {
+		"ru": "|     <type> = 10 - Маскирующее устройство MK2 Advanced (большое)",
+		"en": "|     <type> = 10 - Cloaking Device MK2 Advanced (large)"
+	},
+	"MSG_0334": {
+		"ru": "|     <type> = 11 - Маскирующее устройство MK3 (транспортное)",
+		"en": "|     <type> = 11 - Cloaking Device MK3 (transport)"
+	},
+	"MSG_0335": {
+		"ru": "|     Для фабрики разрушителей плащей",
+		"en": "|     For Cloak Disruptor Factory"
+	},
+	"MSG_0336": {
+		"ru": "|     <type> = 12 - Разрушитель маскировки Тип-1",
+		"en": "|     <type> = 12 - Cloak Disruptor Type-1"
+	},
+	"MSG_0337": {
+		"ru": "|     <type> = 13 - Разрушитель маскировки Тип-2",
+		"en": "|     <type> = 13 - Cloak Disruptor Type-2"
+	},
+	"MSG_0338": {
+		"ru": "|     <type> = 14 - Разрушитель маскировки Тип-3",
+		"en": "|     <type> = 14 - Cloak Disruptor Type-3"
+	},
+	"MSG_0339": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0340": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0341": {
+		"ru": "Модули защиты:",
+		"en": "Defense Modules:"
+	},
+	"MSG_0342": {
+		"ru": "Модуль %u: Положение %0.0f %0.0f %0.0f Ориентация %0.0f %0.0f %0.0f",
+		"en": "Module %u: Position %0.0f %0.0f %0.0f Orient %0.0f %0.0f %0.0f"
+	},
+	"MSG_0343": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0344": {
+		"ru": "ОШИБКА: Вне диапазона",
+		"en": "ERROR: Out of range"
+	},
+	"MSG_0345": {
+		"ru": "ХОРОШО: Модуль %u: Положение %0.0f %0.0f %0.0f Ориентация %0.0f %0.0f %0.0f",
+		"en": "OK: Module %u: Position %0.0f %0.0f %0.0f Orient %0.0f %0.0f %0.0f"
+	},
+	"MSG_0346": {
+		"ru": "ОШИБКА: Модуль не найден",
+		"en": "ERROR: Module not found"
+	},
+	"MSG_0347": {
+		"ru": "ОШИБКА: Модуль не найден",
+		"en": "ERROR: Module not found"
+	},
+	"MSG_0348": {
+		"ru": "ОШИБКА: Неверные параметры",
+		"en": "ERROR: Invalid parameters"
+	},
+	"MSG_0349": {
+		"ru": "/base defmod [list|set]",
+		"en": "/base defmod [list|set]"
+	},
+	"MSG_0350": {
+		"ru": "|  list - показать положение и ориентацию этой базовой оружейной платформы",
+		"en": "|  list - show position and orientations of this bases weapons platform"
+	},
+	"MSG_0351": {
+		"ru": "|  set - <index> <x> <y> <z> <rx> <ry> <rz> - задайте положение и ориентацию оружейной платформы <index> где x,y,z — положение, а rx,ry,rz — ориентация",
+		"en": "|  set - <index> <x> <y> <z> <rx> <ry> <rz> - set the position and orientation of the <index> weapons platform, where x,y,z is the position and rx,ry,rz is the orientation"
+	},
+	"MSG_0352": {
+		"ru": "ОШИБКА: Нет базы у игрока",
+		"en": "ERROR: No player base"
+	},
+	"MSG_0353": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0354": {
+		"ru": "ОШИБКА: Неверные параметры",
+		"en": "ERROR: Incorrect parameters"
+	},
+	"MSG_0355": {
+		"ru": "/base shieldmod [on|off]",
+		"en": "/base shieldmod [on|off]"
+	},
+	"MSG_0356": {
+		"ru": "|  on - включить щит",
+		"en": "|  on - switch on the shield"
+	},
+	"MSG_0357": {
+		"ru": "|  off - выключи щит",
+		"en": "|  off - turn off the shield"
+	},
+	"MSG_0358": {
+		"ru": "|  * %s",
+		"en": "|  * %s"
+	},
+	"MSG_0359": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0360": {
+		"ru": "ОШИБКА: Доступ запрещен",
+		"en": "ERROR: Access denied"
+	},
+	"MSG_0361": {
+		"ru": "ОШИБКА: Стоимость активов судна будет превышена",
+		"en": "ERROR: The value of the ship's assets will be exceeded"
+	},
+	"MSG_0362": {
+		"ru": "ОШИБКА: Недостаточно или недействительные кредиты",
+		"en": "ERROR: Insufficient or invalid loans"
+	},
+	"MSG_0363": {
+		"ru": "ХОРОШО: %u кредиты сняты",
+		"en": "OK: %u loans withdrawn"
+	},
+	"MSG_0364": {
+		"ru": "ОШИБКА: Недостаточно или недействительные кредиты",
+		"en": "ERROR: Insufficient or invalid loans"
+	},
+	"MSG_0365": {
+		"ru": "ХОРОШО: %u кредиты депонированы",
+		"en": "OK: %u loans deposited"
+	},
+	"MSG_0366": {
+		"ru": "ХОРОШО: текущий баланс %I64d кредитов",
+		"en": "OK: Current balance of %I64d loans"
+	},
+	"MSG_0367": {
+		"ru": "ОШИБКА: Неверные параметры",
+		"en": "ERROR: Incorrect parameters"
+	},
+	"MSG_0368": {
+		"ru": "/bank [deposit|withdraw|status] [credits]",
+		"en": "/bank [deposit|withdraw|status] [credits]"
+	},
+	"MSG_0369": {
+		"ru": "ОШИБКА: Нет в базе игроков",
+		"en": "ERROR: Not in player base"
+	},
+	"MSG_0370": {
+		"ru": "ОШИБКА:ИЛИ: Доступ запрещен",
+		"en": "ОШИБКА:ИЛИ: Access denied"
+	},
+	"MSG_0371": {
+		"ru": "ОШИБКА: Цена недействительна",
+		"en": "ERROR: Price not valid"
+	},
+	"MSG_0372": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0373": {
+		"ru": "ОШИБКА: Товар не существует",
+		"en": "ERROR: Commodity does not exist"
+	},
+	"MSG_0374": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0375": {
+		"ru": "ОШИБКА: Товар не существует",
+		"en": "ERROR: Commodity does not exist"
+	},
+	"MSG_0376": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0377": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0378": {
+		"ru": "ОШИБКА: Невозможно создавать базы, когда активен режим holiday.",
+		"en": "ERROR: It is impossible to create bases when the holiday mode is active."
+	},
+	"MSG_0379": {
+		"ru": "ОШИБКА: Нужен строительный корабль",
+		"en": "ERROR: We need a construction ship"
+	},
+	"MSG_0380": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0381": {
+		"ru": "ОШИБКА: Корабль движется",
+		"en": "ERROR: Ship moves"
+	},
+	"MSG_0382": {
+		"ru": "ОШИБКА: Нет пароля",
+		"en": "ERROR: No password"
+	},
+	"MSG_0383": {
+		"ru": "Используйте: /base deploy <password> <name>",
+		"en": "Use: /base deploy <password> <name>"
+	},
+	"MSG_0384": {
+		"ru": "ОШИБКА: Нет базового имени",
+		"en": "ERROR: No base name"
+	},
+	"MSG_0385": {
+		"ru": "Используйте: /base deploy <password> <name>",
+		"en": "Use: /base deploy <password> <name>"
+	},
+	"MSG_0386": {
+		"ru": "ОШИБКА: Базовое имя уже существует",
+		"en": "ERROR: The base name already exists"
+	},
+	"MSG_0387": {
+		"ru": "ОШИБКА: Строительство провалилось из-за нехватки сырья..",
+		"en": "ERROR: Construction failed due to lack of raw materials.."
+	},
+	"MSG_0388": {
+		"ru": "|  %ux %s",
+		"en": "|  %ux %s"
+	},
+	"MSG_0389": {
+		"ru": "ХОРОШО: База развернута",
+		"en": "OK: Base deployed"
+	},
+	"MSG_0390": {
+		"ru": "Пароль администратора по умолчанию: %s",
+		"en": "Administrator password by default: %s"
+	},
+	"MSG_0391": {
+		"ru": "ОШИБКА: Требуется корабль для развертывания",
+		"en": "ERROR: Need deployment ship"
+	},
+	"MSG_0392": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0393": {
+		"ru": "ОШИБКА: Корабль движется",
+		"en": "ERROR: Ship is moving"
+	},
+	"MSG_0394": {
+		"ru": "ОШИБКА: Ошибка развертывания, повторите попытку.",
+		"en": "ERROR: Deployment error, please reiterate."
+	},
+	"MSG_0395": {
+		"ru": "ОШИБКА: Строительство не удалось из-за недостатка сырья.",
+		"en": "ERROR: Construction failed due to insufficient raw material."
+	},
+	"MSG_0396": {
+		"ru": "|  %ux %s",
+		"en": "|  %ux %s"
+	},
+	"MSG_0397": {
+		"ru": "ХОРОШО: Осадная пушка развернута",
+		"en": "OK: Siege Cannon deployed"
+	},
+	"MSG_0398": {
+		"ru": "Пароль администратора по умолчанию: %s",
+		"en": "Default administration password is %s"
+	},
+	"MSG_0399": {
+		"ru": "ОШИБКА: невозможно использовать команду в этой системе или базе. Если вы хотите переместиться на редкие локации - используйте /beammeup aldrin или /beammeup secret",
+		"en": "ERROR: It is not possible to use a command in this system or database. If you want to position yourself in rare locations, use /beammeup aldrin or /beammeup secret."
+	},
+	"MSG_0400": {
+		"ru": "Телепорт готов! Вылетите в космос для его активации!",
+		"en": "Teleport ready! Launch into space to activate it!"
+	},
+	"MSG_0401": {
+		"ru": "ОШИБКА: возврат невозможен.",
+		"en": "ERROR: no return possible."
+	},
+	"MSG_0402": {
+		"ru": "ОШИБКА: некорректная база.",
+		"en": "ERROR: Incorrect base."
+	},
+	"MSG_0403": {
+		"ru": "Перенаправление расстыковки на предыдущую базу.",
+		"en": "Redirect the undocking to the previous base."
+	},
+	"MSG_0404": {
+		"ru": "Команда отключена",
+		"en": "Team down"
+	},
+	"MSG_0405": {
+		"ru": "/bountyhunt <charname> <credits> [<minutes>]",
+		"en": "/bountyhunt <charname> <credits> [<minutes>]"
+	},
+	"MSG_0406": {
+		"ru": "/bountyhuntid <id> <credits> [<minutes>]",
+		"en": "/bountyhuntid <id> <credits> [<minutes>]"
+	},
+	"MSG_0407": {
+		"ru": " предложил охоту за головами:",
+		"en": " he suggested a bounty hunt:"
+	},
+	"MSG_0408": {
+		"ru": " Убейте %s и заработайте %u кредитов (Осталось %u минут!)",
+		"en": " Kill %s and earn %u credits (without %u minutes!)"
+	},
+	"MSG_0409": {
+		"ru": "Цель %s не в сети!",
+		"en": "Target %s is offline!"
+	},
+	"MSG_0410": {
+		"ru": "На персонажей c низким уровнем нельзя охотиться!",
+		"en": "You can't hunt low-level characters!"
+	},
+	"MSG_0411": {
+		"ru": "Приз %u не допускается ниже 1 кредита и выше 10.000.000 кредитов.",
+		"en": "The %u prize is not allowed below 1 credit and above 10,000,000 credits"
+	},
+	"MSG_0412": {
+		"ru": "Время охоты: 30 минут.",
+		"en": "Hunting time: 30 minutes."
+	},
+	"MSG_0413": {
+		"ru": "У вас недостаточно кредитов!",
+		"en": "You don't have enough credit!"
+	},
+	"MSG_0414": {
+		"ru": " предложил охоту за головами:",
+		"en": " he suggested a bounty hunt:"
+	},
+	"MSG_0415": {
+		"ru": " Убейте %s и заработайте %u кредитов (Осталось %u минут)",
+		"en": " Kill %s and earn %u credits (%u minutes left)"
+	},
+	"MSG_0416": {
+		"ru": "ОШИБКА: неверный идентификатор клиента",
+		"en": "ERROR: Incorrect customer ID"
+	},
+	"MSG_0417": {
+		"ru": "/bequip-1\t\tПример: /bequip-1 12 создаст элемент выбранного номера в спискеx",
+		"en": "/bequip-1\t\tExample: /bequip-1 12 will create a selected number item in the list"
+	},
+	"MSG_0418": {
+		"ru": "/bequip-2\t\tПример: /bequip-2 16 создаст элемент выбранного номера в списке",
+		"en": "/bequip-2\t\tExample: /bequip-2 16 will create a selected number item in the list"
+	},
+	"MSG_0419": {
+		"ru": "/bwep-1\tПример: /bwep-1 16 создаст элемент выбранного номера в списке",
+		"en": "/bwep-1\tExample: /bwep-1 16 will create a selected number item in the list"
+	},
+	"MSG_0420": {
+		"ru": "/bwep-2\tПример: /bwep-2 12 создаст элемент выбранного номера в списке",
+		"en": "/bwep-2\tExample: /bwep-2 12 will create a selected number item in the list"
+	},
+	"MSG_0421": {
+		"ru": "/bammo-1\tПример: /bammo-1 14 создаст элемент выбранного номера в списке",
+		"en": "/bammo-1\tExample: /bammo-1 14 will create a selected number item in the list"
+	},
+	"MSG_0422": {
+		"ru": "/bammo-2\tПример: /bammo-2 12 создаст элемент выбранного номера в списке",
+		"en": "/bammo-2\tExample: /bammo-2 12 will create a selected number item in the list"
+	},
+	"MSG_0423": {
+		"ru": "/blic-1\tПример: /blic-1 17 создаст элемент выбранного номера в списке",
+		"en": "/blic-1\tExample: /blic-1 17 will create a selected number item in the list"
+	},
+	"MSG_0424": {
+		"ru": "/blic-2\tПример: /blic-2 12 создаст элемент выбранного номера в списке",
+		"en": "/blic-2\tExample: /blic-2 12 will create a selected number item in the list"
+	},
+	"MSG_0425": {
+		"ru": "Вы не можете использовать команду находясь на станции.",
+		"en": "You can't use the command while at the station."
+	},
+	"MSG_0426": {
+		"ru": "ОШИБКА: у вас нет оборудования или товаров, чтобы произвести это.",
+		"en": "ERROR: You don’t have the equipment or goods to produce it."
+	},
+	"MSG_0427": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0428": {
+		"ru": "Предупреждение: количество наноботов больше разрешенного.",
+		"en": "Warning: The number of nanobots exceeds the permitted number."
+	},
+	"MSG_0429": {
+		"ru": "Предупреждение: количество батарей щита больше допустимого.",
+		"en": "Warning: the number of batteries of the shield is more than permissible."
+	},
+	"MSG_0430": {
+		"ru": "Предупреждение: количество товаров больше разрешенного.",
+		"en": "Warning: the number of goods is greater than the permitted."
+	},
+	"MSG_0431": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0432": {
+		"ru": "Предмет создан.",
+		"en": "The object is made."
+	},
+	"MSG_0433": {
+		"ru": "ХОРОШО",
+		"en": "OK"
+	},
+	"MSG_0434": {
+		"ru": "Такого номера не существует на этой странице!",
+		"en": "There is no such number on this page!"
+	},
+	"MSG_0435": {
+		"ru": "Предмет не создан!",
+		"en": "It's not made!"
+	},
+	"MSG_0436": {
+		"ru": "У вас недостаточно материалов, чтобы произвести это.",
+		"en": "You don't have enough materials to do that."
+	},
+	"MSG_0437": {
+		"ru": "Вы не можете использовать команду находясь на станции.",
+		"en": "You can't use the command while at the station."
+	},
+	"MSG_0438": {
+		"ru": "ОШИБКА: у вас нет оборудования или товаров, чтобы произвести это.",
+		"en": "ERROR: You don’t have the equipment or goods to produce it."
+	},
+	"MSG_0439": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0440": {
+		"ru": "Предупреждение: количество наноботов больше разрешенного.",
+		"en": "Warning: The number of nanobots exceeds the permitted number."
+	},
+	"MSG_0441": {
+		"ru": "Предупреждение: количество батарей щита больше допустимого.",
+		"en": "Warning: the number of batteries of the shield is more than permissible."
+	},
+	"MSG_0442": {
+		"ru": "Предупреждение: количество товаров больше разрешенного.",
+		"en": "Warning: the number of goods is greater than the permitted."
+	},
+	"MSG_0443": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0444": {
+		"ru": "Предмет создан.",
+		"en": "The object is made."
+	},
+	"MSG_0445": {
+		"ru": "ХОРОШО",
+		"en": "OK"
+	},
+	"MSG_0446": {
+		"ru": "Такого номера не существует на этой странице!",
+		"en": "There is no such number on this page!"
+	},
+	"MSG_0447": {
+		"ru": "Предмет не создан!",
+		"en": "It's not made!"
+	},
+	"MSG_0448": {
+		"ru": "У вас недостаточно материалов, чтобы произвести это.",
+		"en": "You don't have enough materials to do that."
+	},
+	"MSG_0449": {
+		"ru": "Вы не можете использовать команду находясь на станции.",
+		"en": "You can't use the command while at the station."
+	},
+	"MSG_0450": {
+		"ru": "ОШИБКА: у вас нет оборудования или товаров, чтобы произвести это.",
+		"en": "ERROR: You don’t have the equipment or goods to produce it."
+	},
+	"MSG_0451": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0452": {
+		"ru": "Предупреждение: количество наноботов больше разрешенного.",
+		"en": "Warning: The number of nanobots exceeds the permitted number."
+	},
+	"MSG_0453": {
+		"ru": "Предупреждение: количество батарей щита больше допустимого.",
+		"en": "Warning: the number of batteries of the shield is more than permissible."
+	},
+	"MSG_0454": {
+		"ru": "Предупреждение: количество товаров больше разрешенного.",
+		"en": "Warning: the number of goods is greater than the permitted."
+	},
+	"MSG_0455": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0456": {
+		"ru": "Предмет создан.",
+		"en": "The object is made."
+	},
+	"MSG_0457": {
+		"ru": "ХОРОШО",
+		"en": "OK"
+	},
+	"MSG_0458": {
+		"ru": "Такого номера не существует на этой странице!",
+		"en": "There is no such number on this page!"
+	},
+	"MSG_0459": {
+		"ru": "Предмет не создан!",
+		"en": "It's not made!"
+	},
+	"MSG_0460": {
+		"ru": "У вас недостаточно материалов, чтобы произвести это.",
+		"en": "You don't have enough materials to do that."
+	},
+	"MSG_0461": {
+		"ru": "Вы не можете использовать команду находясь на станции.",
+		"en": "You can't use the command while at the station."
+	},
+	"MSG_0462": {
+		"ru": "ОШИБКА: у вас нет оборудования или товаров, чтобы произвести это.",
+		"en": "ERROR: You don’t have the equipment or goods to produce it."
+	},
+	"MSG_0463": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0464": {
+		"ru": "Предупреждение: количество наноботов больше разрешенного.",
+		"en": "Warning: The number of nanobots exceeds the permitted number."
+	},
+	"MSG_0465": {
+		"ru": "Предупреждение: количество батарей щита больше допустимого.",
+		"en": "Warning: the number of batteries of the shield is more than permissible."
+	},
+	"MSG_0466": {
+		"ru": "Предупреждение: количество товаров больше разрешенного.",
+		"en": "Warning: the number of goods is greater than the permitted."
+	},
+	"MSG_0467": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0468": {
+		"ru": "Предмет создан.",
+		"en": "The object is made."
+	},
+	"MSG_0469": {
+		"ru": "ХОРОШО",
+		"en": "OK"
+	},
+	"MSG_0470": {
+		"ru": "Такого номера не существует на этой странице!",
+		"en": "There is no such number on this page!"
+	},
+	"MSG_0471": {
+		"ru": "Предмет не создан!",
+		"en": "It's not made!"
+	},
+	"MSG_0472": {
+		"ru": "У вас недостаточно материалов, чтобы произвести это.",
+		"en": "You don't have enough materials to do that."
+	},
+	"MSG_0473": {
+		"ru": "Вы не можете использовать команду находясь на станции.",
+		"en": "You can't use the command while at the station."
+	},
+	"MSG_0474": {
+		"ru": "ОШИБКА: у вас нет оборудования или товаров, чтобы произвести это.",
+		"en": "ERROR: You don’t have the equipment or goods to produce it."
+	},
+	"MSG_0475": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0476": {
+		"ru": "Предупреждение: количество наноботов больше разрешенного.",
+		"en": "Warning: The number of nanobots exceeds the permitted number."
+	},
+	"MSG_0477": {
+		"ru": "Предупреждение: количество батарей щита больше допустимого.",
+		"en": "Warning: the number of batteries of the shield is more than permissible."
+	},
+	"MSG_0478": {
+		"ru": "Предупреждение: количество товаров больше разрешенного.",
+		"en": "Warning: the number of goods is greater than the permitted."
+	},
+	"MSG_0479": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0480": {
+		"ru": "Предмет создан.",
+		"en": "The object is made."
+	},
+	"MSG_0481": {
+		"ru": "ХОРОШО",
+		"en": "OK"
+	},
+	"MSG_0482": {
+		"ru": "Такого номера не существует на этой странице!",
+		"en": "There is no such number on this page!"
+	},
+	"MSG_0483": {
+		"ru": "Предмет не создан!",
+		"en": "It's not made!"
+	},
+	"MSG_0484": {
+		"ru": "У вас недостаточно материалов, чтобы произвести это.",
+		"en": "You don't have enough materials to do that."
+	},
+	"MSG_0485": {
+		"ru": "Вы не можете использовать команду находясь на станции.",
+		"en": "You can't use the command while at the station."
+	},
+	"MSG_0486": {
+		"ru": "ОШИБКА: у вас нет оборудования или товаров, чтобы произвести это.",
+		"en": "ERROR: You don’t have the equipment or goods to produce it."
+	},
+	"MSG_0487": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0488": {
+		"ru": "Предупреждение: количество наноботов больше разрешенного.",
+		"en": "Warning: The number of nanobots exceeds the permitted number."
+	},
+	"MSG_0489": {
+		"ru": "Предупреждение: количество батарей щита больше допустимого.",
+		"en": "Warning: the number of batteries of the shield is more than permissible."
+	},
+	"MSG_0490": {
+		"ru": "Предупреждение: количество товаров больше разрешенного.",
+		"en": "Warning: the number of goods is greater than the permitted."
+	},
+	"MSG_0491": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0492": {
+		"ru": "Предмет создан.",
+		"en": "The object is made."
+	},
+	"MSG_0493": {
+		"ru": "ХОРОШО",
+		"en": "OK"
+	},
+	"MSG_0494": {
+		"ru": "Такого номера не существует на этой странице!",
+		"en": "There is no such number on this page!"
+	},
+	"MSG_0495": {
+		"ru": "Предмет не создан!",
+		"en": "It's not made!"
+	},
+	"MSG_0496": {
+		"ru": "У вас недостаточно материалов, чтобы произвести это.",
+		"en": "You don't have enough materials to do that."
+	},
+	"MSG_0497": {
+		"ru": "Вы не можете использовать команду находясь на станции.",
+		"en": "You can't use the command while at the station."
+	},
+	"MSG_0498": {
+		"ru": "ОШИБКА: у вас нет оборудования или товаров, чтобы произвести это.",
+		"en": "ERROR: You don’t have the equipment or goods to produce it."
+	},
+	"MSG_0499": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0500": {
+		"ru": "Предупреждение: количество наноботов больше разрешенного.",
+		"en": "Warning: The number of nanobots exceeds the permitted number."
+	},
+	"MSG_0501": {
+		"ru": "Предупреждение: количество батарей щита больше допустимого.",
+		"en": "Warning: the number of batteries of the shield is more than permissible."
+	},
+	"MSG_0502": {
+		"ru": "Предупреждение: количество товаров больше разрешенного.",
+		"en": "Warning: the number of goods is greater than the permitted."
+	},
+	"MSG_0503": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0504": {
+		"ru": "$$$ всего ",
+		"en": "it's only $$$ "
+	},
+	"MSG_0505": {
+		"ru": "$$$ player всего ",
+		"en": "it's a $$$ player "
+	},
+	"MSG_0506": {
+		"ru": "$$$ удалён ",
+		"en": "$$$ deleted "
+	},
+	"MSG_0507": {
+		"ru": "Предмет создан.",
+		"en": "The object is made."
+	},
+	"MSG_0508": {
+		"ru": "ХОРОШО",
+		"en": "OK"
+	},
+	"MSG_0509": {
+		"ru": "Такого номера не существует на этой странице!",
+		"en": "There is no such number on this page!"
+	},
+	"MSG_0510": {
+		"ru": "Предмет не создан!",
+		"en": "It's not made!"
+	},
+	"MSG_0511": {
+		"ru": "У вас недостаточно материалов, чтобы произвести это.",
+		"en": "You don't have enough materials to do that."
+	},
+	"MSG_0512": {
+		"ru": "Вы не можете использовать команду находясь на станции.",
+		"en": "You can't use the command while at the station."
+	},
+	"MSG_0513": {
+		"ru": "ОШИБКА: у вас нет оборудования или товаров, чтобы произвести это.",
+		"en": "ERROR: You don’t have the equipment or goods to produce it."
+	},
+	"MSG_0514": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0515": {
+		"ru": "Предупреждение: количество наноботов больше разрешенного.",
+		"en": "Warning: The number of nanobots exceeds the permitted number."
+	},
+	"MSG_0516": {
+		"ru": "Предупреждение: количество батарей щита больше допустимого.",
+		"en": "Warning: the number of batteries of the shield is more than permissible."
+	},
+	"MSG_0517": {
+		"ru": "Предупреждение: количество товаров больше разрешенного.",
+		"en": "Warning: the number of goods is greater than the permitted."
+	},
+	"MSG_0518": {
+		"ru": "У вас недостаточно грузового места.",
+		"en": "You don't have enough cargo space."
+	},
+	"MSG_0519": {
+		"ru": "Предмет создан.",
+		"en": "The object is made."
+	},
+	"MSG_0520": {
+		"ru": "ХОРОШО",
+		"en": "OK"
+	},
+	"MSG_0521": {
+		"ru": "Такого номера не существует на этой странице!",
+		"en": "There is no such number on this page!"
+	},
+	"MSG_0522": {
+		"ru": "Предмет не создан!",
+		"en": "It's not made!"
+	},
+	"MSG_0523": {
+		"ru": "У вас недостаточно материалов, чтобы произвести это.",
+		"en": "You don't have enough materials to do that."
+	},
+	"MSG_0524": {
+		"ru": "$$$ ",
+		"en": "$$$ "
+	},
+	"MSG_0525": {
+		"ru": "$$$",
+		"en": "$$$"
+	},
+	"MSG_0526": {
+		"ru": "$$$",
+		"en": "$$$"
+	},
+	"MSG_0527": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0528": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0529": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0530": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0531": {
+		"ru": " Маскировка",
+		"en": " Cloaking"
+	},
+	"MSG_0532": {
+		"ru": "Деактивация невидимости",
+		"en": "Deactivation of invisibility"
+	},
+	"MSG_0533": {
+		"ru": "ОШИБКА: Неизвестно, обратитесь к администратору!",
+		"en": "ERROR: Unknown, contact the administrator!"
+	},
+	"MSG_0534": {
+		"ru": "/cloak",
+		"en": "/cloak"
+	},
+	"MSG_0535": {
+		"ru": "/c",
+		"en": "/c"
+	},
+	"MSG_0536": {
+		"ru": "/uncloak",
+		"en": "/uncloak"
+	},
+	"MSG_0537": {
+		"ru": "/uc",
+		"en": "uc"
+	},
+	"MSG_0538": {
+		"ru": " Маскировка",
+		"en": " Cloaking"
+	},
+	"MSG_0539": {
+		"ru": " Снятие плаща",
+		"en": " Uncloaking"
+	},
+	"MSG_0540": {
+		"ru": "Ошибка!",
+		"en": "Error!"
+	},
+	"MSG_0541": {
+		"ru": "Подготовка к маскировке...",
+		"en": "Preparing to cloak..."
+	},
+	"MSG_0542": {
+		"ru": " Маскирующее устройство включено",
+		"en": " Cloaking device on"
+	},
+	"MSG_0543": {
+		"ru": "Маскирующее устройство включено",
+		"en": "Cloaking device on"
+	},
+	"MSG_0544": {
+		"ru": " Маскирующее устройство выключено",
+		"en": " Cloaking device off"
+	},
+	"MSG_0545": {
+		"ru": "Маскирующее устройство выключено",
+		"en": "Cloaking device off"
+	},
+	"MSG_0546": {
+		"ru": "ОТЛАДКА: Найден соответствующий элемент: %s",
+		"en": "DEBUG: Found relevant item: %s"
+	},
+	"MSG_0547": {
+		"ru": "ОТЛАДКА: Проверка данных верна: имя CD — %s",
+		"en": "DEBUG: Checking data is correct: CD name is %s"
+	},
+	"MSG_0548": {
+		"ru": "Маскирующее устройство восстановлено.",
+		"en": "The masking device has been restored."
+	},
+	"MSG_0549": {
+		"ru": "Отключение маскировочного устройства, нет топлива",
+		"en": "Disabling the cloaking device, no fuel"
+	},
+	"MSG_0550": {
+		"ru": "Выключение маскировочного устройства, прыжок",
+		"en": "Turning off the cloaking device, jumping"
+	},
+	"MSG_0551": {
+		"ru": "Отключение маскировочного устройства, нет топлива",
+		"en": "Disabling the cloaking device, no fuel"
+	},
+	"MSG_0552": {
+		"ru": "Время восстановления Разрушителя маскировки завершено.",
+		"en": "Cloak Disruptor recovery time is over."
+	},
+	"MSG_0553": {
+		"ru": "ТРЕВОГА: Обнаружено поле разрушения маскирующего устройства.",
+		"en": "Alarm: Detected field of destruction of the masking device."
+	},
+	"MSG_0554": {
+		"ru": "Не в космосе",
+		"en": "Not in space"
+	},
+	"MSG_0555": {
+		"ru": "Маскирующее устройство недоступно",
+		"en": "The masking device is not available"
+	},
+	"MSG_0556": {
+		"ru": "Устройство маскировки повреждено. Пожалуйста подождите %d секунд",
+		"en": "The cloaking device is damaged. Please wait %d seconds"
+	},
+	"MSG_0557": {
+		"ru": "Устройство маскировки не будет работать на этом типе корабля.",
+		"en": "The cloaking device will not work on this type of ship."
+	},
+	"MSG_0558": {
+		"ru": "Разрушитель плаща не найден.",
+		"en": "No cloak destroyer found."
+	},
+	"MSG_0559": {
+		"ru": "Перезарядка Разрушителя маскировки. %d секунд осталось.",
+		"en": "Recharge Cloak Disruptor. %d seconds left."
+	},
+	"MSG_0560": {
+		"ru": "ОШИБКА: Недостаточно батареек.",
+		"en": "ERROR: Not enough batteries."
+	},
+	"MSG_0561": {
+		"ru": "Включен Разрушитель маскировки. Перезарядка: %d секунд.",
+		"en": "Cloak Destroyer on. Recharge: %d seconds."
+	},
+	"MSG_0562": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0563": {
+		"ru": "ТРЕВОГА: Обнаружен перегрев маскирующего устройства. Выключение.",
+		"en": "Alarm: Discovered overheating masking device. Shutdown."
+	},
+	"MSG_0564": {
+		"ru": "ТРЕВОГА: Обнаружен перегрев маскирующего устройства. Выключение.",
+		"en": "Alarm: Discovered overheating masking device. Shutdown."
+	},
+	"MSG_0565": {
+		"ru": "К сожалению, у вас нет разрешения на покупку этого товара.",
+		"en": "Unfortunately, you do not have permission to purchase this product."
+	},
+	"MSG_0566": {
+		"ru": "Ваш корабль не инициализирован. Пожалуйста, отстыкуйтесь один раз, чтобы инициализировать переменные вашего сервера.",
+		"en": "Your ship is not initialized. Please undock once to initialize your server variables."
+	},
+	"MSG_0567": {
+		"ru": "ОШИБКА: Невозможно использовать команду в этой системе или базе.",
+		"en": "ERROR: It is impossible to use a command in this system or database."
+	},
+	"MSG_0568": {
+		"ru": "Перенаправление отстыковки в Коннектикут.",
+		"en": "Rerouting the undock to Connecticut."
+	},
+	"MSG_0569": {
+		"ru": "Возврат невозможен",
+		"en": "No return possible"
+	},
+	"MSG_0570": {
+		"ru": "Не в правильной базе",
+		"en": "Not in the right base"
+	},
+	"MSG_0571": {
+		"ru": "Перенаправление отстыковки на предыдущую базу",
+		"en": "Redirection of undocking to the previous base"
+	},
+	"MSG_0572": {
+		"ru": "Ваш дрон уничтожен.",
+		"en": "Your drone is destroyed."
+	},
+	"MSG_0573": {
+		"ru": "Ваш дрон уничтожен.",
+		"en": "Your drone is destroyed."
+	},
+	"MSG_0574": {
+		"ru": "Дроны не могут справиться с разрывом прыжка. Самоуничтожение.",
+		"en": "Drones can't handle a jump rupture. Self-destruction."
+	},
+	"MSG_0575": {
+		"ru": "Дроны не могут стыковаться или приземляться на конструкции, не являющиеся носителями. Самоуничтожение.",
+		"en": "Drones cannot dock or land on non-carrier structures. Self-destruction."
+	},
+	"MSG_0576": {
+		"ru": "Цель — дрон, принадлежащий %s",
+		"en": "Target: A drone belonging to %s"
+	},
+	"MSG_0577": {
+		"ru": "Развертывание будет мешать маскировке устройств и запрещено во время маскировки. Прерывание запуска",
+		"en": "Deployment will interfere with device camouflage and is prohibited during camouflage. Launch interruption"
+	},
+	"MSG_0578": {
+		"ru": "Дрон пристыкован",
+		"en": "Drone docked"
+	},
+	"MSG_0579": {
+		"ru": "ОШИБКА: остояние двигателя не подходит для запуска дрона, прерывание запуска",
+		"en": "ERROR: engine condition is not suitable for drone launch, launch interruption"
+	},
+	"MSG_0580": {
+		"ru": "ОШИБКА: не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0581": {
+		"ru": "ОШИБКА: подходящий отсек для дронов не найден",
+		"en": "ERROR: No suitable drone compartment found"
+	},
+	"MSG_0582": {
+		"ru": "ОШИБКА: одновременно у вас может быть развернут только один дрон",
+		"en": "ERROR: You can only deploy one drone at a time"
+	},
+	"MSG_0583": {
+		"ru": "ОШИБКА: Вы уже готовите дрон к взлету!",
+		"en": "ERROR: You are already preparing a drone for takeoff!"
+	},
+	"MSG_0584": {
+		"ru": "ОШИБКА: состояние двигателя не подходит для запуска дрона, прерывание запуска",
+		"en": "ERROR: Engine condition is not suitable for drone launch, launch interruption"
+	},
+	"MSG_0585": {
+		"ru": "ОШИБКА: Ваш отсек для дронов не поддерживает этот тип развертывания.",
+		"en": "ERROR: Your drone bay does not support this type of deployment."
+	},
+	"MSG_0586": {
+		"ru": "---Рабочие дроны---",
+		"en": "---Working drones---"
+	},
+	"MSG_0587": {
+		"ru": "------------------",
+		"en": "------------------"
+	},
+	"MSG_0588": {
+		"ru": "Дрон готовится к развертыванию :: Запуск через %i секунд",
+		"en": "The drone is preparing for deployment :: Launch in %i seconds"
+	},
+	"MSG_0589": {
+		"ru": "ОШИБКА: Вы должны быть в космосе, чтобы использовать эту команду",
+		"en": "ERROR: You must be in space to use this command"
+	},
+	"MSG_0590": {
+		"ru": "ОШИБКА: Активно маскирующие устройство... Отмена запуска",
+		"en": "ERROR: Actively masking device Cancellation of launch"
+	},
+	"MSG_0591": {
+		"ru": "ОШИБКА: У вас должен быть развернут дрон, чтобы это работало",
+		"en": "ERROR: You must have a drone deployed to make it work"
+	},
+	"MSG_0592": {
+		"ru": "ОШИБКА: Пожалуйста, нацельтесь на обьект, на который должен быть направлен дрон",
+		"en": "ERROR: Please target the object the drone should be targeting"
+	},
+	"MSG_0593": {
+		"ru": "ОШИБКА: Недопустимая цель - дрон не может атаковать выбранный обьект",
+		"en": "ERROR: Inadmissible target: drone cannot attack target"
+	},
+	"MSG_0594": {
+		"ru": "ОШИБКА: Недопустимая цель - этот дрон не может атаковать выбранный класс корабля!",
+		"en": "ERROR: Inadmissible target - this drone cannot attack the chosen class of ship!"
+	},
+	"MSG_0595": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_0596": {
+		"ru": "Дрон нацелен на выбранный корабль\\n",
+		"en": "Drone targets selected ship\\n"
+	},
+	"MSG_0597": {
+		"ru": "Игрок %s нацелился на вас с дроном!",
+		"en": "The %s player is targeting you with a drone!"
+	},
+	"MSG_0598": {
+		"ru": "ОШИБКА: Вы должны быть в космосе, чтобы использовать эту команду",
+		"en": "ERROR: You must be in space to use this command"
+	},
+	"MSG_0599": {
+		"ru": "ОШИБКА: у вас должен быть развернут дрон, чтобы это работало",
+		"en": "ERROR: You must have a drone deployed to make it work"
+	},
+	"MSG_0600": {
+		"ru": "Отправлена ​​операция по отзыву дрона",
+		"en": "Sent operation to recall the drone"
+	},
+	"MSG_0601": {
+		"ru": "ОШИБКА: Вы должны быть в космосе, чтобы использовать эту команду",
+		"en": "ERROR: You must be in space to use this command"
+	},
+	"MSG_0602": {
+		"ru": "ОШИБКА: у вас должен быть развернут дрон, чтобы это работало",
+		"en": "ERROR: You must have a drone deployed to make it work"
+	},
+	"MSG_0603": {
+		"ru": "Операции с дронами прерваны",
+		"en": "Operations with drones interrupted"
+	},
+	"MSG_0604": {
+		"ru": "ОШИБКА: Вы должны быть в космосе, чтобы использовать эту команду",
+		"en": "ERROR: You must be in space to use this command"
+	},
+	"MSG_0605": {
+		"ru": "ОШИБКА: у вас должен быть развернут дрон, чтобы это работало",
+		"en": "ERROR: You must have a drone deployed to make it work"
+	},
+	"MSG_0606": {
+		"ru": "Дрон отключается и возвращается на вашу позицию",
+		"en": "The drone shuts down and returns to your position"
+	},
+	"MSG_0607": {
+		"ru": "ОШИБКА: подходящий отсек для дронов не найден",
+		"en": "ERROR: No suitable drone compartment found"
+	},
+	"MSG_0608": {
+		"ru": "---Рабочие дроны---",
+		"en": "- Working drones--"
+	},
+	"MSG_0609": {
+		"ru": "------------------",
+		"en": "---------------------------"
+	},
+	"MSG_0610": {
+		"ru": "Текущий ID дрона: %u",
+		"en": "Current drone ID: %u"
+	},
+	"MSG_0611": {
+		"ru": "Текущее состояние: %u",
+		"en": "Current condition: %u"
+	},
+	"MSG_0612": {
+		"ru": "Использование дронов",
+		"en": "Use of drones"
+	},
+	"MSG_0613": {
+		"ru": "/dronetypes - Список всех доступных типов дронов для вашего типа отсека",
+		"en": "/dronetypes - List of all available types of drones for your type of compartment"
+	},
+	"MSG_0614": {
+		"ru": "/dronedeploy [dronetype] - Запускает дрон, совместимый с вашим дронбэем",
+		"en": "/dronedeploy [dronetype] Launches a drone that is compatible with your drone"
+	},
+	"MSG_0615": {
+		"ru": "/dronetarget - Направляет ваш дрон атаковать выбранную цель",
+		"en": "/dronetarget - Directs your drone to attack a selected target"
+	},
+	"MSG_0616": {
+		"ru": "/dronestop - Не дает вашему дрону атаковать",
+		"en": "/dronestop prevents your drone from attacking"
+	},
+	"MSG_0617": {
+		"ru": "/dronerecall - Отзывает ваш дрон и стыкует его с носителем.",
+		"en": "/dronerecall recalls your drone and docks it with the carrier."
+	},
+	"MSG_0618": {
+		"ru": "/dronecome - Отключает дрон от его текущей цели и направляет его к вашей позиции.",
+		"en": "/dronecome - Disconnects the drone from its current target and directs it to your position."
+	},
+	"MSG_0619": {
+		"ru": "Информация [DroneBays] :: Вы состыковались и каким-то образом ухитрились пропустить Hook. Свяжитесь с Dvurechensky по поводу этой ошибки, пожалуйста!",
+		"en": "Info [DroneBays]: You docked and somehow managed to skip the Hook. Please contact Dvurechensky about this error!"
+	},
+	"MSG_0620": {
+		"ru": "Информация :: Дрон запущен",
+		"en": "Info :: Drone launched"
+	},
+	"MSG_0621": {
+		"ru": "У вас все еще есть право завершить мероприятие: %s",
+		"en": "You still have the right to complete the event: %s"
+	},
+	"MSG_0622": {
+		"ru": "Вы отменили регистрацию на просроченном мероприятии.",
+		"en": "You have cancelled your registration for an overdue event."
+	},
+	"MSG_0623": {
+		"ru": "Вы отменили регистрацию на мероприятии: %s",
+		"en": "Cancellation of registration at the event: %s"
+	},
+	"MSG_0624": {
+		"ru": "ОТЛАДКА: найден идентификатор %s",
+		"en": "Delay: %s ID found"
+	},
+	"MSG_0625": {
+		"ru": "Вы вошли в мероприятие: %s",
+		"en": "You entered the event: %s"
+	},
+	"MSG_0626": {
+		"ru": "Вы были отстранены от участия в мероприятии из-за того, что у вас было больше груза, чем вы купили: %s",
+		"en": "You were suspended from the event because you had more cargo than you bought: %s"
+	},
+	"MSG_0627": {
+		"ru": "Вы завершили мероприятие: %s",
+		"en": "You have completed the event: %s"
+	},
+	"MSG_0628": {
+		"ru": "Извините, это мероприятие в настоящее время завершено.",
+		"en": "Sorry, this event is now over."
+	},
+	"MSG_0629": {
+		"ru": "Вы завершили последнюю доставку. Поздравления!",
+		"en": "You've completed the last delivery. Congratulations!"
+	},
+	"MSG_0630": {
+		"ru": "Вы получаете бонус: %d кредитов",
+		"en": "You get a bonus: %d loans"
+	},
+	"MSG_0631": {
+		"ru": "Вы отменили регистрацию на мероприятии: %s",
+		"en": "Cancellation of registration at the event: %s"
+	},
+	"MSG_0632": {
+		"ru": "ОТЛАДКА: Пустая карта, игнорирование",
+		"en": "DEBUG: empty map, ignoring"
+	},
+	"MSG_0633": {
+		"ru": "ОТЛАДКА: Конец карты, игнорирование",
+		"en": "DEBUG: End of map, ignoring"
+	},
+	"MSG_0634": {
+		"ru": "Камень слишком крепкий. Для этого вам нужны массивы для майнинга.",
+		"en": "The stone is too strong. To do this, you need arrays for mining."
+	},
+	"MSG_0635": {
+		"ru": "Извините, это мероприятие завершено.",
+		"en": "Sorry, this event is over."
+	},
+	"MSG_0636": {
+		"ru": "К сожалению, вы не можете участвовать в этом мероприятии с этим идентификатором..",
+		"en": "Unfortunately, you cannot participate in this event with this ID.."
+	},
+	"MSG_0637": {
+		"ru": "%s's груз теперь полон.",
+		"en": "%s's cargo is now full."
+	},
+	"MSG_0638": {
+		"ru": "Ваш груз теперь полон.",
+		"en": "Your cargo is full now."
+	},
+	"MSG_0639": {
+		"ru": "ОТЛАДКА: найден идентификатор %s",
+		"en": "Delay: %s ID found"
+	},
+	"MSG_0640": {
+		"ru": "Извините, это мероприятие в настоящее время завершено.",
+		"en": "Sorry, this event is now over."
+	},
+	"MSG_0641": {
+		"ru": "Вы завершили последнюю доставку. Поздравления!",
+		"en": "You've completed the last delivery. Congratulations!"
+	},
+	"MSG_0642": {
+		"ru": "Вы завершили мероприятие: %s",
+		"en": "You have completed the event: %s"
+	},
+	"MSG_0643": {
+		"ru": "Вы получаете бонус в размере: %d кредитов",
+		"en": "You receive a bonus in the amount of: %d credits"
+	},
+	"MSG_0644": {
+		"ru": "Вы умерли и были отменены из мероприятия: %s",
+		"en": "You have died and have been unregistered from the event: %s"
+	},
+	"MSG_0645": {
+		"ru": "Извините, мероприятие уже завершено.",
+		"en": "Sorry, the event is already completed."
+	},
+	"MSG_0646": {
+		"ru": "Вы совершили последнее убийство. Поздравления!",
+		"en": "You committed the last murder. Congratulations!"
+	},
+	"MSG_0647": {
+		"ru": "Вы получаете бонус в размере %d кредитов и %d очки.",
+		"en": "You get a bonus of %d credits and %d points."
+	},
+	"MSG_0648": {
+		"ru": "/ftl <--- вы должны выделить мышью прыжковую дыру или ворота /ftl x y z",
+		"en": "/ftl <--- you should highlight a jump hole or gate /ftl x y z"
+	},
+	"MSG_0649": {
+		"ru": "/sftl <--- переместит вас в то указанное место в системе, в которой вы находитесь /sftl x y z",
+		"en": "/sftl <--- will move you to the specified location in the system you are in /sftl x y z"
+	},
+	"MSG_0650": {
+		"ru": "/j <--- выделите мышью объект, и вы перейдете к этому объекту",
+		"en": "/j <--- select an object with your mouse and you will move to that object"
+	},
+	"MSG_0651": {
+		"ru": "/coords <--- предоставляет координаты вашей цели для использования командами /ftl или /sftl",
+		"en": "/coords <--- provides the coordinates of your target for use by /ftl or /sftl commands"
+	},
+	"MSG_0652": {
+		"ru": "ОШИБКА: у вас нет топлива.",
+		"en": "ERROR: you don't have fuel."
+	},
+	"MSG_0653": {
+		"ru": "Необходим ремонт корабля.",
+		"en": "The ship needs repair."
+	},
+	"MSG_0654": {
+		"ru": "ОШИБКА: Вы должны использовать эту команду выделив мышью дыру или врата гиперперехода.",
+		"en": "ERROR: You must use this command to highlight a hole or hyperjunction gate."
+	},
+	"MSG_0655": {
+		"ru": "Ваш сверхсветовой привод повреждён.",
+		"en": "Your FTL drive is damaged."
+	},
+	"MSG_0656": {
+		"ru": "ОШИБКА: Тут запрещено прыгать.",
+		"en": "ERROR: it's forbidden to jump here."
+	},
+	"MSG_0657": {
+		"ru": "ОШИБКА: У вас нет топлива. У вас энергетических батарей: %i. Нужно: %i.",
+		"en": "ERROR: you don't have fuel. You have energy batteries: %i. Need: %i."
+	},
+	"MSG_0658": {
+		"ru": "Необходим ремонт корабля.",
+		"en": "The ship needs repair."
+	},
+	"MSG_0659": {
+		"ru": "Ваш сверхсветовой привод повреждён.",
+		"en": "Your FTL drive is damaged."
+	},
+	"MSG_0660": {
+		"ru": "x %f",
+		"en": "x %f"
+	},
+	"MSG_0661": {
+		"ru": "y %f",
+		"en": "y %f"
+	},
+	"MSG_0662": {
+		"ru": "z %f",
+		"en": "z %f"
+	},
+	"MSG_0663": {
+		"ru": "ОШИБКА: Тут запрещено прыгать.",
+		"en": "ERROR: it's forbidden to jump here."
+	},
+	"MSG_0664": {
+		"ru": "ОШИБКА: У вас нет топлива.",
+		"en": "ERROR: you don't have fuel."
+	},
+	"MSG_0665": {
+		"ru": "Необходим ремонт корабля.",
+		"en": "The ship needs repair."
+	},
+	"MSG_0666": {
+		"ru": "Ваш сверхсветовой привод повреждён.",
+		"en": "Your FTL drive is damaged."
+	},
+	"MSG_0667": {
+		"ru": "Привод сверхсветового двигателя перегрелся!",
+		"en": "The FTL drive overheated!"
+	},
+	"MSG_0668": {
+		"ru": "Сверхсветовой двигатель готов к прыжку!",
+		"en": "Superlight engine ready to jump!"
+	},
+	"MSG_0669": {
+		"ru": "ОШИБКА: Выберите номер списка 1 или 2 - /rep 1 или /rep 2",
+		"en": "ERROR: Select the list number 1 or 2 - /rep 1 or /rep 2"
+	},
+	"MSG_0670": {
+		"ru": "ОШИБКА: %s",
+		"en": "ERROR: %s"
+	},
+	"MSG_0671": {
+		"ru": "Фракция: %s — %0.2f",
+		"en": "Fraction: %s - %0.2f"
+	},
+	"MSG_0672": {
+		"ru": "ОШИБКА: Выберите номер списка 1 или 2 - /rep 1 или /rep 2",
+		"en": "ERROR: Select the list number 1 or 2 - /rep 1 or /rep 2"
+	},
+	"MSG_0673": {
+		"ru": "Ниже приведен список всех возможных команд меню помощи, но есть также /rules и /start для некоторой базовой информации для новых игроков.",
+		"en": "Below is a list of all possible help menu commands, but there is also /rules and /start for some basic information for new players."
+	},
+	"MSG_0674": {
+		"ru": "На данный момент доступны следующие команды справки:",
+		"en": "At the moment, the following help commands are available:"
+	},
+	"MSG_0675": {
+		"ru": "Расширенное меню справки в настоящее время отключено.",
+		"en": "The extended help menu is currently disabled."
+	},
+	"MSG_0676": {
+		"ru": "ОШИБКА: Вы должны быть живы, чтобы использовать эту команду.",
+		"en": "ERROR: You have to be alive to use this team."
+	},
+	"MSG_0677": {
+		"ru": "ХОРОШО: %s",
+		"en": "OK: %s"
+	},
+	"MSG_0678": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0679": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0680": {
+		"ru": "Команда выключена",
+		"en": "Team's off"
+	},
+	"MSG_0681": {
+		"ru": "/ping",
+		"en": "/ping"
+	},
+	"MSG_0682": {
+		"ru": "/pingtarget",
+		"en": "/pingtarget"
+	},
+	"MSG_0683": {
+		"ru": "ОШИБКА: Вы пристыкованы.",
+		"en": "ERROR: You're docked."
+	},
+	"MSG_0684": {
+		"ru": "ОШИБКА: Нет цели.",
+		"en": "ERROR: no purpose."
+	},
+	"MSG_0685": {
+		"ru": "ОШИБКА: Цель не игрок.",
+		"en": "ERROR: the target is not the player."
+	},
+	"MSG_0686": {
+		"ru": "Очищена информация",
+		"en": "Cleared info"
+	},
+	"MSG_0687": {
+		"ru": "Очищена информация",
+		"en": "Cleared info"
+	},
+	"MSG_0688": {
+		"ru": "ОТЛАДКА: Найден соответствующий элемент: %s",
+		"en": "DEBUG: Found relevant item: %s"
+	},
+	"MSG_0689": {
+		"ru": "ОТЛАДКА: Найден соответствующий элемент: %s",
+		"en": "DEBUG: Found relevant item: %s"
+	},
+	"MSG_0690": {
+		"ru": "/kills <player name>",
+		"en": "/kills <player name>"
+	},
+	"MSG_0691": {
+		"ru": "/kills$ <player id>",
+		"en": "/kills$ <player id>"
+	},
+	"MSG_0692": {
+		"ru": "Число убийств игрока другим игроком = %i",
+		"en": "Number of player kills by another player = %i"
+	},
+	"MSG_0693": {
+		"ru": "NPC убил  %s %i",
+		"en": "NPC killed  %s %i"
+	},
+	"MSG_0694": {
+		"ru": "Общее количество убийств = %i",
+		"en": "Total number of murders = %i"
+	},
+	"MSG_0695": {
+		"ru": "Рейтинг = %s",
+		"en": "Rating = %s"
+	},
+	"MSG_0696": {
+		"ru": "Двуреченский: Команда выключена, ведётся создание рейтинговой системы.",
+		"en": "Dvurechensky: The team is off, a rating system is being created."
+	},
+	"MSG_0697": {
+		"ru": "ОШИБКА: игрок не найден.",
+		"en": "ERROR: No player found."
+	},
+	"MSG_0698": {
+		"ru": "Двуреченский: Команда выключена, ведётся создание рейтинговой системы.",
+		"en": "Dvurechensky: The team is off, a rating system is being created."
+	},
+	"MSG_0699": {
+		"ru": "Число убийств другим кораблём = %i",
+		"en": "Number of murders by another ship = %i"
+	},
+	"MSG_0700": {
+		"ru": "NPC убил  %s %i",
+		"en": "NPC killed  %s %i"
+	},
+	"MSG_0701": {
+		"ru": "Общее количество убийств = %i",
+		"en": "Total number of murders = %i"
+	},
+	"MSG_0702": {
+		"ru": "Рейтинг = %s",
+		"en": "Rating = %s"
+	},
+	"MSG_0703": {
+		"ru": "Двуреченский: Команда выключена, ведётся создание рейтинговой системы.",
+		"en": "Dvurechensky: The team is off, a rating system is being created."
+	},
+	"MSG_0704": {
+		"ru": "ОШИБКА: цель не найдена.",
+		"en": "ERROR: no target found."
+	},
+	"MSG_0705": {
+		"ru": "Двуреченский: Команда выключена, ведётся создание рейтинговой системы.",
+		"en": "Dvurechensky: The team is off, a rating system is being created."
+	},
+	"MSG_0706": {
+		"ru": "Число убийств другим игроком = %i",
+		"en": "Number of murders by another player = %i"
+	},
+	"MSG_0707": {
+		"ru": "NPC убил  %s %i",
+		"en": "NPC killed  %s %i"
+	},
+	"MSG_0708": {
+		"ru": "Общее количество убийств = %i",
+		"en": "Total number of murders = %i"
+	},
+	"MSG_0709": {
+		"ru": "Рейтинг = %s",
+		"en": "Rating = %s"
+	},
+	"MSG_0710": {
+		"ru": "Двуреченский: Команда выключена, ведётся создание рейтинговой системы.",
+		"en": "Dvurechensky: The team is off, a rating system is being created."
+	},
+	"MSG_0711": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_0712": {
+		"ru": "Двуреченский: Команда отключена",
+		"en": "Dvurechensky: Command disabled"
+	},
+	"MSG_0713": {
+		"ru": "/ping",
+		"en": "/ping"
+	},
+	"MSG_0714": {
+		"ru": "/pingtarget",
+		"en": "/pingtarget"
+	},
+	"MSG_0715": {
+		"ru": "ОШИБКА: Вы пристыкованы",
+		"en": "ERROR: You are docked"
+	},
+	"MSG_0716": {
+		"ru": "ОШИБКА: Нет цели",
+		"en": "ERROR: No target"
+	},
+	"MSG_0717": {
+		"ru": "ОШИБКА: Цель — не игрок",
+		"en": "ERROR: Target is no player"
+	},
+	"MSG_0718": {
+		"ru": "%d корабли, оставшиеся для уничтожения, чтобы завершить миссию",
+		"en": "%d ships remaining to destroy complete mission objective"
+	},
+	"MSG_0719": {
+		"ru": "%d подразделения, оставшиеся для выполнения цели миссии",
+		"en": "%d units remaining to complete mission objective"
+	},
+	"MSG_0720": {
+		"ru": "Цель миссии выполнена",
+		"en": "Mission objective completed"
+	},
+	"MSG_0721": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0722": {
+		"ru": "Команда отключена.",
+		"en": "Team down."
+	},
+	"MSG_0723": {
+		"ru": "ОШИБКА: Вы должны выделить мышью объект, чтобы отметить его.",
+		"en": "ERROR: You must highlight an object with your mouse to mark it."
+	},
+	"MSG_0724": {
+		"ru": "ОШИБКА: Вы не можете отмечать замаскированные корабли.",
+		"en": "ERROR: You cannot mark camouflaged ships."
+	},
+	"MSG_0725": {
+		"ru": "ОШИБКА: объект уже отмечен.",
+		"en": "ERROR: the object has already been marked."
+	},
+	"MSG_0726": {
+		"ru": "ОШИБКА: Вы должны выделить мышью объект, чтобы отметить его.",
+		"en": "ERROR: You must highlight an object with your mouse to mark it."
+	},
+	"MSG_0727": {
+		"ru": "ОШИБКА: объект не отмечен.",
+		"en": "ERROR: object not marked."
+	},
+	"MSG_0728": {
+		"ru": "ОШИБКА: Вы должны выделить мышью объект, чтобы отметить его.",
+		"en": "ERROR: You must highlight an object with your mouse to mark it."
+	},
+	"MSG_0729": {
+		"ru": "ОШИБКА: Вы должны выделить мышью объект, чтобы отметить его.",
+		"en": "ERROR: You must highlight an object with your mouse to mark it."
+	},
+	"MSG_0730": {
+		"ru": "Приняты отметки от группы",
+		"en": "Accepted marks from the group"
+	},
+	"MSG_0731": {
+		"ru": "Игнорирование отметок из группы",
+		"en": "Ignoring marks from the group"
+	},
+	"MSG_0732": {
+		"ru": "Сонар включен в радиусе %g км",
+		"en": "Sonar included in radius of %g km"
+	},
+	"MSG_0733": {
+		"ru": "Сонар отключен",
+		"en": "Sonar is down"
+	},
+	"MSG_0734": {
+		"ru": "Двуреченский: Данная команда написана через одно неприличное место и адекватно не работает. Однажды я перепишу тот бред который тут заложен странным человеком, но сейчас она не доступна.",
+		"en": "Dvurechensky: This command is written through one indecent place and does not work properly. One day, I'm going to rewrite the nonsense that a strange man put in here, but it's not available right now."
+	},
+	"MSG_0735": {
+		"ru": "ОШИБКА: Радиус не может быть больше 100км.",
+		"en": "ERROR: The radius cannot exceed 100 km."
+	},
+	"MSG_0736": {
+		"ru": "Автоматическая маркировка включена в радиусе %g",
+		"en": "Automatic marking is included in the radius of %g"
+	},
+	"MSG_0737": {
+		"ru": "Радиус изменен на %g KMs",
+		"en": "Radius changed to %g KMs"
+	},
+	"MSG_0738": {
+		"ru": "Автоматическая маркировка отключена: Радиус изменен на %g KMs",
+		"en": "Automatic marking disabled: radius changed to %g KMs"
+	},
+	"MSG_0739": {
+		"ru": "Автоматическая маркировка отключена",
+		"en": "Automatic marking disabled"
+	},
+	"MSG_0740": {
+		"ru": "Радиус изменен на %g KMs",
+		"en": "Radius changed to %g KMs"
+	},
+	"MSG_0741": {
+		"ru": "/mark /m <--- Заставляет выбранный объект отображаться в важном разделе левого нижнего меню и\\n есть стрелка сбоку от экрана, а также > и < по бокам \\n  окна выбора.",
+		"en": "/mark /m <--- Makes the selected object appear in the important section of the left lower menu and\\n has an arrow on the side of the screen, as well as > and < on the sides \\n of the selection window."
+	},
+	"MSG_0742": {
+		"ru": "/unmark /um <--- Снимает отметку с выбранного объекта, отмеченного командой /mark (/m).",
+		"en": "/unmark /um <--- Removes the mark from the selected object marked with /mark (/m)."
+	},
+	"MSG_0743": {
+		"ru": "/groupmark /gm <--- Отмечает выбранный объект для всей группы.",
+		"en": "/groupmark /gm <--- Marks the selected object for the entire group."
+	},
+	"MSG_0744": {
+		"ru": "/groupunmark /gum <--- Снимает отметку с выбранного объекта для всей группы.",
+		"en": "/groupunmark /gum <--- Removes the mark from the selected object for the entire group."
+	},
+	"MSG_0745": {
+		"ru": "/ignoregroupmarks <on|off> <--- Игнорирует отметки других участников вашей группы.",
+		"en": "/ignoregroupmarks <on|off> <---- Ignores the marks of other members of your group."
+	},
+	"MSG_0746": {
+		"ru": "/automark <on|off> [radius in KM] <--- Автоматически маркирует игроков вокруг в определённом радиусе",
+		"en": "/automark <on|off> [radius in KM] <--- Automatically tags players around a certain radius"
+	},
+	"MSG_0747": {
+		"ru": "/sonar <on|off> <--- Автоматически подсвечивает все контейнеры в радиусе заданном на сервере каждые 45 секунд.",
+		"en": "/sonar <on|off> <--- Automatically illuminates all containers within a given radius on the server every 45 seconds."
+	},
+	"MSG_0748": {
+		"ru": "Я нашел товар %s.",
+		"en": "I have found commodity %s."
+	},
+	"MSG_0749": {
+		"ru": "Я нашел эту базу, регистрирую покупку.",
+		"en": "I have found this base, logging the purchase."
+	},
+	"MSG_0750": {
+		"ru": "ОТЛАДКА: Я зарегистрировал %i продаж.",
+		"en": "DEBUG: I have logged %i sales."
+	},
+	"MSG_0751": {
+		"ru": "Это должна быть закупка товара (оборудования?)",
+		"en": "This should be a commodity (equipment?)"
+	},
+	"MSG_0752": {
+		"ru": "Это должно быть приобретение оборудования (возможно?)",
+		"en": "This should be an equipment (maybe?)"
+	},
+	"MSG_0753": {
+		"ru": "Я нашел этот товар",
+		"en": "I have found this commodity"
+	},
+	"MSG_0754": {
+		"ru": "ОТЛАДКА: Я нашел эту распродажу, позволяющую совершить покупку.",
+		"en": "DEBUG: I have found this sale, letting the purchase go through."
+	},
+	"MSG_0755": {
+		"ru": "ОТЛАДКА: осталось %i покупок.",
+		"en": "DEBUG: %i purchases left."
+	},
+	"MSG_0756": {
+		"ru": "ОТЛАДКА: покупок не осталось",
+		"en": "DEBUG: no purchases left"
+	},
+	"MSG_0757": {
+		"ru": "ОТЛАДКА: Я нашел эту базу, она не очень хорошая.",
+		"en": "I have found this base, not good"
+	},
+	"MSG_0758": {
+		"ru": "Это должна быть покупка корабля.",
+		"en": "This should be a ship purchase"
+	},
+	"MSG_0759": {
+		"ru": "Это должно быть базой.",
+		"en": "This should be a base"
+	},
+	"MSG_0760": {
+		"ru": "Я нашел этот корабль.",
+		"en": "I have found this ship"
+	},
+	"MSG_0761": {
+		"ru": "Очищена информация",
+		"en": "Cleared info"
+	},
+	"MSG_0762": {
+		"ru": "Очищена информация",
+		"en": "Cleared info"
+	},
+	"MSG_0763": {
+		"ru": "* Неправильный ship/equip/rep",
+		"en": "* Wrong ship/equip/rep"
+	},
+	"MSG_0764": {
+		"ru": "* Неправильный gun",
+		"en": "* Wrong gun"
+	},
+	"MSG_0765": {
+		"ru": "* %2.2f(fRand)x%2.2f(set_fGenericFactor)x%2.2f(fZoneBonus)x%2.2f(fPlayerBonus) = %2.2f(iLootCount)!? dynamic_loot_count2=%2.2f",
+		"en": "* %2.2f(fRand)x%2.2f(set_fGenericFactor)x%2.2f(fZoneBonus)x%2.2f(fPlayerBonus) = %2.2f(iLootCount)!? dynamic_loot_count2=%2.2f"
+	},
+	"MSG_0766": {
+		"ru": "* fRand=%2.2f fGenericBonus=%2.2f fPlayerBonus=%2.2f fZoneBonus=%2.2f wtfLootCount=%d iLootID=%u/%u fCurrReserve=%0.0f",
+		"en": "* fRand=%2.2f fGenericBonus=%2.2f fPlayerBonus=%2.2f fZoneBonus=%2.2f wtfLootCount=%d iLootID=%u/%u fCurrReserve=%0.0f"
+	},
+	"MSG_0767": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0768": {
+		"ru": "* Неправильный ship / equipment / reputation",
+		"en": "* Wrong ship / equipment / reputation"
+	},
+	"MSG_0769": {
+		"ru": "* Неправильное оружие",
+		"en": "* Wrong weapon"
+	},
+	"MSG_0770": {
+		"ru": "* fRand=%2.2f fGenericBonus=%2.2f fPlayerBonus=%2.2f fZoneBonus=%2.2f iLootCount=%d iLootID=%u/%u fCurrReserve=%0.0f",
+		"en": "* fRand=%2.2f fGenericBonus=%2.2f fPlayerBonus=%2.2f fZoneBonus=%2.2f iLootCount=%d iLootID=%u/%u fCurrReserve=%0.0f"
+	},
+	"MSG_0771": {
+		"ru": "%s's трюм теперь полон.",
+		"en": "%s's hold is now full."
+	},
+	"MSG_0772": {
+		"ru": " Ваш трюм полон.",
+		"en": " Your hold is full."
+	},
+	"MSG_0773": {
+		"ru": "Чтобы использовать эту команду, вы должны находиться на базе.",
+		"en": "To use this command, you must be on base."
+	},
+	"MSG_0774": {
+		"ru": "Обновление персонажей:",
+		"en": "Character update:"
+	},
+	"MSG_0775": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_0776": {
+		"ru": "Персонаж: %s - Временные метки обновлены",
+		"en": "Character: %s - Time stamps updated"
+	},
+	"MSG_0777": {
+		"ru": "ОШИБКА: %s",
+		"en": "ERROR: %s"
+	},
+	"MSG_0778": {
+		"ru": "Успешно обновил %u символов..",
+		"en": "Successfully updated %u of the characters.."
+	},
+	"MSG_0779": {
+		"ru": "ОШИБКА: %s",
+		"en": "ERROR: %s"
+	},
+	"MSG_0780": {
+		"ru": "Фрилансер IFF предоставлен. Вам может понадобиться /droprep, если ваш старый IFF существует после выхода из системы/входа в систему и отстыковки.",
+		"en": "Freelancer IFF provided. You may need /droprep if your old IFF exists after logging out and undocking."
+	},
+	"MSG_0781": {
+		"ru": "Отбрасывание корабля...",
+		"en": "Dropping the ship..."
+	},
+	"MSG_0782": {
+		"ru": "Корабль предупреждается. Если он не отстыковывается за %i секунд, его выгонят силой.",
+		"en": "The ship is on alert. If it does not undock in %i seconds, it will be expelled by force."
+	},
+	"MSG_0783": {
+		"ru": "Перевозчик хочет сбросить ваш корабль. Отстыкуйтесь добровольно, иначе вас кикнут после %i секунд.",
+		"en": "The carrier wants to drop your ship. Unlock voluntarily, or you will be thrown after %i of seconds."
+	},
+	"MSG_0784": {
+		"ru": "ТРЕВОГА! Корабль-носитель уничтожается. Запустите корабль или погибнете в результате взрыва.",
+		"en": "Alarm! The carrier ship is being destroyed. Launch the ship or die in the explosion."
+	},
+	"MSG_0785": {
+		"ru": "В системе не обнаружена прокси-база. Свяжитесь с разработчиком по этому поводу, пожалуйста. Требуемая база: %ws",
+		"en": "There's no proxy in the system. Please contact the developer about this. Required base: %ws"
+	},
+	"MSG_0786": {
+		"ru": "В системе не обнаружена прокси-база. Свяжитесь с разработчиком по этому поводу, пожалуйста. Требуемая база: %s",
+		"en": "There's no proxy in the system. Please contact the developer about this. Required base: %s"
+	},
+	"MSG_0787": {
+		"ru": "Карта навигации успешно обновлена.",
+		"en": "The navigation map has been successfully updated."
+	},
+	"MSG_0788": {
+		"ru": "Корабль вне досягаемости",
+		"en": "Ship out of reach"
+	},
+	"MSG_0789": {
+		"ru": "Целевой корабль не имеет свободного места для стыковки.",
+		"en": "The target ship does not have free space for docking."
+	},
+	"MSG_0790": {
+		"ru": "Целевой корабль не может пристыковаться к кораблю вашего размера.",
+		"en": "A target ship cannot dock with a ship of your size."
+	},
+	"MSG_0791": {
+		"ru": "%s просит пристыковаться, авторизовать с /allowdock",
+		"en": "%s asks to dock, authorize with /allowdock"
+	},
+	"MSG_0792": {
+		"ru": "Запрос на стыковку отправлен на %s",
+		"en": "Docking request sent to %s"
+	},
+	"MSG_0793": {
+		"ru": "В настоящее время ни один корабль не пришвартован",
+		"en": "No ships are currently moored"
+	},
+	"MSG_0794": {
+		"ru": "Пришвартованные корабли:",
+		"en": "Moored ships:"
+	},
+	"MSG_0795": {
+		"ru": "Вы не можете использовать эту команду, если к вам пришвартованы суда.",
+		"en": "You can't use this command if you have ships docked."
+	},
+	"MSG_0796": {
+		"ru": "Использование: /jettisonship <charname>",
+		"en": "Use: /jettisonship <charname>"
+	},
+	"MSG_0797": {
+		"ru": "Выбросить корабль можно только в космосе.",
+		"en": "You can only throw a ship out in space."
+	},
+	"MSG_0798": {
+		"ru": "%s не состыкован с вами!",
+		"en": "%s is not docked with you!"
+	},
+	"MSG_0799": {
+		"ru": "Корабль вне досягаемости",
+		"en": "Ship out of reach"
+	},
+	"MSG_0800": {
+		"ru": "Для этого корабля нет ожидающих запросов на стыковку.",
+		"en": "There are no pending docking requests for this ship."
+	},
+	"MSG_0801": {
+		"ru": "Нет бесплатных стыковочных модулей..",
+		"en": "There are no free docking modules.."
+	},
+	"MSG_0802": {
+		"ru": "База прокси-серверов в системе не обнаружена. Обратитесь к разработчику по этому вопросу. Требуемая база: %s",
+		"en": "No proxy base in system detected. Contact a developer about this please. Required base: %s"
+	},
+	"MSG_0803": {
+		"ru": "Корабль пришвартован",
+		"en": "Ship docked"
+	},
+	"MSG_0804": {
+		"ru": "set_fHullFct:",
+		"en": "set_fHullFct:"
+	},
+	"MSG_0805": {
+		"ru": "Падение крепления: ",
+		"en": "Drop mount: "
+	},
+	"MSG_0806": {
+		"ru": "Падение крепления: ",
+		"en": "Drop mount: "
+	},
+	"MSG_0807": {
+		"ru": "Падение крепления: ",
+		"en": "Drop mount: "
+	},
+	"MSG_0808": {
+		"ru": "итерация: ",
+		"en": "iter: "
+	},
+	"MSG_0809": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0810": {
+		"ru": "ОШИБКА: это не корабль.",
+		"en": "ERROR: it's not a ship."
+	},
+	"MSG_0811": {
+		"ru": "ОШИБКА: это не корабль игрока.",
+		"en": "ERROR: This is not a player's ship."
+	},
+	"MSG_0812": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_0813": {
+		"ru": "Сохранены текущие настройки вашего корабля: ",
+		"en": "The current settings of your ship are saved: "
+	},
+	"MSG_0814": {
+		"ru": "ОШИБКА: Вы должны быть в космосе при выполнении этой команды",
+		"en": "ERROR: You must be in space while executing this command"
+	},
+	"MSG_0815": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_0816": {
+		"ru": "ОШИБКА: символ не существует",
+		"en": "ERROR: The symbol does not exist"
+	},
+	"MSG_0817": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0818": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0819": {
+		"ru": "ОШИБКА: недостаточно времени онлайн.",
+		"en": "ERROR: Not enough time online."
+	},
+	"MSG_0820": {
+		"ru": "ОШИБКА: у игрока недостаточно времени онлайн.",
+		"en": "ERROR: The player does not have enough time online."
+	},
+	"MSG_0821": {
+		"ru": "ОШИБКА: символ не существует.",
+		"en": "ERROR: the symbol does not exist."
+	},
+	"MSG_0822": {
+		"ru": "ОШИБКА: денежный перевод заблокирован.",
+		"en": "ERROR: Money transfer is blocked."
+	},
+	"MSG_0823": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0824": {
+		"ru": "ОШИБКА: перевод слишком маленький, минимальный перевод ",
+		"en": "ERROR: Translation is too small, minimal "
+	},
+	"MSG_0825": {
+		"ru": "ОШИБКА: недостаточно кредитов [%d : %d]",
+		"en": "ERROR: Not enough loans [%d : %d]"
+	},
+	"MSG_0826": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0827": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0828": {
+		"ru": "Уведомление: после перевода у пользователя будет %d денег.",
+		"en": "Notification: After the transfer, the user will have %d money."
+	},
+	"MSG_0829": {
+		"ru": "ОШИБКА: перевод превысит кредитный лимит.",
+		"en": "ERROR: Transfer will exceed the credit limit."
+	},
+	"MSG_0830": {
+		"ru": "ОШИБКА: сбой получения денег №=",
+		"en": "ERROR: Failure to receive money №="
+	},
+	"MSG_0831": {
+		"ru": "ОШИБКА: передача не удалась.",
+		"en": "ERROR: transmission failed."
+	},
+	"MSG_0832": {
+		"ru": "ОШИБКА: окно торговли открыто.",
+		"en": "ERROR: The trading window is open."
+	},
+	"MSG_0833": {
+		"ru": "ОШИБКА: сбой добавления денежных средств №=",
+		"en": "ERROR: Failure to add cash №="
+	},
+	"MSG_0834": {
+		"ru": "ОШИБКА: передача не удалась.",
+		"en": "ERROR: transmission failed."
+	},
+	"MSG_0835": {
+		"ru": "ОШИБКА: сбой добавления денежных средств №=",
+		"en": "ERROR: Failure to add cash №="
+	},
+	"MSG_0836": {
+		"ru": "ОШИБКА: передача не удалась.",
+		"en": "ERROR: transmission failed."
+	},
+	"MSG_0837": {
+		"ru": "ОШИБКА: передача не удалась.",
+		"en": "ERROR: transmission failed."
+	},
+	"MSG_0838": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0839": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0840": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_0841": {
+		"ru": "ХОРОШО: Код аккаунта очищен.",
+		"en": "OK: Account code cleared."
+	},
+	"MSG_0842": {
+		"ru": "ХОРОШО: Код аккаунта установлен на ",
+		"en": "OK: Account Code is set to "
+	},
+	"MSG_0843": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_0844": {
+		"ru": "ОШИБКА: символ не существует",
+		"en": "ERROR: The symbol does not exist"
+	},
+	"MSG_0845": {
+		"ru": "ОШИБКА: доступ к денежному счету запрещен.",
+		"en": "ERROR: Access to a cash account is prohibited."
+	},
+	"MSG_0846": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0847": {
+		"ru": "ХОРОШО: Аккаунт ",
+		"en": "OK: Account "
+	},
+	"MSG_0848": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_0849": {
+		"ru": "ОШИБКА: символ не существует.",
+		"en": "ERROR: the symbol does not exist."
+	},
+	"MSG_0850": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0851": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0852": {
+		"ru": "ОШИБКА: недостаточно времени онлайн.",
+		"en": "ERROR: Not enough time online."
+	},
+	"MSG_0853": {
+		"ru": "ОШИБКА: у игрока недостаточно времени онлайн.",
+		"en": "ERROR: The player does not have enough time online."
+	},
+	"MSG_0854": {
+		"ru": "ОШИБКА: денежный перевод заблокирован.",
+		"en": "ERROR: Money transfer is blocked."
+	},
+	"MSG_0855": {
+		"ru": "ОШИБКА: доступ к денежному счету запрещен.",
+		"en": "ERROR: Access to a cash account is prohibited."
+	},
+	"MSG_0856": {
+		"ru": "ОШИБКА: перевод слишком маленький, минимальный перевод ",
+		"en": "ERROR: Translation is too small, minimal "
+	},
+	"MSG_0857": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0858": {
+		"ru": "ОШИБКА: недостаточно кредитов.",
+		"en": "ERROR: Not enough credit."
+	},
+	"MSG_0859": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0860": {
+		"ru": "ОШИБКА: перевод превысит кредитный лимит.",
+		"en": "ERROR: Transfer will exceed the credit limit."
+	},
+	"MSG_0861": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0862": {
+		"ru": "ОШИБКА: перевод не удался.",
+		"en": "ERROR: translation failed."
+	},
+	"MSG_0863": {
+		"ru": "ОШИБКА: окно торговли открыто.",
+		"en": "ERROR: The trading window is open."
+	},
+	"MSG_0864": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0865": {
+		"ru": "ОШИБКА: перевод не удался.",
+		"en": "ERROR: translation failed."
+	},
+	"MSG_0866": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_0867": {
+		"ru": "ОШИБКА: перевод не удался.",
+		"en": "ERROR: translation failed."
+	},
+	"MSG_0868": {
+		"ru": "ОШИБКА: перевод не удался.",
+		"en": "ERROR: translation failed."
+	},
+	"MSG_0869": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0870": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0871": {
+		"ru": " Смена системы %u",
+		"en": " Change of %u system"
+	},
+	"MSG_0872": {
+		"ru": "Космическая кошечка знает, что вы находитесь в %s !",
+		"en": "The space cat knows you're in %s!"
+	},
+	"MSG_0873": {
+		"ru": "Скрипт найден %s !",
+		"en": "Script found %s !"
+	},
+	"MSG_0874": {
+		"ru": "Вы можете прыгнуть на:",
+		"en": "You can jump on:"
+	},
+	"MSG_0875": {
+		"ru": "|     %s",
+		"en": "|     %s"
+	},
+	"MSG_0876": {
+		"ru": "Белый список системы прыжков не включен.",
+		"en": "The white list of the jump system is not included."
+	},
+	"MSG_0877": {
+		"ru": "Гиперпространственный обзор завершен",
+		"en": "Hyperspatial review completed"
+	},
+	"MSG_0878": {
+		"ru": "Raw: %s",
+		"en": "Raw: %s"
+	},
+	"MSG_0879": {
+		"ru": "Координаты: %s",
+		"en": "Coordinates: %s"
+	},
+	"MSG_0880": {
+		"ru": "Гиперпространственный маяк вышел из строя.",
+		"en": "The hyperspace beacon is out of order."
+	},
+	"MSG_0881": {
+		"ru": "Перезарядка гиперпространственного маяка завершена.",
+		"en": "Recharging the hyperspace beacon is complete."
+	},
+	"MSG_0882": {
+		"ru": "Опрос не пройден",
+		"en": "Survey not passed"
+	},
+	"MSG_0883": {
+		"ru": "Гиперпространственный обзор завершен",
+		"en": "Hyperspatial review completed"
+	},
+	"MSG_0884": {
+		"ru": "Координаты: %s",
+		"en": "Coordinates: %s"
+	},
+	"MSG_0885": {
+		"ru": "Обзор %0.0f%% завершён",
+		"en": "Review of %0.0f%% completed"
+	},
+	"MSG_0886": {
+		"ru": "ОШИБКА: Корабль замаскирован.",
+		"en": "ERROR: The ship is disguised."
+	},
+	"MSG_0887": {
+		"ru": "ОШИБКА: Кораблю запрещено прыгать.",
+		"en": "ERROR: The ship is forbidden to jump."
+	},
+	"MSG_0888": {
+		"ru": "ОШИБКА: Кораблю запрещено прыгать.",
+		"en": "ERROR: The ship is forbidden to jump."
+	},
+	"MSG_0889": {
+		"ru": "Прыжок...",
+		"en": "Jump..."
+	},
+	"MSG_0890": {
+		"ru": "Вы отменили регистрацию на мероприятии.",
+		"en": "You canceled your registration for the event."
+	},
+	"MSG_0891": {
+		"ru": "ОШИБКА: Корабль замаскирован.",
+		"en": "ERROR: The ship is disguised."
+	},
+	"MSG_0892": {
+		"ru": "Сбой зарядки прыжкового привода",
+		"en": "Jump drive charging failure"
+	},
+	"MSG_0893": {
+		"ru": "Зарядка пускового привода завершена, готов к прыжку",
+		"en": "Starter charge complete, ready to jump"
+	},
+	"MSG_0894": {
+		"ru": "Зарядка от прыжкового привода %0.0f%%",
+		"en": "Charging from jump drive %0.0f%%"
+	},
+	"MSG_0895": {
+		"ru": "Модуль опроса недоступен",
+		"en": "Survey module unavailable"
+	},
+	"MSG_0896": {
+		"ru": "Модуль опроса недоступен",
+		"en": "Survey module unavailable"
+	},
+	"MSG_0897": {
+		"ru": "Недостаточная мощность для запуска исследовательского модуля",
+		"en": "Insufficient power to run the research module"
+	},
+	"MSG_0898": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0899": {
+		"ru": "ОШИБКА: Слишком большое расстояние от звездной плоскости, неспособное компенсировать галактический дрейф. Перемещение в пределах %u от плоскости звезды.",
+		"en": "ERROR: Too much distance from the star plane, unable to compensate for galactic drift. Moving within %u of the plane of the star."
+	},
+	"MSG_0900": {
+		"ru": "Исследование начато",
+		"en": "Research initiated"
+	},
+	"MSG_0901": {
+		"ru": "Исследование прервано",
+		"en": "Study interrupted"
+	},
+	"MSG_0902": {
+		"ru": "Прыжковый привод недоступен",
+		"en": "Jump drive unavailable"
+	},
+	"MSG_0903": {
+		"ru": "Невозможно изменить координаты во время прыжка.",
+		"en": "It is impossible to change the coordinates during the jump."
+	},
+	"MSG_0904": {
+		"ru": "ОШИБКА: Неверные координаты, ошибка формата",
+		"en": "ERROR: Incorrect coordinates, format error"
+	},
+	"MSG_0905": {
+		"ru": "ОШИБКА: Неверные координаты, ошибка четности",
+		"en": "ERROR: Incorrect coordinates, parity error"
+	},
+	"MSG_0906": {
+		"ru": "ОШИБКА: Обнаружен гравитационный разлом. Невозможно перейти на %s из этой системы.",
+		"en": "ERROR: Gravitational fault detected. It is impossible to switch to %s from this system."
+	},
+	"MSG_0907": {
+		"ru": "Предупреждение о том, что обнаружены старые координаты. Прыгать не рекомендуется",
+		"en": "Warning that old coordinates have been found. Jumping is not recommended"
+	},
+	"MSG_0908": {
+		"ru": "ХОРОШО: Координаты проверены: %s %0.0f.%0.0f.%0.0f",
+		"en": "OK: Coordinates checked: %s %0.0f.%0.0f.%0.0f"
+	},
+	"MSG_0909": {
+		"ru": "Сбой зарядки с помощью прыжкового привода",
+		"en": "Charging failure with a jump drive"
+	},
+	"MSG_0910": {
+		"ru": "Привод от перемычки недоступен",
+		"en": "Bar drive unavailable"
+	},
+	"MSG_0911": {
+		"ru": "Недостаточная мощность для зарядки джамп-привода",
+		"en": "Insufficient power to charge the jump drive"
+	},
+	"MSG_0912": {
+		"ru": "ПРЕДУПРЕЖДЕНИЕ ОБ ОТСУТСТВИИ КООРДИНАТ ПРЫЖКА",
+		"en": "WARNING ABOUT THE COORDINATE OF LEAP"
+	},
+	"MSG_0913": {
+		"ru": "ОШИБКА: Обнаружен гравитационный разлом. Не удается перейти к %s из этой системы.",
+		"en": "ERROR: Gravitational fault detected. It is not possible to move to %s from this system."
+	},
+	"MSG_0914": {
+		"ru": "Прыжковый привод отключен. Используйте: /jumpsys для получения списка доступных систем.",
+		"en": "Jump drive disabled. Use: /jumpsys for the list of available systems."
+	},
+	"MSG_0915": {
+		"ru": "Зарядка с помощью прыжкового привода",
+		"en": "Charging with a jump drive"
+	},
+	"MSG_0916": {
+		"ru": "Отключен привод прыжка",
+		"en": "Jump drive disabled"
+	},
+	"MSG_0917": {
+		"ru": "Сбой зарядки с помощью прыжкового привода",
+		"en": "Charging failure with a jump drive"
+	},
+	"MSG_0918": {
+		"ru": "Сбой зарядки прыжкового привода",
+		"en": "Jump drive charging failure"
+	},
+	"MSG_0919": {
+		"ru": "Прыжковый привод не готов",
+		"en": "Jump drive not ready"
+	},
+	"MSG_0920": {
+		"ru": "ПРЕДУПРЕЖДЕНИЕ ОБ ОТСУТСТВИИ КООРДИНАТ ПРЫЖКА",
+		"en": "WARNING ABOUT THE COORDINATE OF LEAP"
+	},
+	"MSG_0921": {
+		"ru": "АКТИВИРУЕТСЯ СЛЕПОЙ ПРЫЖОК",
+		"en": "ACTIVATED BY A BLIND JUMP"
+	},
+	"MSG_0922": {
+		"ru": "Неисправность прыжкового привода. Не можем выскочить из системы.",
+		"en": "Jump drive malfunction. We can't get out of the system."
+	},
+	"MSG_0923": {
+		"ru": "Гиперпространственный скачёк прерван, требуется перезапуск",
+		"en": "Hyperspace jump interrupted, restart required"
+	},
+	"MSG_0924": {
+		"ru": "Сбой в работе прыжкового двигателя. Не удалось зарядить.",
+		"en": "The jump engine malfunctioned. Failed to charge."
+	},
+	"MSG_0925": {
+		"ru": "ОШИБКА: Не в космосе",
+		"en": "ERROR: Not in space"
+	},
+	"MSG_0926": {
+		"ru": "ОШИБКА: Устройство гиперпространственной матрицы не найдено.",
+		"en": "ERROR: No hyperspace matrix device has been found."
+	},
+	"MSG_0927": {
+		"ru": "Гиперпространственный генератор в данный момент перезаряжается. %d осталось секунд.",
+		"en": "The hyperspace generator is currently being recharged. %d has seconds left."
+	},
+	"MSG_0928": {
+		"ru": "ОШИБКА: Недостаточно батареек для питания матрицы.",
+		"en": "ERROR: There are not enough batteries to power the matrix."
+	},
+	"MSG_0929": {
+		"ru": "Гиперпространственный маяк не найден.",
+		"en": "No hyperspace beacon found."
+	},
+	"MSG_0930": {
+		"ru": "ОШИБКА: Недопустимые параметры",
+		"en": "ERROR: Inadmissible parameters"
+	},
+	"MSG_0931": {
+		"ru": "Сбой зарядки с помощью прыжкового привода",
+		"en": "Charging failure with a jump drive"
+	},
+	"MSG_0932": {
+		"ru": "Привод от джампа не готов",
+		"en": "Jump drive's not ready"
+	},
+	"MSG_0933": {
+		"ru": "ОШИБКА: Корабль не найден",
+		"en": "ERROR: Ship not found"
+	},
+	"MSG_0934": {
+		"ru": "ОШИБКА: Активный маяк не найден.",
+		"en": "ERROR: No active lighthouse found."
+	},
+	"MSG_0935": {
+		"ru": "ОШИБКА: Активный маяк не найден.",
+		"en": "ERROR: No active lighthouse found."
+	},
+	"MSG_0936": {
+		"ru": "Привод от джампа не готов",
+		"en": "Jump drive's not ready"
+	},
+	"MSG_0937": {
+		"ru": "ОШИБКА: Привод от джампа не готов. Не удается перейти к %s из этой системы.",
+		"en": "ERROR: Jump drive's not ready. It is not possible to move to %s from this system."
+	},
+	"MSG_0938": {
+		"ru": "Привод прыжков отключен. Используйте /jumpsys для списка доступных систем.",
+		"en": "Jump drive disabled. Use: /jumpsys for the list of available systems."
+	},
+	"MSG_0939": {
+		"ru": "ХОРОШО: Уточнены координаты маяка: %s %0.0f.%0.0f.%0.0f",
+		"en": "OK: The coordinates of the lighthouse are specified: %s %0.0f.%0.0f.%0.0f"
+	},
+	"MSG_0940": {
+		"ru": "ОШИБКА: Имя не найдено",
+		"en": "ERROR: No name found"
+	},
+	"MSG_0941": {
+		"ru": "Сбой в работе прыжкового двигателя. Зарядка не удалась.",
+		"en": "The jump engine malfunctioned. Charging failed."
+	},
+	"MSG_0942": {
+		"ru": "Успешное прерывание работы прыжкового диска",
+		"en": "Successful interruption of the jump disk"
+	},
+	"MSG_0943": {
+		"ru": "#%02d %s",
+		"en": "#%02d %s"
+	},
+	"MSG_0944": {
+		"ru": "Просмотр #%02d-#%02d из %02d сообщений.",
+		"en": "View #%02d-#%02d from %02d posts."
+	},
+	"MSG_0945": {
+		"ru": "У вас есть %d непрочитанных сообщений. Команда /mail покажет вам сообщения",
+		"en": "You have %d unread messages. The /mail command will show you the messages"
+	},
+	"MSG_0946": {
+		"ru": "Ананас!!!",
+		"en": "Pineapple!!!"
+	},
+	"MSG_0947": {
+		"ru": "Срабатывает при добавлении груза",
+		"en": "It works when you add loads"
+	},
+	"MSG_0948": {
+		"ru": "Покупка оборудования на запертом корабле запрещена. Вас теперь выкинут.",
+		"en": "Buying equipment on a locked ship is prohibited. You'll be thrown out now."
+	},
+	"MSG_0949": {
+		"ru": "Срабатывает при добавлении снаряжения",
+		"en": "Triggered on add equip"
+	},
+	"MSG_0950": {
+		"ru": "Этот корабль заблокирован. Вы не можете продать предмет с таким ID, броню или CM/Устр.Невидимсти. Вы будете выгнаны, для предотвращения коррупции.",
+		"en": "This ship is blocked. You cannot sell an item with such ID, armor or CM/Uster. Invisibility. You will be expelled to prevent corruption."
+	},
+	"MSG_0951": {
+		"ru": "Продажа оборудования на этом корабле запрещена. Теперь вас выгнали, чтобы предотвратить коррупцию.",
+		"en": "The sale of equipment on this ship is prohibited. Now you've been kicked out to prevent corruption."
+	},
+	"MSG_0952": {
+		"ru": "Этот корабль заблокирован. Вы не можете размонтировать оборудование. Вы будете выгнаны, чтобы предотвратить коррупцию.",
+		"en": "This ship is blocked. You can't unmount the equipment. You will be kicked out to prevent corruption."
+	},
+	"MSG_0953": {
+		"ru": "Срабатывает при обнаружении груза",
+		"en": "Triggered on cargo item"
+	},
+	"MSG_0954": {
+		"ru": "Мне нравится %d",
+		"en": "I like %d"
+	},
+	"MSG_0955": {
+		"ru": "Срабатывает при экипировке предмета",
+		"en": "Triggered on equip item"
+	},
+	"MSG_0956": {
+		"ru": "На запертом корабле нельзя модифицировать оборудование. Теперь вас выгонят.",
+		"en": "Modifying equipment is not allowed on a locked ship. You will now be kicked."
+	},
+	"MSG_0957": {
+		"ru": "Этот корабль заблокирован. Вы не можете установить ID или броню. Вы будете выгнаны, чтобы предотвратить коррупцию.",
+		"en": "This ship is blocked. You cannot set your ID or armor. You will be kicked out to prevent corruption."
+	},
+	"MSG_0958": {
+		"ru": "Этот корабль заблокирован. Вы не можете отключить свой идентификатор или броню. Вы будете выгнаны, чтобы предотвратить коррупцию.",
+		"en": "This ship is blocked. You cannot disable your ID or reservation. You will be kicked out to prevent corruption."
+	},
+	"MSG_0959": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0960": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0961": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0962": {
+		"ru": "/roll 1d20",
+		"en": "/roll 1d20"
+	},
+	"MSG_0963": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0964": {
+		"ru": "/renameme <charname>",
+		"en": "/renameme <charname>"
+	},
+	"MSG_0965": {
+		"ru": "/movechar <charname> <code>",
+		"en": "/movechar <charname> <code>"
+	},
+	"MSG_0966": {
+		"ru": "/set movecharcode <code>",
+		"en": "/set movecharcode <code>"
+	},
+	"MSG_0967": {
+		"ru": "/restart <faction>",
+		"en": "/restart <faction>"
+	},
+	"MSG_0968": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0969": {
+		"ru": "/givecash <charname> <cash>",
+		"en": "/givecash <charname> <cash>"
+	},
+	"MSG_0970": {
+		"ru": "/drawcash <charname> <code> <cash>",
+		"en": "/drawcash <charname> <code> <cash>"
+	},
+	"MSG_0971": {
+		"ru": "/showcash <charname> <code>",
+		"en": "/showcash <charname> <code>"
+	},
+	"MSG_0972": {
+		"ru": "/set cashcode <code>",
+		"en": "/set cashcode <code>"
+	},
+	"MSG_0973": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0974": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0975": {
+		"ru": "/n  (n=0-9)",
+		"en": "/n  (n=0-9)"
+	},
+	"MSG_0976": {
+		"ru": "/ln (n=0-9)",
+		"en": "/ln (n=0-9)"
+	},
+	"MSG_0977": {
+		"ru": "/gn (n=0-9)",
+		"en": "/gn (n=0-9)"
+	},
+	"MSG_0978": {
+		"ru": "/tn (n=0-9)",
+		"en": "/tn (n=0-9)"
+	},
+	"MSG_0979": {
+		"ru": "/target или /t",
+		"en": "/target or /t"
+	},
+	"MSG_0980": {
+		"ru": "/reply или /r",
+		"en": "/reply or /r"
+	},
+	"MSG_0981": {
+		"ru": "/privatemsg или /pm",
+		"en": "/privatemsg or /pm"
+	},
+	"MSG_0982": {
+		"ru": "/privatemsg$ или /pm$",
+		"en": "/privatemsg$ or /pm$"
+	},
+	"MSG_0983": {
+		"ru": "/factionmsg или /fm",
+		"en": "/factionmsg or /fm"
+	},
+	"MSG_0984": {
+		"ru": "/factioninvite или /fi",
+		"en": "/factioninvite or /fix"
+	},
+	"MSG_0985": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0986": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0987": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0988": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_0989": {
+		"ru": "content или msg: %s",
+		"en": "content of msg: %s"
+	},
+	"MSG_0990": {
+		"ru": "имя отправителя: %s",
+		"en": "sender name: %s"
+	},
+	"MSG_0991": {
+		"ru": "имя получателя: %s",
+		"en": "receiver name: %s"
+	},
+	"MSG_0992": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0993": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0994": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_0995": {
+		"ru": "ОШИБКА: цель недоступна.",
+		"en": "ERROR: Target unavailable."
+	},
+	"MSG_0996": {
+		"ru": "Это автоматическое сообщение.",
+		"en": "It's an automatic message."
+	},
+	"MSG_0997": {
+		"ru": "Пожалуйста, не ругайтесь, иначе вас могут наказать.",
+		"en": "Please do not swear or you may be punished."
+	},
+	"MSG_0998": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_0999": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1000": {
+		"ru": "ОШИБКА: нет сообщений.",
+		"en": "ERROR: no messages."
+	},
+	"MSG_1001": {
+		"ru": "%d: %s",
+		"en": "%d: %s"
+	},
+	"MSG_1002": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1003": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1004": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1005": {
+		"ru": "ОШИБКА: нет сообщений.",
+		"en": "ERROR: no messages."
+	},
+	"MSG_1006": {
+		"ru": "%d: %s",
+		"en": "%d: %s"
+	},
+	"MSG_1007": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1008": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1009": {
+		"ru": "ОШИБКА: нет координат",
+		"en": "ERROR: no coordinates"
+	},
+	"MSG_1010": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1011": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1012": {
+		"ru": "ОШИБКА: сообщение не определено.",
+		"en": "ERROR: message undetermined."
+	},
+	"MSG_1013": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1014": {
+		"ru": "ОШИБКА: сообщение не определено.",
+		"en": "ERROR: message undetermined."
+	},
+	"MSG_1015": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1016": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1017": {
+		"ru": "ОШИБКА: сообщение не определено.",
+		"en": "ERROR: message undetermined."
+	},
+	"MSG_1018": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1019": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1020": {
+		"ru": "ОШИБКА: сообщение не определено.",
+		"en": "ERROR: message undetermined."
+	},
+	"MSG_1021": {
+		"ru": "ОШИБКА: сообщени е не определено.",
+		"en": "ERROR: message e not defined."
+	},
+	"MSG_1022": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1023": {
+		"ru": "ОШИБКА: сообщение не определено.",
+		"en": "ERROR: message undetermined."
+	},
+	"MSG_1024": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1025": {
+		"ru": "ОШИБКА: прошлый отправитель не доступен.",
+		"en": "ERROR: The previous sender is not available."
+	},
+	"MSG_1026": {
+		"ru": "ОШИБКА: сообщение не определено.",
+		"en": "ERROR: message undetermined."
+	},
+	"MSG_1027": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1028": {
+		"ru": "ОШИБКА: сообщение не определено.",
+		"en": "ERROR: message undetermined."
+	},
+	"MSG_1029": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1030": {
+		"ru": "ОШИБКА: прошлый отправитель не доступен.",
+		"en": "ERROR: The previous sender is not available."
+	},
+	"MSG_1031": {
+		"ru": "ОШИБКА: сообщение не определено.",
+		"en": "ERROR: message undetermined."
+	},
+	"MSG_1032": {
+		"ru": "ХОРОШО: отправитель = ",
+		"en": "OK: sender = "
+	},
+	"MSG_1033": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1034": {
+		"ru": "ОШИБКА: имя не существует.",
+		"en": "ERROR: the name doesn't exist."
+	},
+	"MSG_1035": {
+		"ru": "ХОРОШО: сообщение сохранено в список сообщений.",
+		"en": "OK: message saved in the message list."
+	},
+	"MSG_1036": {
+		"ru": "ОШИБКА: несуществует пользователь с таким ID.",
+		"en": "ERROR: There is no user with this ID."
+	},
+	"MSG_1037": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1038": {
+		"ru": "ОШИБКА: символы не найдены.",
+		"en": "ERROR: no symbols found."
+	},
+	"MSG_1039": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1040": {
+		"ru": "ОШИБКА: имя не существует.",
+		"en": "ERROR: the name doesn't exist."
+	},
+	"MSG_1041": {
+		"ru": "ОШИБКА: персонаж не в сети.",
+		"en": "ERROR: The character is not online."
+	},
+	"MSG_1042": {
+		"ru": "ОШИБКА: не удалось закодировать XML",
+		"en": "ERROR: Failure to encode XML"
+	},
+	"MSG_1043": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1044": {
+		"ru": "ОШИБКА: не удалось закодировать XML",
+		"en": "ERROR: Failure to encode XML"
+	},
+	"MSG_1045": {
+		"ru": "ОШИБКА: символы не найдены.",
+		"en": "ERROR: no symbols found."
+	},
+	"MSG_1046": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1047": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1048": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1049": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1050": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_1051": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1052": {
+		"ru": "ХОРОШО: У вас нет сообщений.",
+		"en": "OK: You have no messages."
+	},
+	"MSG_1053": {
+		"ru": "ХОРОШО: У вас %d непрочитанных смс.",
+		"en": "OK: You have %d unread texts."
+	},
+	"MSG_1054": {
+		"ru": "ХОРОШО: У вас %d смс.",
+		"en": "OK: You have a %d text."
+	},
+	"MSG_1055": {
+		"ru": "Введите /mail 1 чтобы увидеть первое сообщение или /mail <num> чтобы увидеть другой номер сообщения.",
+		"en": "Enter /mail 1 to see the first message or /mail <num> to see another message number."
+	},
+	"MSG_1056": {
+		"ru": "ОШИБКА: сообщение не существует.",
+		"en": "ERROR: the message does not exist."
+	},
+	"MSG_1057": {
+		"ru": "ОШИБКА: не верные параметры.",
+		"en": "ERROR: Wrong parameters."
+	},
+	"MSG_1058": {
+		"ru": "ОШИБКА: сообщение не существует.",
+		"en": "ERROR: the message does not exist."
+	},
+	"MSG_1059": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1060": {
+		"ru": "Ошибка!",
+		"en": "Mistake!"
+	},
+	"MSG_1061": {
+		"ru": "ОШИБКА: Вы не в космосе.",
+		"en": "ERROR: You're not in space."
+	},
+	"MSG_1062": {
+		"ru": "ОШИБКА: Вы не в космосе.",
+		"en": "ERROR: You're not in space."
+	},
+	"MSG_1063": {
+		"ru": "ОШИБКА: корабль движется.",
+		"en": "ERROR: the ship is moving."
+	},
+	"MSG_1064": {
+		"ru": "ОШИБКА: нет принадлежности к группе.",
+		"en": "ERROR: No group membership."
+	},
+	"MSG_1065": {
+		"ru": "ОШИБКА: %s",
+		"en": "ERROR: %s"
+	},
+	"MSG_1066": {
+		"ru": "ОШИБКА: недостаточно кредитов.",
+		"en": "ERROR: Not enough credit."
+	},
+	"MSG_1067": {
+		"ru": "ОШИБКА: %s",
+		"en": "ERROR: %s"
+	},
+	"MSG_1068": {
+		"ru": "ХОРОШО: Репутация упала, перезайдите на персонажа, чтобы изменения вступили в силу.",
+		"en": "OK: Reputation has dropped, move on to the character for the changes to take effect."
+	},
+	"MSG_1069": {
+		"ru": "Использование: (NumDice) d (DiceSides) [+-] (Modifier)",
+		"en": "Use: (NumDice) d (DiceSides) [+-] (Modifier)"
+	},
+	"MSG_1070": {
+		"ru": "Примеры: /roll 1d20 -- Roll 1, 20 односторонняя кость",
+		"en": "Examples: /roll 1d20 - Roll 1, 20 single-sided bone"
+	},
+	"MSG_1071": {
+		"ru": "          /roll 1d8+4 -- Roll 1, 8 односторонняя кость и добавив 8",
+		"en": "          /roll 1d8+4 - Roll 1, 8 single-sided bone and adding 8"
+	},
+	"MSG_1072": {
+		"ru": "          /roll 4d20+2 -- Roll 4, 20 односторонние кости, добавляя 2 к каждому брошенному кубику",
+		"en": "          /roll 4d20+2 - Roll 4, 20 one-sided bones, adding 2 to each cast cube"
+	},
+	"MSG_1073": {
+		"ru": "ОШИБКА: Вы не в космосе.",
+		"en": "ERROR: You're not in space."
+	},
+	"MSG_1074": {
+		"ru": " Маяки %s",
+		"en": " Lighthouses %s"
+	},
+	"MSG_1075": {
+		"ru": "Управление освещением недоступно",
+		"en": "Lighting control not available"
+	},
+	"MSG_1076": {
+		"ru": "Самоуничтожение пока запрещено. Команда временно на доработке.",
+		"en": "Self-destruction is prohibited. The team is temporarily working."
+	},
+	"MSG_1077": {
+		"ru": "Самоуничтожение запрещено. Вы не в космосе.",
+		"en": "Self-destruction is forbidden. You're not in space."
+	},
+	"MSG_1078": {
+		"ru": "Самоуничтожение включено. Стоять рядом.",
+		"en": "Self-destruct is on. Stay close."
+	},
+	"MSG_1079": {
+		"ru": "Выталкивающая капсула...",
+		"en": "Pushing capsule..."
+	},
+	"MSG_1080": {
+		"ru": "ПРЕДУПРЕЖДЕНИЕ! САМОУНИЧТОЖЕНИЕ ПОЛНОСТЬЮ И НАВСЕГДА УНИЧТОЖАЕТ КОРАБЛЬ.",
+		"en": "WARNING! SELF-DESTRUCTION COMPLETELY AND FOREVER DESTROYS THE SHIP."
+	},
+	"MSG_1081": {
+		"ru": "ПРЕДУПРЕЖДЕНИЕ! ПРЕДУПРЕЖДЕНИЕ! ТРЕБУЕТСЯ ПОДТВЕРЖДЕНИЕ БЕЗОПАСНОСТИ. ВВЕДИТЕ: ",
+		"en": "WARNING! WARNING! CONFIRMATION OF SAFETY IS REQUIRED. ENTER: "
+	},
+	"MSG_1082": {
+		"ru": "/selfdestruct 0000",
+		"en": "/self-destruct 0000"
+	},
+	"MSG_1083": {
+		"ru": " SS ",
+		"en": " SS "
+	},
+	"MSG_1084": {
+		"ru": "Щиты %s",
+		"en": "Shields %s"
+	},
+	"MSG_1085": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_1086": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_1087": {
+		"ru": "ОШИБКА: Здесь нет возможности для установки освещения",
+		"en": "ERROR: There is no way to install lighting here"
+	},
+	"MSG_1088": {
+		"ru": "Доступные команды для освещения корабля :",
+		"en": "Available commands to light the ship :"
+	},
+	"MSG_1089": {
+		"ru": "Стоимость этого объекта ",
+		"en": "The cost of the facility "
+	},
+	"MSG_1090": {
+		"ru": "/showsetup",
+		"en": "/showsetup"
+	},
+	"MSG_1091": {
+		"ru": "|     Отображение текущих настроек корабля : узлов подвески, их идентификаторов и установленных на них фонарей.",
+		"en": "|     Display of the current ship settings: suspension nodes, their identifiers and lights installed on them."
+	},
+	"MSG_1092": {
+		"ru": "/showitems [from]-[to]",
+		"en": "/showitems [from]-[to]"
+	},
+	"MSG_1093": {
+		"ru": "|     Показать предметы, которые могут быть добавлены на ваш корабль в диапазоне идентификаторов [from]-[to].",
+		"en": "|     Show items that can be added to your ship in the identifiers range [from]-[to]."
+	},
+	"MSG_1094": {
+		"ru": "|     Используйте /showitems без дополнительных параметров для отображения всех элементов.",
+		"en": "|     Use: /showitems without additional settings to display all elements."
+	},
+	"MSG_1095": {
+		"ru": "/setitem <hardpoint id> <item>",
+		"en": "/setitem <hardpoint id> <item>"
+	},
+	"MSG_1096": {
+		"ru": "|     Измените элемент на <hardpoint id> to <item>.",
+		"en": "|     Change the element to <hardpoint id> to <item>."
+	},
+	"MSG_1097": {
+		"ru": "|     <hardpoint id> отображаются путем ввода /showsetup.",
+		"en": "|     <hardpoint id> is displayed by entering /showsetup."
+	},
+	"MSG_1098": {
+		"ru": "|     <item> отображаются путем ввода /showitems.",
+		"en": "|     <item> is displayed by entering /showitems."
+	},
+	"MSG_1099": {
+		"ru": "|     Разрешено печатать название цвета света вместо ID.",
+		"en": "|     It is allowed to print the name of the color of light instead of the ID."
+	},
+	"MSG_1100": {
+		"ru": "/setitem [hpID1]-[hpID2] <item>",
+		"en": "/setitem [hpID1]-[hpID2] <item>"
+	},
+	"MSG_1101": {
+		"ru": "|     Измените элементы в точках крепления в диапазоне <hpID1>-<hpID2> для <item>.",
+		"en": "|     Change the elements at the attachment points in the <hpID1>-<hpID2> range for <item>."
+	},
+	"MSG_1102": {
+		"ru": "/setitem [hp-begin]*<every-n>*[hp-end] <item>",
+		"en": "/setitem [hp-begin]*<every-n>*[hp-end] <item>"
+	},
+	"MSG_1103": {
+		"ru": "|     Измените все n узлов крепления на <item>.",
+		"en": "|     Change all n mounting nodes to <item>."
+	},
+	"MSG_1104": {
+		"ru": "|     Изменение начинается с [hp-begin] если параметр задан, иначе начинается с первой точки подключения.",
+		"en": "|     The change starts with [hp-begin] if the setting is set, otherwise it starts with the first connection point."
+	},
+	"MSG_1105": {
+		"ru": "|     Изменение заканчивается на [hp-end] если параметр задан, иначе заканчивается на последней точке крепления.",
+		"en": "|     The change ends at [hp-end] if the parameter is set, otherwise it ends at the last mounting point."
+	},
+	"MSG_1106": {
+		"ru": "Текущая настройка корабля : %d",
+		"en": "Current configuration of the ship : %d"
+	},
+	"MSG_1107": {
+		"ru": "|     %.2d | %s : %s",
+		"en": "|     %.2d | %s : %s"
+	},
+	"MSG_1108": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1109": {
+		"ru": "Отображение %u/%u предметов:",
+		"en": "Display %u/%u items:"
+	},
+	"MSG_1110": {
+		"ru": "|     %.2d:  %s",
+		"en": "|     %.2d:  %s"
+	},
+	"MSG_1111": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1112": {
+		"ru": "ОШИБКА: Невозможно, нет доступных узлов подвески для фонарей",
+		"en": "ERROR: Impossible, no available suspension nodes for lights"
+	},
+	"MSG_1113": {
+		"ru": "ОШИБКА: неверный идентификатор товара.",
+		"en": "ERROR: Incorrect product ID."
+	},
+	"MSG_1114": {
+		"ru": "ОШИБКА: неправильный ввод.",
+		"en": "ERROR: Incorrect input."
+	},
+	"MSG_1115": {
+		"ru": "ОШИБКА: нулевой успех.",
+		"en": "ERROR: zero success."
+	},
+	"MSG_1116": {
+		"ru": "ОШИБКА: индекс жесткой точки находится за пределами допустимого диапазона.",
+		"en": "ERROR: The hard point index is outside the acceptable range."
+	},
+	"MSG_1117": {
+		"ru": "ОШИБКА: начало вне пределов.",
+		"en": "ERROR: Starting off limits."
+	},
+	"MSG_1118": {
+		"ru": "Вы можете использовать следующий синтаксис для выбора всех узлов крепления от начала до %u:",
+		"en": "You can use the following syntax to select all mount nodes from start to %u:"
+	},
+	"MSG_1119": {
+		"ru": "/setitem -%u %u",
+		"en": "/setitem -%u %u"
+	},
+	"MSG_1120": {
+		"ru": "Вы можете использовать следующий синтаксис для выбора каждого %u узла подвески от начала до %u:",
+		"en": "You can use the following syntax to select each %u suspension node from start to %u:"
+	},
+	"MSG_1121": {
+		"ru": "/setitem *%u*%u %u",
+		"en": "/setitem *%u*%u %u"
+	},
+	"MSG_1122": {
+		"ru": "ОШИБКА: концовка вне пределов",
+		"en": "ERROR: The ending is off limits"
+	},
+	"MSG_1123": {
+		"ru": "Вы можете использовать следующий синтаксис для выбора всех узлов крепления из %u до конца:",
+		"en": "You can use the following syntax to select all mount nodes from %u to the end:"
+	},
+	"MSG_1124": {
+		"ru": "/setitem %u- %u",
+		"en": "/setitem %u- %u-"
+	},
+	"MSG_1125": {
+		"ru": "Вы можете использовать следующий синтаксис для выбора каждого %u узла подвески из %u до конца:",
+		"en": "You can use the following syntax to select each %u suspension node from %u to the end:"
+	},
+	"MSG_1126": {
+		"ru": "/setitem %u*%u* %u",
+		"en": "/setitem %u*%u* %u"
+	},
+	"MSG_1127": {
+		"ru": "Этот маячок уже установлен на выбранных точках подвески.",
+		"en": "This beacon is already installed at selected suspension points."
+	},
+	"MSG_1128": {
+		"ru": "ОШИБКА: недостаточно кредитов",
+		"en": "ERROR: Not enough loans"
+	},
+	"MSG_1129": {
+		"ru": "Установка освещения на корабле завершена. Чтобы изменения начали отображаться перезайдите на персонажа. Вы купили %i обьект%ws.",
+		"en": "The lighting installation on the ship is complete. For changes to start showing, revisit the character. You bought %i object%ws."
+	},
+	"MSG_1130": {
+		"ru": "В следующий раз вы можете захотеть использовать следующий синтаксис для выбора всех узлов крепления:",
+		"en": "Next time you may want to use the following syntax to select all mounting nodes:"
+	},
+	"MSG_1131": {
+		"ru": "/setitem - %u",
+		"en": "/setitem - %u"
+	},
+	"MSG_1132": {
+		"ru": "В следующий раз вы можете захотеть использовать следующий синтаксис для выбора каждой %u точки крепления:",
+		"en": "Next time you may want to use the following syntax to select each %u mount point:"
+	},
+	"MSG_1133": {
+		"ru": "/setitem *%u %u",
+		"en": "/setitem *%u %u"
+	},
+	"MSG_1134": {
+		"ru": "ОШИБКА: не указана цель.",
+		"en": "ERROR: no target specified."
+	},
+	"MSG_1135": {
+		"ru": "ОШИБКА: нет доступной информации!",
+		"en": "ERROR: There is no available information!"
+	},
+	"MSG_1136": {
+		"ru": "ОШИБКА: Слишком много символов. Предел: %d",
+		"en": "ERROR: Too many symbols. Limit: %d"
+	},
+	"MSG_1137": {
+		"ru": "ХОРОШО: %d/%d используемые символов",
+		"en": "OK: %d/%d characters used"
+	},
+	"MSG_1138": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1139": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1140": {
+		"ru": "/setinfo <paragraph> <command> <text>",
+		"en": "/setinfo <paragraph> <command> <text>"
+	},
+	"MSG_1141": {
+		"ru": "|  <paragraph> Номер абзаца в диапазоне 1-%d",
+		"en": "|  <paragraph> Paragraph number in the range of 1-%d"
+	},
+	"MSG_1142": {
+		"ru": "|  <command> Команда для выполнения над абзацем, 'a' для добавления, 'd' для удаления.",
+		"en": "|  <command> The command to execute above the paragraph, 'a' to add, 'd' to delete."
+	},
+	"MSG_1143": {
+		"ru": "ОШИБКА: Временно нет в наличии",
+		"en": "ERROR: Temporarily not available"
+	},
+	"MSG_1144": {
+		"ru": "Этот корабль заблокирован. Корабль продать нельзя.",
+		"en": "This ship is blocked. The ship cannot be sold."
+	},
+	"MSG_1145": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1146": {
+		"ru": "ОШИБКА: Вы не на базе.",
+		"en": "ERROR: You're not on base."
+	},
+	"MSG_1147": {
+		"ru": "ОШИБКА: тег слишком короткий.",
+		"en": "ERROR: The tag is too short."
+	},
+	"MSG_1148": {
+		"ru": "ОШИБКА: пароль <password> не установлен.",
+		"en": "ERROR: The password <password> is not set."
+	},
+	"MSG_1149": {
+		"ru": "ОШИБКА: описание <description> не установлено.",
+		"en": "ERROR: the description of <description> is not established."
+	},
+	"MSG_1150": {
+		"ru": "ОШИБКА: тег уже существует или конфликтует с существующим тегом.",
+		"en": "ERROR: The tag already exists or conflicts with an existing tag."
+	},
+	"MSG_1151": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1152": {
+		"ru": "ОШИБКА: недостаточно кредитов.",
+		"en": "ERROR: Not enough credit."
+	},
+	"MSG_1153": {
+		"ru": "Создан тег фракции %s с мастер-паролем %s",
+		"en": "Created a %s fraction tag with a master password %s"
+	},
+	"MSG_1154": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1155": {
+		"ru": "ХОРОШО: Тег удален",
+		"en": "OK: Tag dropped"
+	},
+	"MSG_1156": {
+		"ru": "ОШИБКА: тег или мастер-пароль недействительны.",
+		"en": "ERROR: The tag or master password is invalid."
+	},
+	"MSG_1157": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1158": {
+		"ru": "ХОРОШО: Создан пароль для переименования %s для тега %s",
+		"en": "OK: Created password to rename %s for tag %s"
+	},
+	"MSG_1159": {
+		"ru": "ОШИБКА: тег или мастер-пароль недействительны.",
+		"en": "ERROR: The tag or master password is invalid."
+	},
+	"MSG_1160": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1161": {
+		"ru": "ОШИБКА: Вы не на базе.",
+		"en": "ERROR: You're not on base."
+	},
+	"MSG_1162": {
+		"ru": "ОШИБКА: этот корабль заблокирован.Уведомлено ФБР.",
+		"en": "ERROR: This ship is blocked. Notified to the FBI."
+	},
+	"MSG_1163": {
+		"ru": "ОШИБКА: в имени нельзя использовать пробелы.",
+		"en": "ERROR: You cannot use spaces in your name."
+	},
+	"MSG_1164": {
+		"ru": "ОШИБКА: имя уже существует.",
+		"en": "ERROR: the name already exists."
+	},
+	"MSG_1165": {
+		"ru": "ОШИБКА: имя слишком длинное.",
+		"en": "ERROR: the name is too long."
+	},
+	"MSG_1166": {
+		"ru": "ОШИБКА: имя слишком короткое.",
+		"en": "ERROR: the name is too short."
+	},
+	"MSG_1167": {
+		"ru": "ОШИБКА: имя начинается с принадлежащего ему тега. Необходим пароль.",
+		"en": "ERROR: The name begins with the tag that belongs to it. You need a password."
+	},
+	"MSG_1168": {
+		"ru": "ОШИБКА: имя начинается с принадлежащего ему тега. Пароль неверный.",
+		"en": "ERROR: The name begins with the tag that belongs to it. The password is wrong."
+	},
+	"MSG_1169": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1170": {
+		"ru": "ОШИБКА: недостаточно кредитов.",
+		"en": "ERROR: Not enough credit."
+	},
+	"MSG_1171": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1172": {
+		"ru": "ОШИБКА: изменить ограничение по времени.",
+		"en": "ERROR: Change the time limit."
+	},
+	"MSG_1173": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1174": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1175": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1176": {
+		"ru": "ОШИБКА: персонажа не существует.",
+		"en": "ERROR: The character does not exist."
+	},
+	"MSG_1177": {
+		"ru": "ХОРОШО: Код перемещения удален",
+		"en": "OK: Move code deleted"
+	},
+	"MSG_1178": {
+		"ru": "ХОРОШО: Установить код символа ",
+		"en": "OK: Set the symbol code "
+	},
+	"MSG_1179": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1180": {
+		"ru": "ОШИБКА: Вы не на базе.",
+		"en": "ERROR: You're not on base."
+	},
+	"MSG_1181": {
+		"ru": "ОШИБКА: персонажа не существует.",
+		"en": "ERROR: The character does not exist."
+	},
+	"MSG_1182": {
+		"ru": "ОШИБКА: доступ к перемещению персонажа запрещен.",
+		"en": "ERROR: Access to the character is prohibited."
+	},
+	"MSG_1183": {
+		"ru": "ОШИБКА: этот корабль заблокирован. Уведомлено ФБР.",
+		"en": "ERROR: This ship is blocked. Notified to the FBI."
+	},
+	"MSG_1184": {
+		"ru": "ОШИБКА: не разрешено.",
+		"en": "ERROR: Not allowed."
+	},
+	"MSG_1185": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1186": {
+		"ru": "ОШИБКА: недостаточно кредитов.",
+		"en": "ERROR: Not enough credit."
+	},
+	"MSG_1187": {
+		"ru": "ОШИБКА: слишком много персонажей на аккаунте.",
+		"en": "ERROR: There are too many characters on the account."
+	},
+	"MSG_1188": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1189": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1190": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1191": {
+		"ru": "ОШИБКА: Этот корабль заблокирован. Уведомлено ФБР.",
+		"en": "ERROR: This ship is blocked. Notified to the FBI."
+	},
+	"MSG_1192": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1193": {
+		"ru": "ОШИБКА: сенсор мониторинга сети недоступен.",
+		"en": "ERROR: Network monitoring sensor is not available."
+	},
+	"MSG_1194": {
+		"ru": "ХОРОШО: Сенсорная сеть, контролирует весь трафик.",
+		"en": "OK: Touch Network monitors all traffic."
+	},
+	"MSG_1195": {
+		"ru": "ХОРОШО: Сенсорная сеть отслеживает только трафик дыр гиперперехода.",
+		"en": "OK: The sensor network only tracks the traffic of hyperjunction holes."
+	},
+	"MSG_1196": {
+		"ru": "ХОРОШО: Мониторинг сенсорной сети отключен.",
+		"en": "OK: Touch Network Monitoring is disabled."
+	},
+	"MSG_1197": {
+		"ru": "3rr 0u7d473d 50f7w4r3",
+		"en": "3rr 0u7d473d 50f7w4r3"
+	},
+	"MSG_1198": {
+		"ru": "ОШИБКА: неверные параметры.",
+		"en": "ERROR: wrong parameters."
+	},
+	"MSG_1199": {
+		"ru": "ОШИБКА: цель не найдена.",
+		"en": "ERROR: no target found."
+	},
+	"MSG_1200": {
+		"ru": "ОШИБКА: данные сканирования недоступны",
+		"en": "ERROR: Scan data is not available"
+	},
+	"MSG_1201": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_1202": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1203": {
+		"ru": "ОТЛАДКА: Предоставлен ограниченный доступ.",
+		"en": "PROFESS: Limited access was granted."
+	},
+	"MSG_1204": {
+		"ru": "C0nn3c710n 70 7r4d3l4n3 53n50r n37w0rk 3574bl15h3d. 7yp3 /net 70 4cc355 n37w0rk.",
+		"en": "C0nn3c710n 70 7r4d3l4n3 53n50r n37w0rk 3574bl15h3d. 7yp3 /net 70 4cc355 n37w0rk."
+	},
+	"MSG_1205": {
+		"ru": "Установлено соединение с сенсорной сетью торговых линий. Используйте /net для доступа к сети.",
+		"en": "Connected to the sensor network of trade lines. Use: /net to access the network."
+	},
+	"MSG_1206": {
+		"ru": "Потеряно соединение с сенсорной сетью торговых линий.",
+		"en": "Lost connection to the sensor network of trade lines."
+	},
+	"MSG_1207": {
+		"ru": "%s[$%u] %s at %s",
+		"en": "%s[$%u] %s at %s"
+	},
+	"MSG_1208": {
+		"ru": "%s[$%u] %s at %s %s",
+		"en": "%s[$%u] %s at %s %s"
+	},
+	"MSG_1209": {
+		"ru": "$%s кредитная награда была добавлена в ваш пул вознаграждений.",
+		"en": "a $%s credit reward has been added to your reward pool."
+	},
+	"MSG_1210": {
+		"ru": "Баунти-пул переполнен $%s была предпринята попытка выплаты кредитов, но результат переполнил вашу учетную запись нейронной сети.",
+		"en": "A bounty pool full of $%s was attempted to repay loans, but the result overwhelmed your neural network account."
+	},
+	"MSG_1211": {
+		"ru": "Выплата этого баунти-пула будет повторена позже.",
+		"en": "Payment of this bounty pool will be repeated later."
+	},
+	"MSG_1212": {
+		"ru": "Баунти-пул пополнен $%s кредитами за %d убийство %s было зачислено в ваш банк. (проверить счёт в банке /bank)",
+		"en": "Bounty pool replenished with $%s loans for %d murder %s was credited to your bank. (check bank account /bank)"
+	},
+	"MSG_1213": {
+		"ru": "Баунти-пул отключен; все награды выплачиваются в момент убийства.",
+		"en": "The bounty pool is off; all rewards are paid at the time of murder."
+	},
+	"MSG_1214": {
+		"ru": "В настоящее время у вас нет непогашенных выплат по вознаграждениям..",
+		"en": "You do not currently have outstanding remuneration payments.."
+	},
+	"MSG_1215": {
+		"ru": "Вам выплатят $%s кредитов за %d убийство %s в %dm%ds.",
+		"en": "You will be paid $%s credits for %d murder %s in %dm%ds."
+	},
+	"MSG_1216": {
+		"ru": "Стоимость корабля: $%s кредитов.",
+		"en": "Cost of the ship: $%s credits."
+	},
+	"MSG_1217": {
+		"ru": "PVECONTROLLER: Вы убили NPC uArchID == %u",
+		"en": "PVECONTROLLER: You killed NPC uArchID ==%u"
+	},
+	"MSG_1218": {
+		"ru": "Невозможно выплатить награду неподходящему бойцу (репутация по отношению к цели должна быть %0.2f ниже).",
+		"en": "It is impossible to pay a reward to an inappropriate fighter (reputation in relation to the target should be %0.2f lower)."
+	},
+	"MSG_1219": {
+		"ru": "Переопределение выплаты для вас %u будет $%d.",
+		"en": "The redefinition of the payout for you %u will be $%d."
+	},
+	"MSG_1220": {
+		"ru": "PVECONTROLLER: Убийца (%u) и цель (%u) имеют действительный множитель зоны боевых действий %0.2f",
+		"en": "PVECONTROLLER: Killer (%u) and target (%u) have a real combat zone multiplier %0.2f"
+	},
+	"MSG_1221": {
+		"ru": "PVECONTROLLER: Изменение выплаты на $%d (%0.2f x - стандарт) из-за классовой разницы. %u vs %u \\n",
+		"en": "PVECONTROLLER: Change in payout by $%d (%0.2f x - standard) due to class difference. %u vs %u \\n"
+	},
+	"MSG_1222": {
+		"ru": "PVECONTROLLER: Есть %u игроков в группе.",
+		"en": "PVECONTROLLER: There are %u of players in the group."
+	},
+	"MSG_1223": {
+		"ru": "PVECONTROLLER: Выплата $%d для %u подходящих участников группы в вашей системе.",
+		"en": "PVECONTROLLER: Paying $%d for the %u of eligible group members in your system."
+	},
+	"MSG_1224": {
+		"ru": "PVECONTROLLER: класс %d фракция %d награда %f шанс выпадения 0x%08X.\\n",
+		"en": "PVECONTROLLER: class %d fraction %d reward %f chance of falling 0x%08X.\\n"
+	},
+	"MSG_1225": {
+		"ru": "PVECONTROLLER: фракция target %d фракция file %d .\\n",
+		"en": "PVECONTROLLER: target %d fraction file %d .\\n"
+	},
+	"MSG_1226": {
+		"ru": "PVECONTROLLER: у класса %d найдена награда, %f шанс выпадения 0x%08X.\\n",
+		"en": "PVECONTROLLER: %d has a reward, %f has a 0x%08X chance.\\n"
+	},
+	"MSG_1227": {
+		"ru": "PVECONTROLLER: Бинго %f, выйграл дроп!\\n",
+		"en": "PVECONTROLLER: Bingo %f, won drop\\n"
+	},
+	"MSG_1228": {
+		"ru": "Бинго! упал дроп!\\n",
+		"en": "Bingo, drop down\\n"
+	},
+	"MSG_1229": {
+		"ru": "PVECONTROLLER: Эх %f, никакой награды для тебя.\\n",
+		"en": "PVECONTROLLER: Eh %f, no reward for you\\n"
+	},
+	"MSG_1230": {
+		"ru": "Отправлено!",
+		"en": "Sent!"
+	},
+	"MSG_1231": {
+		"ru": "$ХОРОШО ",
+		"en": "$OK "
+	},
+	"MSG_1232": {
+		"ru": "$ВЗЯТЬ ",
+		"en": "$TAKE IT "
+	},
+	"MSG_1233": {
+		"ru": "--$-> VolumeSizeGun:",
+		"en": "--$-> VolumeSizeGun:"
+	},
+	"MSG_1234": {
+		"ru": "--$->1 intcorrectvolume:",
+		"en": "--$->1 intcorrectvolume:"
+	},
+	"MSG_1235": {
+		"ru": "--$->2 intcorrectvolume:",
+		"en": "--$->2 intcorrectvolume:"
+	},
+	"MSG_1236": {
+		"ru": "--$->3 intcorrectvolume:",
+		"en": "--$->3 intcorrectvolume:"
+	},
+	"MSG_1237": {
+		"ru": "--$->4 CountEmptyHoldPlayerCurrent:",
+		"en": "--$->4 CountEmptyHoldPlayerCurrent:"
+	},
+	"MSG_1238": {
+		"ru": "--$->5 CountEmptyHoldPlayerCurrent:",
+		"en": "--$->5 CountEmptyHoldPlayerCurrent:"
+	},
+	"MSG_1239": {
+		"ru": "--$->6 CountEmptyHoldPlayerCurrent:",
+		"en": "--$->6 CountEmptyHoldPlayerCurrent:"
+	},
+	"MSG_1240": {
+		"ru": "--->КОЛИЧЕСТВО НА ОТПРАВКУ ",
+		"en": "--->AMOUNT OF SUPPLIES "
+	},
+	"MSG_1241": {
+		"ru": "--$->7 iGoodsCargoNum:",
+		"en": "--$->7 iGoodsCargoNum:"
+	},
+	"MSG_1242": {
+		"ru": "$21342141241OK iGoods",
+		"en": "$21342141241OK iGoods"
+	},
+	"MSG_1243": {
+		"ru": "$AAAAAAAAAAAALLLLLLLLLLOOOOOOOOOOO iGoods",
+		"en": "$AAAAAAAAAAAALLLLLLLLLLOOOOOOOOOOO iGoods"
+	},
+	"MSG_1244": {
+		"ru": "$iGoods",
+		"en": "$iGoods"
+	},
+	"MSG_1245": {
+		"ru": "$213421412423432542241OK iGoods",
+		"en": "$213421412423432542241OK iGoods"
+	},
+	"MSG_1246": {
+		"ru": "$1OK iGoods",
+		"en": "$1OK iGoods"
+	},
+	"MSG_1247": {
+		"ru": "$2OK iGoods",
+		"en": "$2OK iGoods"
+	},
+	"MSG_1248": {
+		"ru": "$3OK iGoods",
+		"en": "$3OK iGoods"
+	},
+	"MSG_1249": {
+		"ru": "$4OK iGoods",
+		"en": "$4OK iGoods"
+	},
+	"MSG_1250": {
+		"ru": "$5OK iGoods",
+		"en": "$5OK iGoods"
+	},
+	"MSG_1251": {
+		"ru": "$| CURRENT0::",
+		"en": "$| CURRENT0:"
+	},
+	"MSG_1252": {
+		"ru": "$| CURRENT scKey::",
+		"en": "$| CURRENT scKey:"
+	},
+	"MSG_1253": {
+		"ru": "$| CURRENT1::",
+		"en": "$| CURRENT1:"
+	},
+	"MSG_1254": {
+		"ru": "$| CURRENT2::",
+		"en": "$| CURRENT2:"
+	},
+	"MSG_1255": {
+		"ru": "Шаблон отключен.",
+		"en": "Template is disabled."
+	},
+	"MSG_1256": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1257": {
+		"ru": "Трюм переполнен (Предел 160 предметов с собой)",
+		"en": "The hold is full (limit of 160 items with you)"
+	},
+	"MSG_1258": {
+		"ru": "Автопокупка(%s): НЕУДАЧНО! Недостаточно места в багажнике.",
+		"en": "Auto-Buy(%s): Failed! Insufficient cargo space"
+	},
+	"MSG_1259": {
+		"ru": "Автопокупка(%s): НЕУДАЧНО! Недостаточно кредитов",
+		"en": "Auto-Buy(%s): Failed! Insufficient Credits"
+	},
+	"MSG_1260": {
+		"ru": "Автопокупка(%s): Куплено %u единиц, стоимость: %s$",
+		"en": "Auto-Buy(%s): Bought %u unit(s), cost: %s$"
+	},
+	"MSG_1261": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_1262": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1263": {
+		"ru": "Команда выключена",
+		"en": "Team's off"
+	},
+	"MSG_1264": {
+		"ru": "ОШИБКА: слишком много записей в списке игнорирования, сначала удалите запись!",
+		"en": "ERROR: Too many entries on the ignore list, delete the record first!"
+	},
+	"MSG_1265": {
+		"ru": "ОШИБКА: слишком много записей в списке игнорирования, сначала удалите запись!",
+		"en": "ERROR: Too many entries on the ignore list, delete the record first!"
+	},
+	"MSG_1266": {
+		"ru": "ОШИБКА: неверный ID клиента.",
+		"en": "ERROR: Incorrect customer ID."
+	},
+	"MSG_1267": {
+		"ru": "ХОРОШО: \"%s\" добавлен в чёрный список!",
+		"en": "OK: \"%s\" added to the blacklist!"
+	},
+	"MSG_1268": {
+		"ru": "Идентификатор | Имя персонажа | Флаги",
+		"en": "ID | Character name | Flags"
+	},
+	"MSG_1269": {
+		"ru": "%.2u | %s | %s",
+		"en": "%.2u | %s | %s"
+	},
+	"MSG_1270": {
+		"ru": "ОШИБКА: неверный ID",
+		"en": "ERROR: Wrong ID"
+	},
+	"MSG_1271": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_1272": {
+		"ru": "%s",
+		"en": "%s"
+	},
+	"MSG_1273": {
+		"ru": "ХОРОШО",
+		"en": "OKAY"
+	},
+	"MSG_1274": {
+		"ru": "Ваш ID: %u",
+		"en": "Your ID: %u"
+	},
+	"MSG_1275": {
+		"ru": "Ваш ID: %s",
+		"en": "Your ID: %s"
+	},
+	"MSG_1276": {
+		"ru": "Ваш выбор языка: Русский",
+		"en": "Your choice of language: English"
+	},
+	"MSG_1277": {
+		"ru": "Ошибка смены языка",
+		"en": "Language change error"
+	},
+	"MSG_1278": {
+		"ru": "ОШИБКА: Неверный идентификатор клиента (client-id)",
+		"en": "ERROR: Invalid client-id"
+	},
+	"MSG_1279": {
+		"ru": "ОШИБКА: Не удалось закодировать XML",
+		"en": "ERROR: Couldn't encode XML"
+	},
+	"MSG_1280": {
+		"ru": "На этом сервере работает FLHook версии-",
+		"en": "This server runs the FLHook version"
+	},
+	"MSG_1281": {
+		"ru": "Запуск плагинов: ",
+		"en": "Launch of plugins: "
+	},
+	"MSG_1282": {
+		"ru": "- %s",
+		"en": "- %s"
+	},
+	"MSG_1283": {
+		"ru": "- none -",
+		"en": "- none -"
+	},
+	"MSG_1284": {
+		"ru": "Вам доступны следующие команды. Информация о всех - /help, /? или /h. Для получения подробной информации используйте /help <command>.",
+		"en": "The following commands are available to you. Information about all - /help, /? or /h. For more information, use /help <command>."
+	},
+	"MSG_1285": {
+		"ru": "  ",
+		"en": "  "
+	},
+	"MSG_1286": {
+		"ru": "  ",
+		"en": "  "
+	},
+	"MSG_1287": {
+		"ru": "Для указанной команды справки не найдено.",
+		"en": "No reference was found for this team."
+	},
+	"MSG_1288": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1289": {
+		"ru": "Не верные параметры",
+		"en": "Wrong parameters"
+	},
+	"MSG_1290": {
+		"ru": "Используйте: ",
+		"en": "Use: "
+	},
+	"MSG_1291": {
+		"ru": "/autobuy <param> [<on/off>]",
+		"en": "/autobuy <param> [<on/off>]"
+	},
+	"MSG_1292": {
+		"ru": "   info",
+		"en": "   info"
+	},
+	"MSG_1293": {
+		"ru": " - отображать текущие настройки автопокупки",
+		"en": " - display current auto purchase settings"
+	},
+	"MSG_1294": {
+		"ru": "   missiles",
+		"en": "   missiles"
+	},
+	"MSG_1295": {
+		"ru": " - включить/выключить автокупку ракет",
+		"en": " - turn on/off the purchase of missiles"
+	},
+	"MSG_1296": {
+		"ru": "   torps",
+		"en": "   torps"
+	},
+	"MSG_1297": {
+		"ru": " - включить/выключить автокупку торпед",
+		"en": " - turn on/off torpedo purchase"
+	},
+	"MSG_1298": {
+		"ru": "   mines",
+		"en": "   mines"
+	},
+	"MSG_1299": {
+		"ru": " - включить/выключить автокупку мин",
+		"en": " - turn on/off auto purchase of mines"
+	},
+	"MSG_1300": {
+		"ru": "   cd",
+		"en": "   cd"
+	},
+	"MSG_1301": {
+		"ru": " - включить/выключить автопокупку амуниции блокираторов",
+		"en": " - turn on/off auto purchase of blocker ammunition"
+	},
+	"MSG_1302": {
+		"ru": "   cm",
+		"en": "   cm"
+	},
+	"MSG_1303": {
+		"ru": " - включить/выключить включить/выключить автокупку обманок",
+		"en": " - turn on/off on/off auto purchase fraud"
+	},
+	"MSG_1304": {
+		"ru": "   reload",
+		"en": "   load"
+	},
+	"MSG_1305": {
+		"ru": " - включить/выключить автокупку нанороботов и батарей щита",
+		"en": " - turn on/off the auto purchase of nanorobots and shield batteries"
+	},
+	"MSG_1306": {
+		"ru": "   repair",
+		"en": "   repair"
+	},
+	"MSG_1307": {
+		"ru": " - включить/выключить авто-ремонт корабля",
+		"en": " - turn on/off auto repair of the ship"
+	},
+	"MSG_1308": {
+		"ru": "   all",
+		"en": "   all"
+	},
+	"MSG_1309": {
+		"ru": " - включить/выключить автокупку всех расходников",
+		"en": " - turn on/off the purchase of all consumables"
+	},
+	"MSG_1310": {
+		"ru": "/autobuy missiles on",
+		"en": "/autobuy missiles on"
+	},
+	"MSG_1311": {
+		"ru": " - включается автокупка ракет",
+		"en": " - includes the purchase of missiles"
+	},
+	"MSG_1312": {
+		"ru": "/autobuy all off",
+		"en": "/autobuy all off"
+	},
+	"MSG_1313": {
+		"ru": " - полностью отключается автопокупка",
+		"en": " - auto purchase is completely switched off"
+	},
+	"MSG_1314": {
+		"ru": "/autobuy info",
+		"en": "/autobuy info"
+	},
+	"MSG_1315": {
+		"ru": " - показавает информацию об автокупке",
+		"en": " - shows information about the car purchase"
+	},
+	"MSG_1316": {
+		"ru": "/bank",
+		"en": "/bank"
+	},
+	"MSG_1317": {
+		"ru": "<amount>",
+		"en": "<amount>"
+	},
+	"MSG_1318": {
+		"ru": "/bankw",
+		"en": "/bankw"
+	},
+	"MSG_1319": {
+		"ru": "<amount>",
+		"en": "<amount>"
+	},
+	"MSG_1320": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1321": {
+		"ru": "Вы не можете использовать эту команду тут. Только в космосе.",
+		"en": "You can't use this command here. Only in space."
+	},
+	"MSG_1322": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1323": {
+		"ru": "Вы не можете переводить отрицательные или нулевые суммы денег.",
+		"en": "You cannot transfer negative or zero amounts of money."
+	},
+	"MSG_1324": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1325": {
+		"ru": "У вас нет столько!",
+		"en": "You don't have that!"
+	},
+	"MSG_1326": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1327": {
+		"ru": "Превышен лимит на хранение в банке.",
+		"en": "The limit on storage in the bank is exceeded."
+	},
+	"MSG_1328": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1329": {
+		"ru": "Максимальный лимит на хранение в банке: 9223372036854775807",
+		"en": "Maximum limit on bank storage: 9223372036854775807"
+	},
+	"MSG_1330": {
+		"ru": "...",
+		"en": "..."
+	},
+	"MSG_1331": {
+		"ru": "Транзакция прошла успешно!",
+		"en": "The transaction was successful!"
+	},
+	"MSG_1332": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1333": {
+		"ru": "Вы не можете переводить отрицательные или нулевые суммы денег.",
+		"en": "You cannot transfer negative or zero amounts of money."
+	},
+	"MSG_1334": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1335": {
+		"ru": "У вас нет столько!",
+		"en": "You don't have that!"
+	},
+	"MSG_1336": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1337": {
+		"ru": "Максимальный лимит на хранение в персонаже: 1.900.000.000",
+		"en": "Maximum storage limit in a character: 1.900,000,000"
+	},
+	"MSG_1338": {
+		"ru": "Например: /bammo-<n>",
+		"en": "For example: /bammo-<n>"
+	},
+	"MSG_1339": {
+		"ru": " - пока доступны только 1 и 2 в параметре <n>, а именно /bammo-1 и /bammo-2, затемнённые цвета на предметах означают их наличие у вас в грузовом отсеке, также подсвечиваются те номера которые вы уже можете собрать, чтобы собрать 12-й предмет наберите например /bammo-1 12",
+		"en": " - while only 1 and 2 are available in the <n> parameter, namely /bammo-1 and /bammo-2, the darkened colors on the items indicate that you have them in the cargo hold, and the numbers that you can already collect to collect the 12th item dial for example /bammo-1 12 are highlighted"
+	},
+	"MSG_1340": {
+		"ru": "Например: /bwep-<n>",
+		"en": "For example: /bwep-<n>"
+	},
+	"MSG_1341": {
+		"ru": " - пока доступны только 1 и 2 в параметре <n>, а именно /bwep-1 и /bwep-2, затемнённые цвета на предметах означают их наличие у вас в грузовом отсеке, также подсвечиваются те номера которые вы уже можете собрать, чтобы собрать 12-й предмет наберите например /bwep-1 12",
+		"en": " - while only 1 and 2 are available in the <n> parameter, namely /bwep-1 and /bwep-2, the darkened colors on the items indicate that you have them in the cargo hold, and the numbers that you can already collect to collect the 12th item dial for example /bwep-1 12 are highlighted"
+	},
+	"MSG_1342": {
+		"ru": "Например: /bequip-<n>",
+		"en": "For example: /bequip-<n>"
+	},
+	"MSG_1343": {
+		"ru": " - пока доступны только 1 и 2 в параметре <n>, а именно /bequip-1 и /bequip-2, затемнённые цвета на предметах означают их наличие у вас в грузовом отсеке, также подсвечиваются те номера которые вы уже можете собрать, чтобы собрать 12-й предмет наберите например /bequip-1 12",
+		"en": " - while only 1 and 2 are available in the <n> parameter, namely /bequip-1 and /bequip-2, the darkened colors on the items indicate that you have them in the cargo hold, and the numbers that you can already collect to collect the 12th item dial for example /bequip-1 12 are highlighted"
+	},
+	"MSG_1344": {
+		"ru": "Например: /blic-<n>",
+		"en": "For example: /blic-<n>"
+	},
+	"MSG_1345": {
+		"ru": " - пока доступны только 1 и 2 в параметре <n>, а именно /blic-1 и /blic-2, затемнённые цвета на предметах означают их наличие у вас в грузовом отсеке, также подсвечиваются те номера которые вы уже можете собрать, чтобы собрать 12-й предмет наберите например /blic-1 12",
+		"en": " - while only 1 and 2 are available in the <n> parameter, namely /blic-1 and /blic-2, the darkened colors on the items indicate that you have them in the cargo hold, and the numbers that you can already collect to collect the 12th item dial for example /blic-1 12 are highlighted"
+	},
+	"MSG_1346": {
+		"ru": "Ошибка: Осталось времени до перезарядки: ",
+		"en": "ERROR: Time left before recharging: "
+	},
+	"MSG_1347": {
+		"ru": "Ошибка: Осталось времени до перезарядки: ",
+		"en": "ERROR: Time left before recharging: "
+	},
+	"MSG_1348": {
+		"ru": "Ошибка: Осталось времени до перезарядки: ",
+		"en": "ERROR: Time left before recharging: "
+	},
+	"MSG_1349": {
+		"ru": "Перезарядка прыжкового двигателя: ",
+		"en": "Recharging of the jump engine: "
+	},
+	"MSG_1350": {
+		"ru": "Перезарядка прыжкового двигателя сброшена ",
+		"en": "Recharging jump engine dropped "
+	},
+	"MSG_1351": {
+		"ru": "[&] Перезарядка вашего устройства прыжка: ",
+		"en": "[&] Recharging your jumping device: "
+	},
+	"MSG_1352": {
+		"ru": "helpmenu ",
+		"en": "helpmenu "
+	},
+	"MSG_1353": {
+		"ru": "Ping установленный на сервере: ",
+		"en": "Ping installed on the server: "
+	},
+	"MSG_1354": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1355": {
+		"ru": "Сохранение прервано. У вас уже сохранено. ",
+		"en": "Conservation interrupted. You already have. "
+	},
+	"MSG_1356": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1357": {
+		"ru": "Введите верный идентификатор корабля из списка полученныx командами /changeship или /cs",
+		"en": "Enter the correct ship ID from the list received by /changeship or /cs commands"
+	},
+	"MSG_1358": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1359": {
+		"ru": "Введите верный идентификатор корабля из списка полученныx командами /changeship или /cs",
+		"en": "Enter the correct ship ID from the list received by /changeship or /cs commands"
+	},
+	"MSG_1360": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1361": {
+		"ru": "Вы не можете изменить корабль на тот же самый!",
+		"en": "You can't change the ship to the same one!"
+	},
+	"MSG_1362": {
+		"ru": "Меняем корабль на ",
+		"en": "Changing ship to "
+	},
+	"MSG_1363": {
+		"ru": "Меняем базу на ",
+		"en": "Change base to "
+	},
+	"MSG_1364": {
+		"ru": "ОГРАНИЧЕНИЕ: ",
+		"en": "LIMITATION: "
+	},
+	"MSG_1365": {
+		"ru": "Вы не можете удалить корабль на котором сейчас находитесь!",
+		"en": "You can't remove the ship you're on right now!"
+	},
+	"MSG_1366": {
+		"ru": "Удаляем корабль из списка сохранённых: ",
+		"en": "Remove the ship from the list of saved: "
+	},
+	"MSG_1367": {
+		"ru": "Ниже приведён список команд ",
+		"en": "Below is a list of teams "
+	},
+	"MSG_1368": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1369": {
+		"ru": "0xFF920540",
+		"en": "0xFF920540"
+	},
+	"MSG_1370": {
+		"ru": "commandlist ",
+		"en": "commandlist "
+	},
+	"MSG_1371": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1372": {
+		"ru": "0xFF920540",
+		"en": "0xFF920540"
+	},
+	"MSG_1373": {
+		"ru": "[",
+		"en": "["
+	},
+	"MSG_1374": {
+		"ru": "[",
+		"en": "["
+	},
+	"MSG_1375": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1376": {
+		"ru": "Пароль не верный",
+		"en": "Password's wrong"
+	},
+	"MSG_1377": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1378": {
+		"ru": "вы ввели не верное число из списка фракций команды /showrestarts",
+		"en": "you entered the wrong number from the team faction list /showrestarts"
+	},
+	"MSG_1379": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1380": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1381": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1382": {
+		"ru": "ХОРОШО: ",
+		"en": "OK: "
+	},
+	"MSG_1383": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1384": {
+		"ru": "Пароль не верный",
+		"en": "Password's wrong"
+	},
+	"MSG_1385": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1386": {
+		"ru": "вы ввели не верное число из списка фракций команды /showrestarts",
+		"en": "you entered the wrong number from the team faction list /showrestarts"
+	},
+	"MSG_1387": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1388": {
+		"ru": "вы не на базе.",
+		"en": "you're off base."
+	},
+	"MSG_1389": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1390": {
+		"ru": "вы должны создать новый параметр для перезапуска. Ваш ранг больше ",
+		"en": "you have to create a new setting to restart. Your rank is higher"
+	},
+	"MSG_1391": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR:"
+	},
+	"MSG_1392": {
+		"ru": "вы должны создать новый параметр для перезапуска. У вас денег больше чем ",
+		"en": "you have to create a new setting to restart. You have more money than "
+	},
+	"MSG_1393": {
+		"ru": "...",
+		"en": "..."
+	},
+	"MSG_1394": {
+		"ru": "...",
+		"en": "..."
+	},
+	"MSG_1395": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1396": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1397": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1398": {
+		"ru": "свободен",
+		"en": "free"
+	},
+	"MSG_1399": {
+		"ru": "/enumcargo ",
+		"en": "/enumcargo"
+	},
+	"MSG_1400": {
+		"ru": " - показывает количество предметов лежащих в трюме вашего корабля",
+		"en": " - shows the number of items lying in the hold of your ship"
+	},
+	"MSG_1401": {
+		"ru": "/sinfo ",
+		"en": "/sinfo "
+	},
+	"MSG_1402": {
+		"ru": " - показывает количество предметов лежащих на складе текущей системы",
+		"en": " - shows the number of items in the warehouse of the current system"
+	},
+	"MSG_1403": {
+		"ru": "/store <n> <ammount> ",
+		"en": "/store <n> <ammount> "
+	},
+	"MSG_1404": {
+		"ru": "/store all ",
+		"en": "/store all "
+	},
+	"MSG_1405": {
+		"ru": " - отправит весь груз корабля",
+		"en": " - send the entire cargo of the ship"
+	},
+	"MSG_1406": {
+		"ru": "/unstore <n> <ammount> ",
+		"en": "/unstore <n> <ammount> "
+	},
+	"MSG_1407": {
+		"ru": "/unstore all ",
+		"en": "/unstore all "
+	},
+	"MSG_1408": {
+		"ru": " - отправит весь груз со склада в корабль",
+		"en": " - send all cargo from the warehouse to the ship"
+	},
+	"MSG_1409": {
+		"ru": "/cargosystems ",
+		"en": "/cargosystems "
+	},
+	"MSG_1410": {
+		"ru": " - выводит список систем в которых есть груз в складах с указанием количества этого груза",
+		"en": " - displays a list of systems in which there is cargo in warehouses with an indication of the amount of this cargo"
+	},
+	"MSG_1411": {
+		"ru": "/carsys ",
+		"en": "/carsys "
+	},
+	"MSG_1412": {
+		"ru": " - выводит список систем в которых есть груз в складах с указанием количества этого груза",
+		"en": " - displays a list of systems in which there is cargo in warehouses with an indication of the amount of this cargo"
+	},
+	"MSG_1413": {
+		"ru": "/searchgood <searchstring>",
+		"en": "/searchgood <searchstring>"
+	},
+	"MSG_1414": {
+		"ru": "/sh <searchstring>",
+		"en": "/sh <searchstring>"
+	},
+	"MSG_1415": {
+		"ru": "Скрыто ",
+		"en": "Hiddenly "
+	},
+	"MSG_1416": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1417": {
+		"ru": "У вас нет груза в трюме или отмонтированного оборудования!",
+		"en": "You have no cargo in the hold or mounted equipment!"
+	},
+	"MSG_1418": {
+		"ru": "ХОРОШО: ",
+		"en": "OK: "
+	},
+	"MSG_1419": {
+		"ru": "Весь груз отправлен на склад!",
+		"en": "All the cargo has been sent to the warehouse!"
+	},
+	"MSG_1420": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1421": {
+		"ru": "Нельзя отправить отрицательное количество",
+		"en": "You cannot send a negative amount"
+	},
+	"MSG_1422": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1423": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1424": {
+		"ru": "У вас нет такого количества!",
+		"en": "You don't have that much!"
+	},
+	"MSG_1425": {
+		"ru": "1: ",
+		"en": "1: "
+	},
+	"MSG_1426": {
+		"ru": "1: ",
+		"en": "1: "
+	},
+	"MSG_1427": {
+		"ru": "1: ",
+		"en": "1: "
+	},
+	"MSG_1428": {
+		"ru": "...",
+		"en": "..."
+	},
+	"MSG_1429": {
+		"ru": "Ценный предмет отправлен!",
+		"en": "Valuable item sent!"
+	},
+	"MSG_1430": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1431": {
+		"ru": "Вы должны выделить склад мышкой как цель!",
+		"en": "You should highlight the warehouse with your mouse as a target!"
+	},
+	"MSG_1432": {
+		"ru": "Вы сняли со склада",
+		"en": "You're out of the warehouse"
+	},
+	"MSG_1433": {
+		"ru": "...",
+		"en": "..."
+	},
+	"MSG_1434": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1435": {
+		"ru": "В корабль не влезет ",
+		"en": "The ship won't fit "
+	},
+	"MSG_1436": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1437": {
+		"ru": "Лимит корабля в ",
+		"en": "Limit ship in "
+	},
+	"MSG_1438": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1439": {
+		"ru": "Не пытайтесь его обойти путём махинаций, ибо это приведет к блокировке ключа!",
+		"en": "Do not try to circumvent it by fraud, because this will lead to the locking of the key!"
+	},
+	"MSG_1440": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1441": {
+		"ru": "У вас на корабле сейчас слотов занято предметами: ",
+		"en": "You've got slots on the ship now occupied with items: "
+	},
+	"MSG_1442": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1443": {
+		"ru": "В корабль не влезет ",
+		"en": "The ship won't fit "
+	},
+	"MSG_1444": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1445": {
+		"ru": "Лимит корабля в ",
+		"en": "Limit ship in "
+	},
+	"MSG_1446": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1447": {
+		"ru": "Не пытайтесь его обойти путём махинаций, ибо это приведет к блокировке ключа!",
+		"en": "Do not try to circumvent it by fraud, because this will lead to the locking of the key!"
+	},
+	"MSG_1448": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1449": {
+		"ru": "У вас на корабле сейчас слотов занято предметами: ",
+		"en": "You've got slots on the ship now occupied with items: "
+	},
+	"MSG_1450": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1451": {
+		"ru": "В корабле есть лимит на 150 видов предметов!",
+		"en": "The ship has a limit of 150 items!"
+	},
+	"MSG_1452": {
+		"ru": "Dvurechensky: ",
+		"en": "Dvurechensky: "
+	},
+	"MSG_1453": {
+		"ru": "Не пытайтесь его обойти путём махинаций, ибо это приведет к блокировке ключа!",
+		"en": "Do not try to circumvent it by fraud, because this will lead to the locking of the key!"
+	},
+	"MSG_1454": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1455": {
+		"ru": "Трюм полон!",
+		"en": "The hold is full!"
+	},
+	"MSG_1456": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1457": {
+		"ru": "Вы не можете снять отрицательное или нулевое количество!",
+		"en": "You cannot withdraw a negative or zero amount!"
+	},
+	"MSG_1458": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1459": {
+		"ru": "1: ",
+		"en": "1: "
+	},
+	"MSG_1460": {
+		"ru": "...",
+		"en": "..."
+	},
+	"MSG_1461": {
+		"ru": "Погружен в трюм!",
+		"en": "I'm in the hold!"
+	},
+	"MSG_1462": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1463": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1464": {
+		"ru": "У вас нет такого числа товаров в хранилище!",
+		"en": "You don't have that many items in storage!"
+	},
+	"MSG_1465": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1466": {
+		"ru": "Вам не хватает грузового места!",
+		"en": "You're short of cargo space!"
+	},
+	"MSG_1467": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1468": {
+		"ru": "Число наноботов слишком велико!",
+		"en": "The number of nanobots is too great!"
+	},
+	"MSG_1469": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1470": {
+		"ru": "Число батарей слишком велико!",
+		"en": "The number of batteries is too large!"
+	},
+	"MSG_1471": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1472": {
+		"ru": "Количество слишком велико!",
+		"en": "The number is too big!"
+	},
+	"MSG_1473": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1474": {
+		"ru": "Вы не можете снять столько!",
+		"en": "You can't take that off!"
+	},
+	"MSG_1475": {
+		"ru": "Вы сняли со склада: ",
+		"en": "You took it from the warehouse: "
+	},
+	"MSG_1476": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1477": {
+		"ru": "Вес предмета слишком велик!",
+		"en": "The weight of the object is too great!"
+	},
+	"MSG_1478": {
+		"ru": "1: ",
+		"en": "1: "
+	},
+	"MSG_1479": {
+		"ru": "...",
+		"en": "..."
+	},
+	"MSG_1480": {
+		"ru": "Погружен в трюм!",
+		"en": "I'm in the hold!"
+	},
+	"MSG_1481": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1482": {
+		"ru": "Вес предмета слишком велик!",
+		"en": "The weight of the object is too great!"
+	},
+	"MSG_1483": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1484": {
+		"ru": "Вы должны выделить склад мышкой как цель!",
+		"en": "You should highlight the warehouse with your mouse as a target!"
+	},
+	"MSG_1485": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1486": {
+		"ru": "Введите поисковый запрос, например - /searchgood а или /searchgood Лезвие",
+		"en": "Enter a search query such as /searchgood a or /searchgood blade"
+	},
+	"MSG_1487": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1488": {
+		"ru": "Ничего не найдено!",
+		"en": "Nothing found!"
+	},
+	"MSG_1489": {
+		"ru": "ОШИБКА: ",
+		"en": "ERROR: "
+	},
+	"MSG_1490": {
+		"ru": "У вас нет демонтированного оборудования или товаров!",
+		"en": "You have no dismantled equipment or goods!"
+	},
+	"MSG_1491": {
+		"ru": "Your Ship: ",
+		"en": "Your Ship: "
+	},
+	"MSG_1492": {
+		"ru": "Хм, Телепорт в эту точку невозможен... Пробуйте: /beammeup aldrin или /beammeup secret",
+		"en": "Hmm, Teleport to this point is impossible... Try: /beammeup aldrin or /beammeup secret"
+	},
+	"MSG_1493": {
+		"ru": "Хм... Телепорт вы хотите телепорт! Думаю...",
+		"en": "Hmm... Teleport you want teleport! I think..."
+	},
+	"MSG_1494": {
+		"ru": "Удаляю из вашего грузового отсека: ",
+		"en": "Removing from your cargo hold: "
+	},
+	"MSG_1495": {
+		"ru": "Хм, Телепорт не удался! У вас нет - ",
+		"en": "Hmm, Teleport failed! You don't have - "
+	},
+	"MSG_1496": {
+		"ru": " активирован",
+		"en": " activated"
+	},
+	"MSG_1497": {
+		"ru": "ОШИБКА: Вы должны быть на корабле класса убер-корвет",
+		"en": "ERROR: You must be on an uber-corvette class ship"
+	},
+	"MSG_1498": {
+		"ru": "ОШИБКА: Вы должны быть в космосе",
+		"en": "ERROR: You must be in space"
+	},
+	"MSG_1499": {
+		"ru": " - для вывода следующей страницы введите команду /sinfo 1 или /sinfo 2 и тд. (от 0 до ",
+		"en": " - to display the next page of the next command /sinfo 1 or /sinfo 2 etc. (from 0 to "
+	},
+	"MSG_1500": {
+		"ru": " временно недоступен.",
+		"en": " temporarily unavailable."
+	},
+	"MSG_1501": {
+		"ru": "Добро пожаловать обратно ",
+		"en": "Welcome back "
+	},
+	"MSG_1502": {
+		"ru": "Обратный отсчет: 3",
+		"en": "Countdown: 3"
+	},
+	"MSG_1503": {
+		"ru": "Обратный отсчет: 2",
+		"en": "Countdown: 2"
+	},
+	"MSG_1504": {
+		"ru": "Обратный отсчет: 1",
+		"en": "Countdown: 1"
+	},
+	"MSG_1505": {
+		"ru": "Полетели!",
+		"en": "Let's fly!"
+	},
+	"MSG_1506": {
+		"ru": "%time %victim's права на стыковку были восстановлены.",
+		"en": "%time %victim's docking rights have been restored."
+	},
+	"MSG_1507": {
+		"ru": "%time %victim's пользователь %player удалил права на стыковку как минимум на %duration секунд",
+		"en": "%time %victim's user %player has removed docking permissions for at least %duration seconds"
+	},
+	"MSG_1508": {
+		"ru": "<%sender> удалены права на стыковку из <%victim>",
+		"en": "<%sender> removed docking permissions from <%victim>"
+	},
+	"MSG_1509": {
+		"ru": "[%stamp] %name подарил $%money.",
+		"en": "[%stamp] %name gave $%money."
+	},
+	"MSG_1510": {
+		"ru": "Доступна новая миссия",
+		"en": "New mission available"
+	},
+	"MSG_1511": {
+		"ru": "Цель: %name",
+		"en": "Target: %name"
+	},
+	"MSG_1512": {
+		"ru": "%player установил %name в качестве цели группы.",
+		"en": "%player has set %name as group target."
+	},
+	"MSG_1513": {
+		"ru": "Включёна",
+		"en": "On"
+	},
+	"MSG_1514": {
+		"ru": "Выключёна",
+		"en": "Off"
+	},
+	"MSG_1515": {
+		"ru": "Наноботы",
+		"en": "Nanobots"
+	},
+	"MSG_1516": {
+		"ru": "Щитовые батареи",
+		"en": "Shield Batteries"
+	},
+	"MSG_1517": {
+		"ru": "Мины",
+		"en": "Mines"
+	},
+	"MSG_1518": {
+		"ru": "Обманки",
+		"en": "Countermeasures"
+	},
+	"MSG_1519": {
+		"ru": "Торпеды",
+		"en": "Torpedos"
+	},
+	"MSG_1520": {
+		"ru": "Круизные нарушители",
+		"en": "Cruise Disruptors"
+	},
+	"MSG_1521": {
+		"ru": "Ракеты",
+		"en": "Missiles"
+	},
+	"MSG_1522": {
+		"ru": "Боеприпасы",
+		"en": "Munitions"
+	},
+	"MSG_1523": {
+		"ru": "Батареи маскировки",
+		"en": "Cloak Batteries"
+	},
+	"MSG_1524": {
+		"ru": " - у вас в банке",
+		"en": " - in your bank"
+	},
+	"MSG_1525": {
+		"ru": " зачислено на ваш счёт.",
+		"en": " credited to your account."
+	},
+	"MSG_1526": {
+		"ru": "ОШИБКА: Пожалуйста, состыкуйтесь на ближайшей базе.",
+		"en": "ERROR: Please dock at the nearest base."
+	},
+	"MSG_1527": {
+		"ru": "ОШИБКА: Грузовой отсек не пуст!",
+		"en": "ERROR: Cargo bay is not empty!"
+	},
+	"MSG_1528": {
+		"ru": "Lizerium 24/7 Правила сервера",
+		"en": "Lizerium 24/7 Server Rules"
+	},
+	"MSG_1529": {
+		"ru": "Начиная",
+		"en": "Starting"
+	},
+	"MSG_1530": {
+		"ru": "ОШИБКА: неверные параметры (не указан язык ru, en)",
+		"en": "ERROR: invalid parameters (language ru, en not specified)"
+	},
+	"MSG_1531": {
+		"ru": "Используйте: /lang ru",
+		"en": "Use: /lang ru"
+	},
+	"MSG_1532": {
+		"ru": "Использование: /bountyhunt <charname> <credits> [<minutes>]",
+		"en": "Usage: /bountyhunt <charname> <credits> [<minutes>]"
+	},
+	"MSG_1533": {
+		"ru": "Или же: /bountyhuntid <id> <credits> [<minutes>]",
+		"en": "Or: /bountyhuntid <id> <credits> [<minutes>]"
+	},
+	"MSG_1534": {
+		"ru": " -> предлагает награду в <credits> кредитов за убийство <charname> в течение следующих <minutes> минут",
+		"en": "-> offers a reward of <credits> credits for killing <charname> within the next <minutes> minutes"
+	},
+	"MSG_1535": {
+		"ru": "Охота за головами: %s предлагает %u кредитов за убийство %s за %u минут!",
+		"en": "Bounty Hunt: %s is offering %u credits to kill %s in %u minutes!"
+	},
+	"MSG_1536": {
+		"ru": "Охота за головами: %s не уничтожен и заработал %u кредитов.",
+		"en": "Bounty Hunt: %s not destroyed and earned %u credits."
+	},
+	"MSG_1537": {
+		"ru": "Охота за головами: охота на %s всё ещё продолжается!!!",
+		"en": "Bounty Hunt: The hunt for %s is still ongoing!!!"
+	},
+	"MSG_1538": {
+		"ru": "Охота за головами: %s убил %s и заработал %u кредитов.",
+		"en": "Bounty Hunt: %s killed %s and earned %u credits."
+	},
+	"MSG_1539": {
+		"ru": "Охота за головами: Недовольный, %s отказывается от своего предложения.",
+		"en": "Bounty Hunting: Displeased, %s refuses his offer."
+	},
+	"MSG_1540": {
+		"ru": "Фракция: имя=отношение к вам. Страница [",
+		"en": "Faction: name=relationship to you. Page ["
+	},
+	"MSG_1541": {
+		"ru": "Общее количество убийств: ",
+		"en": "Total kills: "
+	},
+	"MSG_1542": {
+		"ru": "Рейтинг: ",
+		"en": "Rating: "
+	},
+	"MSG_1543": {
+		"ru": "Уведомление: ",
+		"en": "Notification: "
+	},
+	"MSG_1544": {
+		"ru": "Обнаружено скрытых объектов: ",
+		"en": "Hidden objects found: "
+	},
+	"MSG_1545": {
+		"ru": "Использование: /ignoregroupmarks <on|off>",
+		"en": "Usage: /ignoregroupmarks <on|off>"
+	},
+	"MSG_1546": {
+		"ru": "Использование: /sonar <on|off>",
+		"en": "Usage: /sonar <on|off>"
+	},
+	"MSG_1547": {
+		"ru": "Использование: /automark <on|off> [радиус в КМ]",
+		"en": "Usage: /automark <on|off> [radius in KM]"
+	},
+	"MSG_1548": {
+		"ru": "Выполняется обновление файла персонажа. Подождите 10 секунд перед повторным подключением.",
+		"en": "Character file is being updated. Please wait 10 seconds before reconnecting."
+	},
+	"MSG_1549": {
+		"ru": " кораблей, на данный момент это предел. Обратитесь на сайте lizup.ru к администратору, если вам понадобится больше кораблей.",
+		"en": " ships, this is the limit at the moment. Contact the administrator on the lizup.ru website if you need more ships."
+	},
+	"MSG_1550": {
+		"ru": " (ваш текущий)",
+		"en": " (your current)"
+	},
+	"MSG_1551": {
+		"ru": "Обновление персонажа, подождите 10 секунд перед повторным подключением.",
+		"en": "Character update, please wait 10 seconds before reconnecting."
+	},
+	"MSG_1552": {
+		"ru": " кредитов.",
+		"en": " credits."
+	},
+	"MSG_1553": {
+		"ru": " кредитов от ",
+		"en": " credits from "
+	},
+	"MSG_1554": {
+		"ru": " Вы получили ",
+		"en": " You got "
+	},
+	"MSG_1555": {
+		"ru": "анонимно",
+		"en": "anonymously"
+	},
+	"MSG_1556": {
+		"ru": " Вы отправили ",
+		"en": " You sent "
+	},
+	"MSG_1557": {
+		"ru": " кредитов игроку ",
+		"en": " credits to the player "
+	},
+	"MSG_1558": {
+		"ru": " анонимно",
+		"en": " anonymously"
+	},
+	"MSG_1559": {
+		"ru": " с комментарием",
+		"en": " with comment"
+	},
+	"MSG_1560": {
+		"ru": " имеет ",
+		"en": " has "
+	},
+	"MSG_1561": {
+		"ru": " кредитов.",
+		"en": " credits."
+	},
+	"MSG_1562": {
+		"ru": "Вы перевели ",
+		"en": "You translated "
+	},
+	"MSG_1563": {
+		"ru": " кредитов ",
+		"en": " credits "
+	},
+	"MSG_1564": {
+		"ru": ": Вы получили ",
+		"en": ": You got it "
+	},
+	"MSG_1565": {
+		"ru": " кредитов от ",
+		"en": " credits from "
+	},
+	"MSG_1566": {
+		"ru": "Ваш IP заблокирован, обратитесь к администратору.",
+		"en": "Your IP is blocked, please contact your administrator."
+	},
+	"MSG_1567": {
+		"ru": "Доступ запрещён! Запрос на док - станцию ​​отклонен.Мы не хотим, чтобы вы здесь были.",
+		"en": "Access Denied! Dock request denied. We don't want you here."
+	},
+	"MSG_1568": {
+		"ru": "Доступ запрещён! Запрос на стыковку отклонен.Ваши разрешающиена стыковку документы никуда не годятся.",
+		"en": "Access Denied! Docking request denied. Your docking authorization documents are worthless."
+	},
+	"MSG_1569": {
+		"ru": "Доступ запрещён! Вы не можете здесь состыковаться. От вашей репутации воняет.",
+		"en": "Access Denied! You can't dock here. Your reputation stinks."
+	},
+	"MSG_1570": {
+		"ru": " запросил стыковку",
+		"en": " requested a docking"
+	},
+	"MSG_1571": {
+		"ru": "<недоступно>",
+		"en": "<not available>"
+	},
+	"MSG_1572": {
+		"ru": " получатель = ",
+		"en": " recipient = "
+	},
+	"MSG_1573": {
+		"ru": "(Которые доступны для получения справки)",
+		"en": "(Which are available for reference)"
+	},
+	"MSG_1574": {
+		"ru": "Положение: %0.0f %0.0f %0.0f Угол поворота: %0.0f %0.0f %0.0f",
+		"en": "Position: %0.0f %0.0f %0.0f Rotation Angle: %0.0f %0.0f %0.0f"
+	},
+	"MSG_1575": {
+		"ru": "%player разыграл %value с помощью формулы %formula",
+		"en": "%player played %value using %formula"
+	},
+	"MSG_1576": {
+		"ru": "<TRA data=\"0xfffc3b5b\" mask=\"-1\"/><TEXT>Игрок %p объявлен в розыск!</TEXT>",
+		"en": "<TRA data=\"0xfffc3b5b\" mask=\"-1\"/><TEXT>Player %p is wanted!</TEXT>"
+	},
+	"MSG_1578": {
+		"ru": "включёны",
+		"en": "On"
+	},
+	"MSG_1579": {
+		"ru": "выключёны",
+		"en": "Off"
+	},
+	"MSG_1580": {
+		"ru": "Возможности освещения - изменения цвета маяков корабля доступны тут.",
+		"en": "Lighting options - changing the color of the ship's beacons is available here."
+	},
+	"MSG_1581": {
+		"ru": "Введите /pimpship чтобы увидеть доступные опции.",
+		"en": "Type /pimpship to see available options."
+	},
+	"MSG_1582": {
+		"ru": " кред. на использование одного предмета.",
+		"en": " credit for the use of one item."
+	},
+	"MSG_1583": {
+		"ru": "Перемещение персонажа, подождите 10 секунд перед повторным подключением.",
+		"en": "Moving character, wait 10 seconds before reconnecting."
+	},
+	"MSG_1584": {
+		"ru": " - отправляет груз на склад <n> номер груза корабля (узнать - /enumcargo)",
+		"en": " - sends cargo to warehouse <n> ship cargo number (find out - /enumcargo)"
+	},
+	"MSG_1585": {
+		"ru": " - отправляет груз на корабль со склада <n> - номер груза склада (узнать - /sinfo)",
+		"en": " - sends cargo to the ship from warehouse <n> - warehouse cargo number (find out - /sinfo)"
+	},
+	"MSG_1586": {
+		"ru": " - ищет товар в ваших складах по всей галактике (можно писать часть названия - он выведет похожие)",
+		"en": " - searches for goods in your warehouses throughout the galaxy (you can write part of the name - it will display similar ones)"
+	},
+	"MSG_1587": {
+		"ru": " в количестве (",
+		"en": " in quantity ("
+	},
+	"MSG_1588": {
+		"ru": ") - отправлен!",
+		"en": ") - sent!"
+	},
+	"MSG_1589": {
+		"ru": " сервисных сообщений об отправке",
+		"en": " service messages about sending"
+	},
+	"MSG_1590": {
+		"ru": "Необходимо ввести правильный порядковый номер и число предмета трюма (узнать можно командой - /enumcargo)",
+		"en": "You must enter the correct serial number and quantity of the cargo hold item (you can find out using the command - /enumcargo)"
+	},
+	"MSG_1591": {
+		"ru": " в количестве - ",
+		"en": " in quantity - "
+	},
+	"MSG_1592": {
+		"ru": " видов предметов достигнут!",
+		"en": " types of items achieved!"
+	},
+	"MSG_1593": {
+		"ru": "Необходимо ввести количество и номер товара склада (узнать можно командой - /sinfo)",
+		"en": "You must enter the quantity and warehouse item number (you can find out using the command - /sinfo)"
+	},
+	"MSG_1594": {
+		"ru": "Товаров не найдено (Либо вы выбрали амуницию - её снимать и класть запрещено!)",
+		"en": "No products found (Or you have selected ammunition - it is prohibited to remove and put it away!)"
+	},
+	"MSG_1595": {
+		"ru": " найден в ",
+		"en": " found in "
+	},
+	"MSG_1596": {
+		"ru": "Использование: /set diemsg <параметр>",
+		"en": "Usage: /set diemsg <param>"
+	},
+	"MSG_1597": {
+		"ru": "<параметр>: all,system,self или none",
+		"en": "<param>: all,system,self or none"
+	},
+	"MSG_1598": {
+		"ru": "Использование: /set diemsgsize <размер>",
+		"en": "Usage: /set diemsgsize <size>"
+	},
+	"MSG_1599": {
+		"ru": "<размер>: small, default",
+		"en": "<size>: small, default"
+	},
+	"MSG_1600": {
+		"ru": "Использование: /set chatfont <размер> <стиль>",
+		"en": "Usage: /set chatfont <size> <style>"
+	},
+	"MSG_1601": {
+		"ru": "<размер>: small, default или big",
+		"en": "<size>: small, default или big"
+	},
+	"MSG_1602": {
+		"ru": "<стиль>: default, bold, italic или underline",
+		"en": "<style>: default, bold, italic or underline"
+	},
+	"MSG_1603": {
+		"ru": "Использование: /ignore <имя_персонажа> [<флаги>]",
+		"en": "Usage: /ignore <charname> [<flags>]"
+	},
+	"MSG_1604": {
+		"ru": "<имя_персонажа>: имя персонажа, которого следует игнорировать (без учета регистра)",
+		"en": "<charname>: character name which should be ignored(case insensitive)"
+	},
+	"MSG_1605": {
+		"ru": "<флаги>: комбинация следующих флагов:",
+		"en": "<flags>: combination of the following flags:"
+	},
+	"MSG_1606": {
+		"ru": " p - влияет только на приватный чат",
+		"en": " p - only affect private chat"
+	},
+	"MSG_1607": {
+		"ru": " i - <имя_персонажа> может совпадать частично",
+		"en": " i - <charname> may match partially"
+	},
+	"MSG_1608": {
+		"ru": "Примеры:",
+		"en": "Examples:"
+	},
+	"MSG_1609": {
+		"ru": "\"/ignore SomeDude\" игнорирует все сообщения чата от SomeDude",
+		"en": "\"/ignore SomeDude\" ignores all chatmessages from SomeDude"
+	},
+	"MSG_1610": {
+		"ru": "\"/ignore PlayerX p\" игнорирует все личные сообщения от PlayerX",
+		"en": "\"/ignore PlayerX p\" ignores all private-chatmessages from PlayerX"
+	},
+	"MSG_1611": {
+		"ru": "\"/ignore idiot i\" игнорирует все сообщения чата от игроков, чьи имена персонажей содержат \"idiot\" (например, \"[XYZ]IDIOT\", \"MrIdiot\" и т. д.)",
+		"en": "\"/ignore idiot i\" ignores all chatmessages from players whose charname contain \"idiot\" (e.g. \"[XYZ]IDIOT\", \"MrIdiot\", etc)"
+	},
+	"MSG_1612": {
+		"ru": "\"/ignore Fool pi\" игнорирует все сообщения в личном чате от игроков, чьи имена персонажей содержат \"fool\"",
+		"en": "\"/ignore Fool pi\" ignores all private-chatmessages from players whose charname contain \"fool\""
+	},
+	"MSG_1613": {
+		"ru": "Использование: /audiomsg <параметр> [<on/off>]",
+		"en": "Usage: /audiomsg <param> [<on/off>]"
+	},
+	"MSG_1614": {
+		"ru": "<параметр>:",
+		"en": "<param>:"
+	},
+	"MSG_1615": {
+		"ru": "   звуки - on/off звуки смерти",
+		"en": "   sounds - on/off sounds for death"
+	},
+	"MSG_1616": {
+		"ru": "\"/audiomsg sounds on\" включить audiomsg для вас",
+		"en": "\"/audiomsg sounds on\" enable audiomsg for you"
+	},
+	"MSG_1617": {
+		"ru": "\"/audiomsg sounds off\" отключить аудиосообщения для вас",
+		"en": "\"/audiomsg sounds off\" disable audiomsg for you"
+	},
+	"MSG_1618": {
+		"ru": "Использование: /ignoreid <идентификатор-клиента> [<флаги>]",
+		"en": "Usage: /ignoreid <client-id> [<flags>]"
+	},
+	"MSG_1619": {
+		"ru": "<client-id>: идентификатор клиента персонажа, которого следует игнорировать",
+		"en": "<client-id>: client-id of character which should be ignored"
+	},
+	"MSG_1620": {
+		"ru": "<флаги>: если \"p\" (без кавычек), то влияет только на приватный чат",
+		"en": "<flags>: if \"p\"(without quotation marks) then only affect private chat"
+	},
+	"MSG_1621": {
+		"ru": "Использование: /delignore <id> [<id2> <id3> ...]",
+		"en": "Usage: /delignore <id> [<id2> <id3> ...]"
+	},
+	"MSG_1622": {
+		"ru": "<id>: идентификатор игнорируемой записи (см. /ignorelist) или *(удалить все)",
+		"en": "<id>: id of ignore-entry(see /ignorelist) or *(delete all)"
+	},
+	"MSG_1623": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1624": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1625": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1626": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1627": {
+		"ru": "",
+		"en": ""
+	},
+	"MSG_1628": {
+		"ru": "",
+		"en": ""
+	}
+}

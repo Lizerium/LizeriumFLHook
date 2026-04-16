@@ -1,0 +1,1 @@
+<LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>

@@ -1,0 +1,319 @@
+### 🎄 DRON BAYS 🎄
+
+- [Назад](../../../../README.ru.md)
+
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Язык: </strong>
+  
+  <span style="color: #F5F752; margin: 0 10px;">
+    ✅ 🇷🇺 Русский (текущий)
+  </span>
+  | 
+  <a href="./README.md" style="color: #0891b2; margin: 0 10px;">
+    🇺🇸 English
+  </a>
+</div>
+
+---
+
+> [!IMPORTANT]
+>
+> - Plugin loaded: dronebay **(dronebay.dll)**
+>
+>   Описание
+
+```ini
+Система управления дронами
+```
+
+> ---
+
+> 1. [Пример конфигурации `dronebays.cfg`](../../../Binaries/bin-conf/flhook_plugins/dronebays.cfg)
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_Deploy
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronedeploy
+/dd
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/deploydrone [DroneType]
+/dd [DroneType]
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Запускает дрон, совместимый с вашим дронбаем
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_AttackTarget
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronetarget
+/dta
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/dronetarget
+/dta
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Направляет ваш дрон атаковать выбранную цель
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_Debug
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronedebug
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/dronedebug
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Перечисляет содержимое карты дронов пользователя.
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_DroneStop
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronestop
+/ds
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/dronestop
+/ds
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Это заставляет дрон останавливаться, что бы он ни делал, и сидеть на месте.
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_DroneStop
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronestop
+/ds
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/dronestop
+/ds
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Это заставляет дрон останавливаться, что бы он ни делал.
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_RecallDrone
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronerecall
+/dr
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/dronerecall
+/dr
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Отзывает ваш дрон и стыкует его с носителем.
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_DroneHelp
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronehelp
+/dh
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/dronehelp
+/dh
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Выводит справку по управлению дронами.
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_DroneBayAvailability
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronetypes
+/dt
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/dronetypes
+/dt
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Список всех доступных типов дронов для вашего типа отсека
+```
+
+> ---
+
+> [!NOTE]
+> Функция:
+
+```bash
+UserCmd_DroneCome
+```
+
+> [!WARNING]
+> Команда:
+
+```bash
+/dronecome
+/dc
+```
+
+> [!CAUTION]
+> Применение:
+
+```bash
+/dronecome
+/dc
+```
+
+> [!IMPORTANT]
+> Описание:
+
+```ini
+Отключает дрон от его текущей цели и направляет его к вашей позиции
+```
+
+> ---

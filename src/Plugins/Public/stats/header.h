@@ -1,0 +1,39 @@
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 16 апреля 2026 11:45:02
+ * Version: 1.0.35
+ */
+
+#ifndef __MAIN_H__
+#define __MAIN_H__ 1
+
+#include <FLHook.h>
+#include <algorithm>
+#include <fstream>
+#include <iostream>
+#include <list>
+#include <map>
+#include <math.h>
+#include <plugin.h>
+#include <stdio.h>
+#include <string>
+#include <time.h>
+#include <windows.h>
+
+static int set_iPluginDebug = 0;
+PLUGIN_RETURNCODE returncode;
+
+typedef bool(*_UserCmdProc)(uint, const std::wstring &, const std::wstring &,
+	const wchar_t *);
+
+struct USERCMD {
+	wchar_t *wszCmd;
+	_UserCmdProc proc;
+	wchar_t *usage;
+};
+
+#define IS_CMD(a) !wscCmd.compare(L##a)
+
+#endif
