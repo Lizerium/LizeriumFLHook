@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 25 апреля 2026 08:12:24
- * Version: 1.0.473
+ * Last Updated: 26 апреля 2026 09:57:30
+ * Version: 1.0.474
  */
 
 // Common utilities for FLHook plugins
