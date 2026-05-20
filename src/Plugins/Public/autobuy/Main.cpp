@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 19 мая 2026 10:17:24
- * Version: 1.0.496
+ * Last Updated: 20 мая 2026 10:05:43
+ * Version: 1.0.497
  */
 
 // Autobuy for FLHookPlugin
