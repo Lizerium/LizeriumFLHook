@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 24 мая 2026 06:54:03
- * Version: 1.0.501
+ * Last Updated: 25 мая 2026 11:14:30
+ * Version: 1.0.502
  */
 
 /// DSAce for Freelancer by Cannon 19/Sept/10
