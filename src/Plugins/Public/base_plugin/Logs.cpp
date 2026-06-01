@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 31 мая 2026 14:56:34
- * Version: 1.0.508
+ * Last Updated: 01 июня 2026 14:48:59
+ * Version: 1.0.509
  */
 
 // Better POB logs for POB Plugin
