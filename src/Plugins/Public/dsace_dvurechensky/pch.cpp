@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 04 июня 2026 06:54:05
- * Version: 1.0.512
+ * Last Updated: 05 июня 2026 06:54:01
+ * Version: 1.0.513
  */
 
 // pch.cpp: файл исходного кода, соответствующий предварительно скомпилированному заголовочному файлу
