@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 23 июня 2026 15:56:33
- * Version: 1.0.531
+ * Last Updated: 24 июня 2026 10:36:26
+ * Version: 1.0.532
  */
 
 #include "CSocket.h"
