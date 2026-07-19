@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 18 июля 2026 07:28:57
- * Version: 1.0.555
+ * Last Updated: 19 июля 2026 10:02:18
+ * Version: 1.0.556
  */
 
 #ifndef _CCONSOLE_
