@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 22 июля 2026 12:57:57
- * Version: 1.0.559
+ * Last Updated: 23 июля 2026 12:57:45
+ * Version: 1.0.560
  */
 
 #include <winsock2.h>
