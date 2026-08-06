@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 05 августа 2026 06:54:06
- * Version: 1.0.573
+ * Last Updated: 06 августа 2026 06:55:15
+ * Version: 1.0.574
  */
 
 #include "Export.h"
