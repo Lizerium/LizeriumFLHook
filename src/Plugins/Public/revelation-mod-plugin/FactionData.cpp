@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 18 августа 2026 06:54:20
- * Version: 1.0.586
+ * Last Updated: 19 августа 2026 10:24:08
+ * Version: 1.0.587
  */
 
 #include "FactionData.h"
