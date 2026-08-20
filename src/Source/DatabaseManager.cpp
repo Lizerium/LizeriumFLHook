@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 19 августа 2026 10:24:08
- * Version: 1.0.587
+ * Last Updated: 20 августа 2026 09:38:26
+ * Version: 1.0.588
  */
 
 #include "DatabaseManager.h"
