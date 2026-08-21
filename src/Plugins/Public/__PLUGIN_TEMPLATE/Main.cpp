@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 20 августа 2026 09:38:26
- * Version: 1.0.588
+ * Last Updated: 21 августа 2026 06:54:30
+ * Version: 1.0.589
  */
 
 // Template for FLHookPlugin
