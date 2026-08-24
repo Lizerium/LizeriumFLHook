@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 23 августа 2026 06:54:23
- * Version: 1.0.591
+ * Last Updated: 24 августа 2026 06:54:17
+ * Version: 1.0.592
  */
 
 #ifndef WILDCARD_H_INCLUDED
