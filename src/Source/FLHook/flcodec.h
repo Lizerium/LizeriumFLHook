@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 24 августа 2026 06:54:17
- * Version: 1.0.592
+ * Last Updated: 25 августа 2026 06:54:13
+ * Version: 1.0.593
  */
 
 #ifndef _FLCODEC_
