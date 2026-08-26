@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 25 августа 2026 06:54:13
- * Version: 1.0.593
+ * Last Updated: 26 августа 2026 06:54:22
+ * Version: 1.0.594
  */
 
 #include <FLHook.h>
@@ -33,6 +33,7 @@ void ClearCloakInfo(uint iClientID);
 vector<HINSTANCE> vDLLs;
 
 CLOAK_INFO CloakInfo[201];
+mstime PendingObserverCloakSyncUntil[201];
 list<INISECTIONVALUE> set_lstCloakDevices;
 bool set_bSendCooldownMsg;
 bool set_bPreventFireCloak;
@@ -46,6 +47,36 @@ wstring set_wscCloakPrepareTime;
 wstring set_wscCooldownTimeRemaining;
 wstring set_wscCloakTimeRemaining;
 CLIENT_CLOAK_COSA_STRUCT communicationInfo;
+
+void HkBroadcastCloakState(uint iClientID, bool bActivate)
+{
+	uint iShip = 0;
+	pub::Player::GetShip(iClientID, iShip);
+	if (!iShip || !CloakInfo[iClientID].bCanCloak || !CloakInfo[iClientID].iCloakSlot)
+		return;
+
+	XActivateEquip ActivateEq;
+	ActivateEq.bActivate = bActivate;
+	ActivateEq.iSpaceID = iShip;
+	ActivateEq.sID = CloakInfo[iClientID].iCloakSlot;
+	Server.ActivateEquip(iClientID, ActivateEq);
+
+	communicationInfo.iClientID = iClientID;
+	communicationInfo.isChargingCloak = false;
+	communicationInfo.isCloaked = bActivate;
+	Plugin_Communication(CLIENT_CLOAK_INFO, &communicationInfo);
+
+	if (bActivate)
+	{
+		struct PlayerData *pPD = 0;
+		while (pPD = Players.traverse_active(pPD))
+		{
+			uint iClientID2 = HkGetClientIdFromPD(pPD);
+			pub::Player::MarkObj(iClientID2, iShip, 0);
+			HkUnMarkObject(iClientID2, iShip);
+		}
+	}
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
@@ -250,6 +281,30 @@ void HkInitCloakSettings(uint iClientID)
 
 void HkTimerCloakHandler()
 {
+	mstime tmTimeNow = timeInMS();
+
+	for (uint iObserverID = 1; iObserverID < sizeof(PendingObserverCloakSyncUntil) / sizeof(PendingObserverCloakSyncUntil[0]); iObserverID++)
+	{
+		if (!PendingObserverCloakSyncUntil[iObserverID])
+			continue;
+
+		uint iObserverShip = 0;
+		pub::Player::GetShip(iObserverID, iObserverShip);
+		if (!iObserverShip || tmTimeNow > PendingObserverCloakSyncUntil[iObserverID])
+		{
+			PendingObserverCloakSyncUntil[iObserverID] = 0;
+			continue;
+		}
+
+		struct PlayerData *pSyncPD = 0;
+		while (pSyncPD = Players.traverse_active(pSyncPD))
+		{
+			uint iClientID2 = HkGetClientIdFromPD(pSyncPD);
+			if (iClientID2 && iClientID2 != iObserverID && CloakInfo[iClientID2].bCanCloak && (CloakInfo[iClientID2].bCloaked || CloakInfo[iClientID2].bIsCloaking))
+				HkBroadcastCloakState(iClientID2, true);
+		}
+	}
+
 	// for all players
 	struct PlayerData *pPD = 0;
 	while (pPD = Players.traverse_active(pPD))
@@ -288,8 +343,6 @@ void HkTimerCloakHandler()
 				}
 
 				// check cloak timings
-
-				mstime tmTimeNow = timeInMS();
 
 				if (CloakInfo[iClientID].bWantsCloak && (tmTimeNow - CloakInfo[iClientID].tmCloakTime) > CloakInfo[iClientID].iCloakWarmup)
 				{
@@ -533,6 +586,7 @@ EXPORT bool UserCmd_Process(uint iClientID, const wstring &wscCmd)
 
 void ClearCloakInfo(uint iClientID)
 {
+	PendingObserverCloakSyncUntil[iClientID] = 0;
 	CloakInfo[iClientID].bMustSendUncloak = false;
 	CloakInfo[iClientID].iCloakingTime = 0;
 	CloakInfo[iClientID].iCloakWarmup = 0;
@@ -597,6 +651,17 @@ namespace HkIServerImpl
 		if (CloakInfo[iClientID].bCanCloak)
 		{
 			CloakInfo[iClientID].bMustSendUncloak = true;
+		}
+		PendingObserverCloakSyncUntil[iClientID] = timeInMS() + 5000;
+
+		struct PlayerData *pPD = 0;
+		while (pPD = Players.traverse_active(pPD))
+		{
+			uint iClientID2 = HkGetClientIdFromPD(pPD);
+			if (iClientID2 && iClientID2 != iClientID && CloakInfo[iClientID2].bCanCloak && (CloakInfo[iClientID2].bCloaked || CloakInfo[iClientID2].bIsCloaking))
+			{
+				HkBroadcastCloakState(iClientID2, true);
+			}
 		}
 	}
 
