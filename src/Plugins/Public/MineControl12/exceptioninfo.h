@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 26 августа 2026 06:54:22
- * Version: 1.0.594
+ * Last Updated: 27 августа 2026 08:34:16
+ * Version: 1.0.595
  */
 
 /* Taken from Dr. Dobb's "Visual C++ Exception-Handling Instrumentation" article.

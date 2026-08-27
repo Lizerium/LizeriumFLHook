@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 26 августа 2026 06:54:22
- * Version: 1.0.594
+ * Last Updated: 27 августа 2026 08:34:16
+ * Version: 1.0.595
  */
 
 #include <FLHook.h>
@@ -132,103 +132,6 @@ HK_ERROR HkUnCloak(uint iClientID)
 	ActivateEq.iSpaceID = ClientInfo[iClientID].iShip;
 	ActivateEq.sID = CloakInfo[iClientID].iCloakSlot;
 	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-	Server.ActivateEquip(iClientID, ActivateEq);
-
 	PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_0539"));
 
 	//фиксируем в глобальную переменную деактивацию режима невидимости
@@ -452,17 +355,25 @@ void UserCmd_UnCloak(uint iClientID, const wstring &wscParam)
 		return;
 	}
 
-	if (!return_Cloak_off)
-	{
-		return;
-	}
-
 	if (CloakInfo[iClientID].bCanCloak) {
-		if (!HKHKSUCCESS(HkUnCloak(iClientID)))
-			PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_0540"));
+		if (CloakInfo[iClientID].bCloaked || CloakInfo[iClientID].bIsCloaking || CloakInfo[iClientID].bWantsCloak)
+		{
+			if (!HKHKSUCCESS(HkUnCloak(iClientID)))
+				PrintUserCmdText(iClientID, GetLocalized(iClientID, "MSG_0540"));
+		}
+		else
+		{
+			XActivateEquip ActivateEq;
+			ActivateEq.bActivate = false;
+			ActivateEq.iSpaceID = iShip;
+			ActivateEq.sID = CloakInfo[iClientID].iCloakSlot;
+			Server.ActivateEquip(iClientID, ActivateEq);
+		}
 	}
 	else
+	{
 		PrintUserCmdText(iClientID, set_wscNoCloakDeviceError);
+	}
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
