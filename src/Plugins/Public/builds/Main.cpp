@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 31 августа 2026 06:53:36
- * Version: 1.0.598
+ * Last Updated: 01 сентября 2026 08:33:51
+ * Version: 1.0.599
  */
 
 #include <windows.h>
@@ -1566,7 +1566,6 @@ void PrintListBuilds(std::list<INISECTIONVALUE>::iterator& builds,
 	std::string file,
 	uint iClientID)
 {
-	char buffer[256] = "";
 	uint BuildsID = CreateID(builds->scKey.c_str());
 	IniGetSection(file, builds->scKey.c_str(), lstParts);
 	const GoodInfo* gi = GoodList::find_by_id(BuildsID);
@@ -1603,25 +1602,21 @@ void PrintListBuilds(std::list<INISECTIONVALUE>::iterator& builds,
 		defaultKeyStartColor = "0x7311C101";
 	}
 
-	string magStart = "<TRA data=\""
-		+ defaultKeyStartColor + "\" mask=\"-1\"/><TEXT> ("
-		+ to_string(counter) + ")</TEXT><TRA data=\""
-		+ defaultValueStartColor + "\" mask=\"-1\"/><TEXT>"
-		+ wstos(HkGetWStringFromIDS(gi->iIDSName)).c_str() + "--></TEXT>";
+	const wstring magStart = L"<TRA data=\""
+		+ stows(defaultKeyStartColor) + L"\" mask=\"-1\"/><TEXT> ("
+		+ to_wstring(counter) + L")</TEXT><TRA data=\""
+		+ stows(defaultValueStartColor) + L"\" mask=\"-1\"/><TEXT>"
+		+ HkGetWStringFromIDS(gi->iIDSName) + L"--></TEXT>";
 
-	snprintf(buffer, sizeof(buffer), magStart.c_str());
-
-	List += stows(buffer);
+	List += magStart;
 	counter++;
-	char buffer1[256];
 
 	foreach(lstParts, INISECTIONVALUE, parts)
 	{
-		char buffer1[256] = "";
 		uint PartsID = CreateID(parts->scKey.c_str());
 		const GoodInfo* gp = GoodList::find_by_id(PartsID);
 
-		string nameLoot = wstos(HkGetWStringFromIDS(gp->iIDSName)).c_str();
+		const wstring nameLoot = HkGetWStringFromIDS(gp->iIDSName);
 		int countLoot = ToInt(stows(parts->scValue));
 		string countLootString = parts->scValue;
 		string defaulteKeyColor = "0xFF920540";
@@ -1653,13 +1648,12 @@ void PrintListBuilds(std::list<INISECTIONVALUE>::iterator& builds,
 		if (needCount > 0)
 			countLootString = countLootString + "(РЅСѓР¶РЅРѕ РµС‰С‘ " + to_string(needCount) + ")";
 
-		string msg = "<TRA data=\"" + defaulteKeyColor + "\" mask=\"-1\"/><TEXT> "
-			+ nameLoot + "</TEXT><TRA data=\""
-			+ defaulteValueColor + "\" mask=\"-1\"/><TEXT>="
-			+ countLootString + "; </TEXT>";
+		const wstring msg = L"<TRA data=\"" + stows(defaulteKeyColor) + L"\" mask=\"-1\"/><TEXT> "
+			+ nameLoot + L"</TEXT><TRA data=\""
+			+ stows(defaulteValueColor) + L"\" mask=\"-1\"/><TEXT>="
+			+ stows(countLootString) + L"; </TEXT>";
 
-		snprintf(buffer1, sizeof(buffer1), msg.c_str());
-		List += stows(buffer1);
+		List += msg;
 	}
 
 	HkFMsg(iClientID, List);
