@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 01 сентября 2026 08:33:51
- * Version: 1.0.599
+ * Last Updated: 02 сентября 2026 06:58:58
+ * Version: 1.0.600
  */
 
 // Expanded Help Menu - Customisable Help Commands
